@@ -28,6 +28,18 @@ A basic token sale/ICO contract.
 - **Features:** ETH to token exchange, owner withdrawal
 - **License:** MIT
 
+### 5. SimpleStaking.sol
+A staking contract with time-based rewards.
+- **Use case:** DeFi staking, yield farming
+- **Features:** Stake/withdraw, reward calculation, auto-compound
+- **License:** MIT
+
+### 6. ConstantProductAMM.sol
+A simplified Uniswap V2-style AMM.
+- **Use case:** Decentralized exchanges, token swaps
+- **Features:** Add/remove liquidity, token swaps, constant product formula
+- **License:** MIT
+
 ## Requirements
 
 - Node.js >= 18.0
