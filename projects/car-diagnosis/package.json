@@ -1,0 +1,18 @@
+{
+  "name": "car-diagnosis",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev --workspace @tomsauto/api",
+    "dev:widget": "npm run dev --workspace @tomsauto/widget",
+    "ingest:vehicles": "node ./scripts/ingest-vehicles.mjs"
+  },
+  "devDependencies": {
+    "csv-parse": "^5.5.6"
+  }
+}
