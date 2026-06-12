@@ -1,21 +1,7 @@
-import { IssueSuggestion } from './index';
+import type { DtcEntry, SymptomRule } from './dtcTypes.js';
+import { generatedDtcCatalog } from './data/generatedDtc.js';
 
-type DtcEntry = {
-  title: string;
-  explanation: string;
-  severity: IssueSuggestion['severity'];
-  recommendedChecks: string[];
-  estimatedRepairRange?: IssueSuggestion['estimatedRepairRange'];
-  keywords?: string[];
-};
-
-type SymptomRule = {
-  matchers: string[];
-  issue: Omit<IssueSuggestion, 'likelihood' | 'sourceTrail'>;
-  sourceTrail?: string[];
-};
-
-export const dtcKnowledge: Record<string, DtcEntry> = {
+const curatedDtcEntries: Record<string, DtcEntry> = {
   // === MISFIRE CODES ===
   P0300: {
     title: 'Random/Multiple Cylinder Misfire',
@@ -611,6 +597,11 @@ export const dtcKnowledge: Record<string, DtcEntry> = {
     estimatedRepairRange: { parts: 150, laborHours: 1.5 },
     keywords: ['injector', 'cylinder 4']
   }
+};
+
+export const dtcKnowledge: Record<string, DtcEntry> = {
+  ...generatedDtcCatalog,
+  ...curatedDtcEntries
 };
 
 export const symptomRules: SymptomRule[] = [

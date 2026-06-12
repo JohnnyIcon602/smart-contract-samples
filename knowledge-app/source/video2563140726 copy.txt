@@ -1,0 +1,458 @@
+Speaker 1  00:02
+Hey everybody. This is Shane, and this is the mentorship Q and A. It is May 8, 2025, we just had a question about the reporting on an LLC that, you know, an LLC that that might file as an S corp or a C Corp. Things just kind of ironing those out. So, so let's, let's get into this a little bit. So the the structure of your business is directly related to how much money you can make out of it and what liability you're concerned with. So can. So everybody starts with small business. Generally, as an LLC, you start with that because you're separating your personal finances from the business, right? You want to make sure that if the business is is sued for whatever, there's that hard barrier in between the you know that liability and your you know you don't want them to sue your your landscaping business, and then they can come seize your home, right? That's the idea of a limited liability corporation. But if you're the sole owner of that LLC, it reports on your 1040 on your schedule C, so it's considered a sole proprietorship on your taxes, even though, in business terms, that actually means something a little different. But that's what it says on the tax form. Now an S corp, an S corp, is going to also report on your personal taxes, but it's going to have an informational tax return as 1120, that reports to the IRS all those numbers and everything but the numbers from that informational returns still get deducted from your personal taxes, whereas so a C Corp is its own entity, and you're taking a salary from it. And the reason why you might switch from an LLC to a C Corp is because the the self employed tax. So self employed tax is like 15 point something percent. So if you're making $100,000 you're going to, you know, from an LLC, you're going to get taxed at 15% on those earnings. So you're going to have to pay $15,000 in federal taxes because of that one tax. Whereas if you were to put that money into, say, or put that business into a C Corp, and then pull a salary out of, I don't know, $40,000 and leave the rest of it in the business, or whatever you want to do. You're going to get taxed only on that 40,000 at a much less rate than you would on that self employed tax, you're going to get taxed more at like six or 7% so it'll save you a ton of money in taxes. So that's kind of how how that stuff works. And Gen, like in my state, it's around $50,000 if an LLC is making 50,000 around there or more, it makes more sense for it to be a C Corp. So that's kind of the threshold. Every state is a little bit different, though it can range anywhere from 40 to like 75,000 for it to make financial sense. And a lot of owners that have LLCs, they don't even know. So for instance, this one that we just vetted that is an LLC. And the last piano that I had, they were making like 100,000 a year. So that owner is losing a lot of money by keeping it as an LLC and not transitioning that business to a C Corp. But he probably doesn't know any better, because most people don't know these things. They're just moving along, growing their business, living their day to day and and they just they don't know. So patience. Your question was, can you repeat your question? I'm sorry, I might have got off on a
+
+Speaker 2  03:49
+tangent. Um, I think, I think you kind of answered it. I was wondering an LLC that is a seed club that, I mean, they decide to get taxed as the C Corp.
+
+Unknown Speaker  04:07
+You know, on what form is it reported, right?
+
+Speaker 1  04:11
+Well, C Corp is going to be it 1120, 1120 C, 1120, okay, thank you. Yeah. So that's where it's going to it's, it's its own entity. It's going to be reporting completely separate from the, you know, the owner. So the owner is going to take a salary from it, just like an employee would. It's got it, so they have it. So a lot of people say, well, they don't like a C Corp because it's double taxed, because the income that the C Corp is making is taxed, and then the the money that you earn from it is also taxed. But you just have to run those numbers and figure out if it makes sense and any good CPA, even any middle of the road. CPA, this is what they do. And if you come to them and you say, hey, this business, you know, cash flowed 75 grand last year, one. What is a strategy that I could use this year or in order to save money on taxes? And one of the first things they should ask you is, what structure is it? Is an LLC? Is it, as you know? And then they'll say, Well, let's move it to a C Corp. You can save 10,000 in taxes, or whatever it is. It's just such a common strategy. It's low hanging fruit for a CPA to be able to give you that advice and save that money for you.
+
+Unknown Speaker  05:29
+Good question, though, very good question.
+
+Unknown Speaker  05:37
+Anybody else? Oh, I have a question.
+
+Speaker 3  05:40
+I do have a question. I was waiting to see if anybody else wanted to talk first. Okay, so, man, this class has been great, and it's been great timing. So I had my call today with the business owner of the landscaping company in South Florida here. So this is my first time actually talking to an owner with the broker on the phone, etc. And so signed the NDA got the paperwork two days ago. This is my second time looking at the paperwork, now that we're going through the class together and everything and so like so. So now there's some red flags. Okay, got it. Okay. So at first, everything was at first, everything was looking cool to where like okay, so landscaping company is for sale for $750,000 on paper, it says discretionary earnings. Last year was 346,000
+
+Unknown Speaker  06:36
+the year before that was 225,000
+
+Speaker 3  06:40
+year before that was 258 so it's been somewhat consistent, and got better last year, whatever. But anyways, I'm looking at the tax returns also now there's a sheet that says compensation of officers and the owner paid himself $67,000 one year, and then, like 80 some $1,000 a year before. So is he profiting $67,000 or is he profiting the 346
+
+Unknown Speaker  07:11
+like, I don't what's the structure?
+
+Unknown Speaker  07:14
+So, um,
+
+Unknown Speaker  07:18
+let me see here.
+
+Speaker 1  07:19
+I assume, if it's got an, if it's an officer got that, it's 10 what? What forms Did they give you?
+
+Speaker 3  07:25
+Okay, so I got 1021, okay, uh, okay. Well, let me see right here. I'm just gonna right now. I'm looking at, I'm looking at something that's called a confidential offering memorandum. I don't know if that's like a summary of
+
+Speaker 1  07:42
+everything. That's the Oh yeah, the OM, yeah. Okay.
+
+Speaker 3  07:46
+And then I have the tax returns in front of me right here. Oh. It says Mr. Rogers landscaping service, LLC.
+
+Speaker 1  07:55
+Okay, so it's an Yeah, I mean. But so when you look at on the schedule C at line, let me share my screen again. Let's, let's go. We'll just, we'll use this one that I've been sharing, that's all been redacted, to kind of go over this stuff.
+
+Unknown Speaker  08:19
+So if you look at
+
+Speaker 1  08:26
+line right here, line 31 on your schedule, C, what does it say?
+
+Unknown Speaker  08:39
+Okay, fine, that's fine. 120,
+
+Unknown Speaker  08:47
+22
+
+Speaker 3  08:57
+unless I'm on the right page, it only goes up to a number 27 see here. Schedule, okay, can we go to Schedule, c, now I'm seeing it. Schedule, B, schedule, K, schedule, l,
+
+Speaker 1  09:16
+yeah, there should be one on there that says net profit or loss.
+
+Speaker 3  09:19
+Okay, got a schedule I'm going, okay, Schedule B, Schedule B, Schedule K, I'm looking for a Schedule C, okay,
+
+Unknown Speaker  09:32
+it kind of like scatters around. Okay, so
+
+Speaker 3  09:37
+Schedule B, Schedule K, then schedule L, and
+
+Unknown Speaker  09:42
+there's a schedule m1, schedule m2,
+
+Unknown Speaker  09:49
+I don't see a Schedule C.
+
+Speaker 1  09:51
+That doesn't sound like a standard LLC. I bet it's being that's that's something else. So. Um, should be so if it's a, if that is a 1021, it should be on schedule. K, okay, we're on schedule. K, I believe.
+
+Unknown Speaker  10:09
+Okay, let's do that one then.
+
+Unknown Speaker  10:14
+Okay, let's go to Schedule. K, here we go. I'm
+
+Speaker 3  10:25
+Hmm, okay, so I'm looking at Schedule K we got, here we go, because that's a 16, because that's a number 18,
+
+Speaker 1  10:37
+yeah, it might not be 31 it'll just, I can't remember the number, I might be able to find it. Okay.
+
+Speaker 3  10:45
+Well, on okay, if it's like, it's here on schedule L, it says total liabilities and shareholders equity. Oh, if that's something, if that does say 67,000 retained earnings, 50,000 if
+
+Unknown Speaker  11:07
+it's in 1120, it on page one line, 28 okay.
+
+Unknown Speaker  11:18
+129, 20
+
+Speaker 1  11:27
+it'll say like taxable income before operating something or other,
+
+Speaker 3  11:32
+okay, and this is still on the Schedule K,
+
+Speaker 1  11:36
+no, this would just be on page one of your 1120 if they gave you an 1120
+
+Unknown Speaker  11:40
+Okay, let me see if they gave you that.
+
+Unknown Speaker  11:45
+Okay, 1120 Okay, got it, okay. And then,
+
+Speaker 3  11:51
+okay, okay, so I found the 1120 page one. And so this will be on line 21 you said 28
+
+Unknown Speaker  12:02
+okay, because at 27
+
+Unknown Speaker  12:05
+Yeah, only goes to 27 Yeah.
+
+Unknown Speaker  12:08
+And so line 27
+
+Speaker 3  12:15
+Yeah, someone because 1120 s, that's what it says at the top left. And okay, like the very first
+
+Unknown Speaker  12:23
+line says gross receipts, or sales.
+
+Speaker 3  12:29
+617 but on line six, it says total income in parentheses, it says loss, okay, 263,000 163,000
+
+Speaker 1  12:43
+Okay, there it is. That's it, total income or loss is right there. So, okay, so, and that's, that's your number, right there. Is that? Is that comparable to the P and L? What the P and L says,
+
+Speaker 3  12:55
+Okay, well, the Okay, well, the next, very next line on number seven says, Okay, after the total income of 263,000 the next line says compensation of officers, and that says 67,000 right?
+
+Speaker 1  13:09
+So that means that would be, that would be an add back that you would put on there too. That's where they're getting the over 300,000 Oh, yeah.
+
+Speaker 3  13:19
+Okay, so he's paying himself that, but the business is still profiting 260 that's
+
+Speaker 1  13:26
+what it looks like. Okay, okay, doing that, so he doesn't have to pay as much taxes. Because if he were to pay himself 7000 or 300 whatever 1000, you're in a tax bracket there where you're paying some pretty No, let me just say this that I don't see that form. I don't know exactly what you're looking at, but that would be my guess, just from
+
+Unknown Speaker  13:49
+what we've been talking here. Okay, that
+
+Speaker 3  13:51
+makes complete sense. Okay. I was like, okay, that clears up a lot of stuff. And then I've asked the owner this, but because you mentioned it to was, I did see that, for whatever reason, that this business did have a loan out. So okay, so the company, the landscaping company, it has $286,000 worth of equipment and so, and that's included in the sale price. So that's kind of good. But then I was looking at the paperwork again here now for the second time, with fresh eyes, it says that there's a loan out for $595,000 and so I don't know what that's for. Like, what would that even I mean, I'll have to ask him. I have
+
+Unknown Speaker  14:34
+a big building that they store everything in. They do,
+
+Unknown Speaker  14:39
+like a warehouse.
+
+Unknown Speaker  14:40
+It's probably that is the real estate included.
+
+Speaker 3  14:46
+They pay, they pay a and then they pay $3,000 on, I thought it said rent instead of lease. Okay, he did. Say something about, I'm going to give you the warehouse too on the phone.
+
+Speaker 1  15:07
+Well, I mean, for that asking price, if he's giving you all of that equipment and that real estate, that seems a little
+
+Speaker 3  15:14
+true, too good to be true. Yeah?
+
+Speaker 1  15:17
+Okay. I mean, and where's that? That $500,000 loan that's, yeah, that's pretty wild. I'll have to ask
+
+Unknown Speaker  15:25
+him about that.
+
+Speaker 3  15:27
+I was more concerned on the phone call, like, because his landscaping company has different services, like, it has the mowing of yards. It has the like, landscape design, like the landscape design, I guess they make new yards, I guess, like, you know, new designs and everything. And then they also do tree removal, and they also do irrigation. And so what he said was that about 30,000 Okay, so the revenue the business brings in about $60,000 and then he said, like, half of it is about mowing. 30,000 comes from mowing, which he has about a 30% profit margin. And then he says he for when it comes to the landscaping. You know, I asked him if he when I said landscaping, do you mean, like trimming hedges and stuff, or actually redesigning new yards? And he said, redesigning new yards, and then the tree service. And he says he makes about a 60% profit margin on those services. And so it sounds as though, I mean, you can't, you know, have a monthly contract, recurring income coming from that, which was what I was kind of hoping to hear more of would be coming in but, but he says he gets a good profit margin off the design and the in the tree removal. But he's the other thing that's kind of good about this, though, is that he's been doing this for 38 years, and he sounds like the most honest guy ever, you know, like he's like he's he wants to work in the business for another five more years, even after he sells it. So he's not trying to run away from it doesn't sound like he sounds like he sounds like he really likes the job and stuff of that. So he just wants, he he said, My wife. He's like, my wife is going to make me work another five more years. So, but, um, but He sounds just like this old school, honest, hard working guy, you know. So it's like, you know, sounds like a good dude, but I'll have to find out what that Loan's for, for sure.
+
+Speaker 1  17:25
+But yeah, you all, you want to know every bit of debt that's on the business and why, what it's for, does it transfer, you know, like, or is, are they taking that with them? It is definitely a good sign that they're willing to stay on. But at the same time, as a long time for someone to stand on, what is he going to what was, what would be his capacity in the business? You know, he wants to get
+
+Speaker 3  17:48
+he wants to go down to only working four days a week for himself. And then what he also said on the phone was that he needs somebody to start taking over, like payroll and scheduling, and it sounds like a bunch of office work or whatever. And so I did say that, you know, on the phone, like, I was like, Hey, you sound like a great guy, honest person, like, how you take care of your employees. Because I did notice he take, he buys, he pays for the employees, phones and takes them out to dinners. I noticed that in the expenses, I was like, Hey, I noticed you take care of your employees. That's really cool. And you're selling your good guy, he does for 38 years, and he said he's even had a same, some of the same people since he started. So he's had long term customers. I did offer. I was like, hey, it sounds like a good idea, like a good business. I'd be interested in continuing this conversation, and I would even come down and visit you and your crew, and even work a day and and learn more about, you know, I'll get my hands dirty with you guys. And so he was, you know, he liked that. And then I said, if we were to continue, if I were to acquire your business, like, perhaps I can work from Jackson, you know, I'm four hours away. But I was like, hey, there's anything I can do. I can work from Jacksonville and then take off, take take off your plate, the things you don't want to do, the payroll, and it sounds like scheduling. He's doing marketing, sales, it sounds like so he wants to work less and basically, but stay on. So I said I could take on some duties. If we were to pursue this and continue, I'd take on the duties that he doesn't want to do, and then I can even come down there and meet them and and, you know, kind of take it to that, that next step, okay?
+
+Speaker 1  19:36
+And the margins that he was saying, that's that seems spot on, like 30% on the mowing and 60% on, you know, landscaping. It's just the difference of mowing is a recurring, you know, revenue, you know, it's pretty predictable. You've got this many clients. Everybody wants weekly or bi weekly service, blah, blah, blah. The landscaping is up and down depending and more dependent upon advertising. And stuff like that. So, but it sounds about right. Those margins are what I'm seeing in my landscaping business.
+
+Speaker 3  20:06
+Right on I knew you'd be the guy to talk to, so I'm stoked on that, all right. Well, I think that covers everything I have to say, and I appreciate the time to talk.
+
+Speaker 1  20:17
+That's cool. And then also, so if there's 200 and whatever $1,000 worth of equipment you need to know the state of that equipment. That is equipment, and if it's stuff that's all 10 years old or more that that's going to be tough to keep that stuff going, so be careful there too.
+
+Unknown Speaker  20:34
+Okay, deal.
+
+Speaker 4  20:36
+Quick question, sure you you mentioned you have scheduled k and m. I was just asking the chat GPT, it looks like it's a partnership. And I mean that you have, like, multiple owners. Not a single owner,
+
+Speaker 3  20:55
+from what I see, is just him. I didn't see another name of any kind. See here, I can take another look. But, yeah, but, oh yeah, I did see one. I did see one piece of paper that said he did have 100% of the business. I think
+
+Unknown Speaker  21:16
+that was a little odd thing too. There was something about like,
+
+Speaker 1  21:20
+yeah, it'll say, it'll say in there, this is not a full tax return, so it doesn't say on this one, but it'll say the the ownership stake. And so a Schedule K is different than a k1 so a Schedule K is what you see in a partnership. That's that it's the 1065, or whatever. A k1 is just anybody that makes money in a in, like, an LLC or business, like, not, not a 1099, worker, but somebody that has a piece of it. So, like, So say, for instance, if I have an LLC that owns real estate, and you and I, Ernie, are you? Like all three of us? You know me, you and Joe, we all have a piece of it, and I'm the one that's handling it. I'm going to give each one of you a k1 that says how much money you made for the year, and then you'll use that k1 on your tax return to report that income. That's what K ones are. Okay, yeah, it's a lot. It's a lot. Don't get overwhelmed by it, though. I mean, yeah, it comes down to how much money it makes and how much it doesn't make, you know exactly. Yeah, it can be a little overwhelming.
+
+Speaker 3  22:32
+Wow, that's interesting. Okay, it's not boring. Like you say, it's not, it's actually interesting. So maybe you just done it for so long. I think it's interesting. I think it's
+
+Unknown Speaker  22:42
+exciting. Yeah, learn the stuff, right?
+
+Speaker 1  22:44
+Because, because I have to do K ones in real estate, like, so if I have an LLC that owns the real estate, and, you know, I'm a member, and then my partner is a member, and somebody else is a member, whatever they all get K ones. I just own like, say, say, Joe, if me and you are just on a deed, you don't have to get whatever I report on my 1040 is half of what the profit and loss losses are, and you report the other half. It's a lot more informal. But once it becomes an LLC, you have to get formal and do the K ones and all that junk.
+
+Speaker 3  23:20
+Okay, actually, I'm going through everything. I just now saw schedule k1
+
+Unknown Speaker  23:25
+Okay, so are they paying someone else? I
+
+Speaker 3  23:28
+mean, look at I'm looking at this right now. So I just found out what a Schedule K is, like five seconds ago. So now I got k1 here. Okay, so we're going on fly. Okay, so, so it says, Let me see there's what I have multiple K ones on here, or just one person, okay, from what I see, okay, schedule, k1, shareholder, deductions, corporate, okay, Mr. Rogers, landscaping, shareholder. I see his social security number. Let me see here, current allocation percentage. Does that mean something? It says 100 it says 100% Yeah.
+
+Speaker 1  24:12
+Okay, so he's the 100% owner in that business. Okay, all right.
+
+Unknown Speaker  24:17
+Number shift, okay, so
+
+Speaker 1  24:18
+that K ones on there just to show that you know he's not if that said 20% then he would have to send someone else an 80% k1 report. Wow. Okay, cool. Yeah, I really wish that the one that I would have gone through was a full, full tax return tonight, but it was just snippets that might have been helpful. Wow, that later.
+
+Speaker 3  24:42
+Okay, it's all good. I appreciate it, man. I'm learning a lot every second. Yeah, cool. Okay, I appreciate it. I think that's everything I can ask.
+
+Unknown Speaker  24:57
+I appreciate it. Thank you.
+
+Speaker 1  25:00
+You, yeah, this stuff is like, I know people get scared, but it's also fun at the same time, right? I don't have fun in my daily life like I do doing this kind of stuff. Maybe I'm weird, maybe I don't know, but I just, I just enjoy this, you know, trying to find a good deal, trying to make sure it's a good deal, and then actually closing on it. It's like, I don't know it's, it's very, very gratifying, scary, but gratifying.
+
+Speaker 3  25:32
+Yeah, well, I think it's, it's, for me, I think it's good to be buying a business from a baby boomer, because they're like, so hard working and honest and so, I mean, like, that's a blanket statement. But I mean, I would trust a baby boomer ever, like, millennial or younger. I guess I don't want to. I don't know if anyone hears a millennial, no offense. But like, I just would trust a baby boomer a lot more, because I know they're especially someone
+
+Speaker 1  26:06
+who's been there for 25 years. Yeah, it's not like somebody came in there, bought it two years ago, overly inflated everything, and he knows and trying to flip it. That's a different situation. This is somebody that's been there for 25 years and wants to stay for another five years. Yeah, that's, that's pretty huge, yeah.
+
+Speaker 3  26:26
+And my thought on that too, was like, I know we talked about, do you get it, buy an LLC and start fresh, or do you buy the business and keep the back history? And it almost, I mean, like I would, in this situation, I would get, I would, I would want to keep that 30 he it's actually been on for 38 years, yeah, the 38 years of history, I like to, if he's not trying to run away from a lawsuit, like, he's not trying to leave, you know, just like, it's almost like, I mean, I don't want to, like, you know, completely keep my guard down. But it's like, you know, I want that financial history, yeah, but there's a $500,000 loan. Oh, sheesh, yeah, you're right. Okay, be careful. Okay. Oh man, okay, okay, Thanks for backing me up.
+
+Unknown Speaker  27:18
+Oh, that's funny. Okay, consider it all Yeah,
+
+Unknown Speaker  27:25
+that's cool. And, you know, so it is in Florida, right? And
+
+Speaker 1  27:29
+you use mow grass all year round, right? So that was a recurring
+
+Speaker 3  27:32
+income all year. Yeah? No snow, no snow. That's the good thing. So you don't
+
+Speaker 1  27:36
+have to worry about snow removal and that whole swap that happens everywhere else. You know where you're you're moving, you're going to leaves and then, which that actually is kind of a bummer, because the leaf removal is a huge part of landscaping business. Like the fall season is like, it's a windfall of of money, because everybody doesn't want to deal with their leaves and stuff, but, but at the same time, you've got the recurring revenue of mowing and landscaping and stuff all all winter long as well. So yeah, that'd be huge, yeah.
+
+Speaker 3  28:09
+And with the owner wanting to stay, like, I could learn so much from him. And it's not like he not like these other businesses where it's like, I'm gonna change you for two weeks and see you later. You know, if he's still there, you know, it's like, it'd be continued education, like that would be, you know, he's there, you know,
+
+Speaker 1  28:29
+yeah, just, just keep digging in, though. But before, before you move too far forward, like, know, those, those financial statements, forward and backwards, okay, you know, know, all the debt, you know, have, like, start writing these questions down, like, what is this? Why is this different than this? Blah, you know, what? What is, you know, your equipment. What is the average age of your equipment? What you know, in the OM was there? Usually they'll give you a list of their equipment. Did they give you that?
+
+Speaker 3  29:02
+Oh, my god, yeah. There's a huge list of stuff here, yeah?
+
+Speaker 1  29:05
+So it should have the year and everything on the OM, okay, what everything is, and that'll help you kind of understand what you're talking because, you know, mowers are one thing, but when, if you're talking about big tractors and stump grinders and trucks and that kind of stuff, like, yeah, that's huge.
+
+Speaker 3  29:21
+Yeah, two dump two dump trucks, from what I remember, Oh,
+
+Speaker 1  29:24
+wow, wow, too. So two dump trucks, they probably have back excavators and all that stuff. So, yeah,
+
+Unknown Speaker  29:33
+I'm gonna fly you. Insulting.
+
+Speaker 1  29:41
+So well, just, just take your time. There's no rush and and just look through everything you know a little bit at a time. First, just wrap your head around the piano, make sure you understand what's going on in there. And then move on, compared to the tax return. And then start looking after once you get all of that, like everything meets up. Up the numbers are what you expect. Then start looking at equipment. And you know, little by little, piece by piece, that's how you eat an elephant, right? One Piece,
+
+Speaker 3  30:10
+one piece at a time. There we go. And so, yeah, I do it did. I mean, it was a great conversation. I know this is like the first business person I talked to, but, I mean, I've been looking at listings on biz myself for a while. So, I mean, but I don't know it just like, it just seems like a good business, um, something I'm not running away from will say that. So, I mean, if I'm running there's a saying on Shark Tank. They're like, I'm either going to run away from this deal or I run towards it. So I'm not running away from it right now. So I'm somewhat running towards it.
+
+Speaker 1  30:42
+I mean, so far, other than that, that loan, whatever that is, the numbers sound pretty good, yeah.
+
+Speaker 3  30:48
+So yeah, we'll see how it goes, and perhaps some maybe I'll try to make that trip down there just to meet on this week, or something like that. So we'll see if I can work that out, or find out what that loan is first, maybe, but, um, but yeah. But also, there's so many other landscaping companies in South Florida. So I mean, perhaps I could buy them all over the course of the few years or whatever so. But South Florida, I've noticed lots of landscaping companies down there, so this could be one of many, perhaps.
+
+Unknown Speaker  31:19
+Okay, yeah.
+
+Speaker 3  31:22
+Awesome. Be Awesome. Yeah, yeah. Thank you so much, dude.
+
+Speaker 1  31:25
+This is Yeah. No problem, man, no problem. Just let me know if you have any more questions.
+
+Speaker 3  31:31
+I've asked more than I started, more than I planned I was gonna ask so but yeah, thank you. Yep.
+
+Speaker 1  31:42
+What's up with everybody else? Anybody else got questions? Have you been searching for a business? Have you found any possibilities? Are you looking for funding? What's going on?
+
+Unknown Speaker  32:00
+Nobody. I actually had a question about
+
+Speaker 5  32:04
+the the funding side. So if I were to reach, so if I were to reach the point that I reached with the this business that I previously told you about, and I wanted to sort of get to that point where I show that I'm a qualified buyer, would I reach out? I was, I know you mentioned that you have some lenders. Do I DM you about that?
+
+Speaker 1  32:25
+Well, I mean, there's a, there's a lender list, but they're from. Most of them are from Florida, like the so it depends on what state you're in, there are some national banks that you can, you can check out, but like from, from what we've talked about in the past, I don't think you're going to have any problem qualifying for an SBA loan, as long as the deal itself is good, so I don't think it's going to going to be an issue now. So as far as our funding and our lending, that's all capital stacking and credit repair. You know that's for help with the down payment, help with real estate, not necessarily the overall loan. Okay, all right, thank you. Yeah, no problem. But there's, there's one name, actually, so there's one name in particular on that list that's national. So if you, if you get to that point, just let me know, and I'll at least be able to to point you in his direction first.
+
+Unknown Speaker  33:17
+Okay, thanks. Do
+
+Unknown Speaker  33:28
+nobody else.
+
+Speaker 1  33:34
+Oh, so one thing I wanted to tell you guys so I was thinking about this last week, people have been having difficulties getting brokers to respond, right? You reach out on biz by sell, and you, you know, you get kind of ghosted from them. So I think that so I've had, I've had success doing this in the past, but just by saying, like taking some of the bullets out of their guns, so they're looking for any reason to disqualify you as a buyer, right? Whether you're not serious, you're not experienced, you're not whatever. So rather than just reaching out, like we have been doing, try this. Instead try to reach out say, I'm a qualified buyer. I'm a qualified buyer, experienced in this industry, and I'm looking to acquire a business within the next 90 to 100 all that, everything from that point on still the same. But just preface it with, I'm a qualified, experienced buyer. You're not. You know, if you're qualified, that just means that you can get the financing for it. If you're experienced, it doesn't necessarily mean that you're experienced in that field, but you've been going through training, you've been learning this stuff, right? That can mean experience too, but that's what they're they're just looking for any reason when they look at your inquiry to say, well, this person's not serious, or this person can't close because they get burned by people that are you know, do? In the Cody Sanchez or whatever, and like, there's so many people that are trying to do what we're doing, and that aren't really serious and will never actually buy a business that it's souring the field. So So try that and see if that gets you in any more traction with brokers like because So, because things are different now than they were when I started buying businesses, right? There's a lot of people doing it. It's like a, it's a thing like, every, every time I go on Tiktok, I see more people and more people like talking about this. It's, it's just, it's coming up now. So that can be good and bad, but with the economy turning down, I think it's going to discourage a lot of people from, you know, pursuing it, but for me, it's kind of making me go a little bit more hardcore into it, but,
+
+Unknown Speaker  35:50
+but, yeah, try that, try that, and see if that helps.
+
+Speaker 1  35:54
+Like, I reached out a couple days ago, and I'm able to say, you know, I'm a qualified, experienced buyer. I've purchased this many businesses like I'm able to slice through that, but you can, you can still use that introduction and probably slice through it too. It might help, because it's frustrating. You put out 10 feelers on biz by sale and get no returns, no responses. That's frustrating. I get it
+
+Unknown Speaker  36:23
+funny enough, that was me who asked that question,
+
+Speaker 3  36:26
+because I had reached out to, you know, sent that message on biz myself, to the brokers, probably at least 50, 6070, maybe over the past year or whatever. But like for this broker right here, I called him, I'm on the voicemail, and just, I just left them a voicemail, tell my name, tell them what listing I was looking at. I spelled out my email, I like, twice for them, and said everything, like, super slow. And they, they just emailed me, like, the NDA and everything, like, right away. So I mean that actually, this was, like last week. So this is all this just happened, just like this week, actually. So, I mean, after talking to Shane and everything, so, but yeah, so we, I just, I just called the number that was listed, and I didn't even do the message them. I just, I just called them,
+
+Unknown Speaker  37:16
+okay, yeah, that cuts right to the point,
+
+Unknown Speaker  37:20
+yeah, it's good idea.
+
+Unknown Speaker  37:26
+Not all brokers have their number listed on there, though,
+
+Speaker 1  37:31
+but the ones that do is, if you get right through to them, yeah, that's great. That's a good idea.
+
+Speaker 4  37:37
+Yeah. Can I just add one more thing to that. I think I heard somewhere the brokers were complaining that they check your social media. They will just Google your name and make sure you're all like a real person, and you're serious if you have like, bunch of, like fun stuff, or, I don't know, like you're pretending to be, like you're buying a business, yeah, don't take you serious. But check your social media. Google yourself. And also, he said that do not use like a business email, like his personal email, like you said. Shane, yeah. So it's, it works much better.
+
+Speaker 1  38:22
+Yeah, yeah. And social media is huge. Like, if you're trying to figure out if somebody is really going to buy a business to where you're going to go through the steps and try to vet that person before you take it, take them to the owner. Like, that's the first place you're going to go. You're going to google them by whatever state it is, and see what comes up, you know. And if you're, I don't know if you're on Facebook, you know, at a club with, I don't know, a chalice full of whatever, partying in every single one of your pictures, they're not going to take it seriously. But if you're fairly professional, and you got a family, and it says you've got this job, and you own this business and you're interested in this like, there you go. Yeah, I don't post very much on especially on Facebook, not at all, just family stuff.
+
+Speaker 4  39:19
+I have a question on that tax returns you mentioned for 2022, I think there was a negative 30 or 20 something 1000, right? Is it because, like, carry over, or maybe some like that. I was just wondering, like, how, how did you
+
+Unknown Speaker  39:42
+map that to the
+
+Speaker 1  39:43
+whole picture? How did it end up coming out? It was the equipment. It was that one time equipment buy is, what is, what did it? But looking at it, I would not have known that. So this is actually the business that I'm going to buy this next one. So this. Has been a really, a really strange process, right? It's taken a very long time, and this business was run by and and, you know, it's run right now by someone. He's almost 80. He'd actually handed it down to his son. His son took it over. His son died in the business on, like, working on a car in the middle of the day, like, had a massive heart attack and died in the business. So that that year that we were just looking at where things got really low. So the business went to probate, because the son didn't have a will. So all that stuff falls into probate. There was really no one running the business. Everything just kind of fell apart. The the father had to go back through probate, get the business back, and then now he's been running it since that toward the end of 2022 when he didn't, he hasn't even really wanted to, you know, but it was this whole thing. It was his son's legacy, and it was all, all these weird circumstances. But soon as he's gotten back in so from, I think it was from 2223 20 and then 24 and then this year, it has gone on a steady incline, like huge growth, because he's actually in the business, you know, doing what needs to be done. So, but yeah, that's, it's been a very strange one, but he's not really doing anything in the business right now. The the GM is doing all of that stuff, and that's where the growth from this last six months has come from. So I don't know. I think there's a there's way more upside to it than than what the three years of PNLs and tax returns with with lead on. But, yeah, it's been very, very strange one. But again, it just kind of like Joe was saying, you know, this is a baby boomer that's been, you know, he started that business, and it's all together. It's been around for 52 years. He started it himself. So, yeah,
+
+Unknown Speaker  42:04
+thanks for sharing. What about
+
+Speaker 4  42:10
+the CPA? Like you said that if you make over like 50k right? It's better to have one lock in house. Do they have to work, like, a full time, or do you
+
+Speaker 1  42:22
+like, Well, no, I was saying like, I saying, If a large business generally has bookkeeping done for that, you're not going to have like, necessarily bookkeeping in house where you hire a full time bookkeeper, but you're going to have someone else do it for you. You're the owner. Is not doing that bookkeeping. It's just becomes, it becomes too much work. There's, there's no way is that 50,000 mark was where, in my state, where it makes more sense to be a C Corp than it does an LLC, because your tax burden is lessened. That's where that
+
+Speaker 4  42:56
+50,000 threshold was. I think you said 500,000 right? You could,
+
+Speaker 1  42:59
+yeah, generally, if you see a $500,000 business and they don't have some kind of bookkeeping firm doing their books or have some some software that's handling it for them, then that, to me, that would be crazy, unless they have in house staff that that's all they do. But like today, in this day and age, it's way cheaper to have software and Software as a Service handling that stuff than it is to have a staff of three, you know, bookkeepers and accountants like that. That's just not cost effective. But you know, an owner of a half a million dollar business is not sitting down and filing his own taxes, his or her own taxes, either like they're, you know, you're going to have a professional do it, because there's too much at stake,
+
+Speaker 4  43:48
+right? You have to, like, pay sales taxes, like, quarterly, right?
+
+Speaker 1  43:54
+Yeah, it's too much to keep up with. It's impossible, like, and if you're wanting to scale, you know, to multiple businesses, it don't even, don't even consider doing it yourself, because there's no way you'll, you'll miss something, and it's going to cost you a lot of money, because the IRS, it's just going to find the hell out of you. Until they get their money, and they're relentless, they will always get their money right.
+
+Unknown Speaker  44:18
+Do there. Thank you. Yeah, no problem.
+
+Speaker 1  44:34
+Okay. Does anybody else have any questions? Eric, I see that you're in here. Welcome. You were just in the live right earlier.
+
+Speaker 6  44:50
+What's up? Shane, so I do have a quick question. I think you touched on it in a prior class. But would you recommend keeping. Using the same accountant that the business is using for each Okay, so you file with different
+
+Speaker 1  45:06
+Yeah, no, I, I think it's fine. They already know the business they they already have the pipeline set up to have everything they need. Like, yeah, I don't have a problem with that at all. Unless they're charging like, a whole bunch, like they're charging way too much. So, yeah, like the business, I'm just, I was just talking about, like they actually use an accounting firm from Pennsylvania, for some strange reason. But it's actually, it's not very expensive. It's pretty cheap. When I look at the numbers, and from looking at the P and L's, everything looks pretty good, like they're, they're doing their job, and they're doing the bookkeeping, as far as the payroll, they're they're submitting payroll and everything. So, yeah, I mean, I would at least initially, until, unless it becomes a problem if they're not reporting things you want them to report, or you feel like they're charging too much when you get in there, but like when you first, when you first acquire a business, like you're trying to keep that transition as stress free as possible, you know, you want things to keep running smoothly. And then that, even if you wanted to change it, you probably wouldn't for months, because you want to wait till everything is moving along quickly, you know, or smoothly. And then you can say, Okay, well, I can save money on bookkeeping by switching to this online bookkeeping service or whatever. And then you might might make that decision 90 days down the road, after you assume ownership, but, but yeah, even if you want to change it, you don't do it initially like you want to keep everything simple at the beginning, to make sure it's running and making money, and then you start implementing your changes. Because you also don't want to spook employees to where, like, Oh, they're changing everything. I don't know what I'm going to do, and you don't want them to leave like, you just want to pick up the torch and carry it for a little while.
+
+Unknown Speaker  46:58
+Yeah, that makes sense. Thank you.
+
+Speaker 3  47:14
+Anybody else? I have another question. This is for everybody, not just for me too. Okay, so going back to my situation with this business that already has a loan out, and you said, if I were to take it over under a fresh LLC, or if I take just buy their business as is, you know, so I can have the back financial history. So, like, if there's a loan on this business already $500,000 like, what would be this situation like if I came with a fresh LLC, like, who's responsible for that loan? Is it the previous owner now or, or what? I don't understand how that situation would would work, so I don't even know the right question to ask. So what would that situation be from a fresh LLC to me taking over their business as is I should take. I don't know what to say, honestly.
+
+Speaker 1  48:07
+Well, no, I get what you're saying. You don't want to be on the hook for a loan that you don't reap the benefits from. So it would be in the purchase agreement, like, okay, you know that would be something that you would negotiate, like, Who's paying for that loan? What is that loan like, what is, what happens to that loan in the future? Like that would all be stuff that you would sit down and talk about, and it would be in your purchase agreement. That's why in deals like this, it's so important to have an attorney at that in phase to make sure that one there's no debt that you just didn't know about. You know, they're going to look for that kind of stuff, too, and they're going to put, put it in the purchase agreement in a way that if you don't want to that loan to be a part of the deal, it won't be. But if you just leave it to the owner, you know, and you just kind of go back and forth, who knows what will happen, and they might try to dump that off on you. So just just know that that's something that you're going to that's a mountain you're going to have to climb at some point before this is over. Okay, definitely be part of the purchase agreement. It should clearly define in there, there is a loan, blah, blah, blah, it's for this and that and I am indemnified from anything that any liability for this loan number, blah, blah, blah, like it'll be listed specifically in the purchase agreement to make sure that you don't have anything to do with that loan. And then you'll sign it, the owner will sign it, and that should keep you clear of that loan, if that's what you guys agree to. Yeah,
+
+Unknown Speaker  49:43
+that's interesting. Okay, cool, good to know.
+
+Unknown Speaker  49:48
+Yeah, that's a lot of money. You don't want to be on the hook for
+
+Speaker 4  49:56
+that. Shane, quick question in your plastics. Experience, have you ever checked like, a credit history of the business? Because I think somewhere I have seen like they were saying it's a public record, right? Like, if you have like an EIN number, you can pull up the credit history. Maybe you can see, like any if there is any outstanding debts, or, I don't know the balance is a good practice to check before purchasing
+
+Speaker 1  50:25
+a business. Yeah, yeah. So you can, you can definitely go check the Dun and Bradstreet number, you know which is, and then there's what Experian business. I think you can go check those Dun and Bradstreet is going to be your main one, especially if it's been around for a long time, because they'll have a DUNS number, and you can, you can check that, but usually your bank statements are going to show like they're paying this much money to credit cards, like all that stuff is available to you. And then, you know, that's one of the things the attorney will do at the end. But yeah, yeah, it can't hurt, definitely can't hurt, but you should be able to see by the money coming in and the money going out, you know, and if what's going on, if they're using a credit card, you know, and they have a bunch of credit card debt, you'll see that in the in the statements, that should be something that you should be able to readily see that, you know, they're charging this on a card, and then They're paying interest, because that'll show up on interest of 20% or whatever, if they're only paying the minimum payment. Yeah, you should be able to see that. Okay. Yeah. Okay, so, Brooke, you've been looking, can't find anything. What's your Buy Box?
+
+Unknown Speaker  51:57
+Sorry to put you on the spot. Just saw your message.
+
+Speaker 1  52:07
+Oh, are you there? Brooke,
+
+Unknown Speaker  52:20
+no worries.
+
+Unknown Speaker  52:27
+Yeah, yeah, no problem. Robert.
+
+Unknown Speaker  52:30
+And you know, always, we always record these,
+
+Speaker 1  52:34
+always keep them out there so anybody can check them out. And you know, you can go back and revisit them when you get financials, so you can kind of see and compare to what we were doing tonight. And, you know, we can go more in depth and in a week or so, and look at the, you know, C Corp numbers and see how those are different. But I wanted to throw something out there for the, you know, just the basic stuff, and get the terminology in and give one step further into due diligence. Brook says, I have funding ready to go. I'm looking for something under 900 I found one, but under contract. Yeah, that's a bummer. It's got there a little too late. Just keep looking. There will be one. Do you have your 200 mile radius set up? Did you do that? Use that software and everything? Okay, cool, cool. Yeah, eventually it'll happen. I know there. There's a lot of ways that I just recently stumbled across some social media where this person is paying 10s of 1000s of dollars to try to source off market leads. And I think that's extreme, like, I there's enough opportunity out there that if you just keep looking, you will find it. I don't think you need to get drastic. And I don't know, I think there's another one like called, there's a site called, is it search funder.com, and it's a paid service. You can go on there. It's all people that are looking for businesses. It's pretty expensive, though. And again, I've never used that. I've never had to use that. That doesn't mean it's not a good service, but I don't know. I think just keeping it old school, continuing to be patient, continue to put feelers out there all the time. You know, being in the Facebook groups that where people are buying and selling businesses, like just always out there. You know, maybe someone will bring you a deal, maybe someone will mention you your name in a deal. You just never know what can happen that networking and then just being diligent and not giving up and persevering it, eventually you'll find it. I'm certain of it. Okay. Well, thanks everybody. I will go ahead and shut this down for the night. Stop recording.

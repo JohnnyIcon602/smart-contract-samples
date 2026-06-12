@@ -15,14 +15,14 @@ export default defineConfig({
     port: devPort
   },
   build: {
-    lib: {
-      entry: 'src/main.tsx',
-      name: 'TomsAutoDiagnoser',
-      formats: ['es'],
-      fileName: 'diagnoser'
-    },
     rollupOptions: {
-      external: ['react', 'react-dom']
+      input: 'index.html',
+      output: {
+        dir: 'dist',
+        entryFileNames: 'assets/[name].js',
+        chunkFileNames: 'assets/[name].js',
+        assetFileNames: 'assets/[name].[ext]'
+      }
     }
   }
 });

@@ -1,0 +1,362 @@
+Speaker 1  00:03
+Hey everybody. This is Shane with the money Language Academy, and it is May 29 to 2025 and tonight we're we're going to be talking about is we're going to introduce a new category of in the curriculum, and it's side hustles. So people ask quite often, you know, how do you get that first down payment? Do you do it with funding? Do you get creative and then, you know, you can just go old fashioned, work another job, figure things out. You know, save basically more money comes in, less money goes out, right? That's the fundamental fundamentals of saving. But sometimes that's too slow. But if you can find a good niche where you can get in there and make good money on the side, sometimes those side hustles can actually turn into a primary, you know, primary job and primary source of employment. So, and you know, we're going to talk about how AI can help with that. We're going to use a specific tool tonight called replit, R, E, P, L, i, t, and it's one of the you know. So I'm a software engineer. I've been a software engineer for 23 years now, and I get lazy, and that's why I like AI, because you can it, can do all of the menial tasks that you don't need to that you don't want to do the repetitious stuff that from website to website or app to app that you continuously do. And replit does even more than that. It's very it's very straightforward. You ask it questions, and then it makes suggestions, and you just, you just refine it and refine it and refine it so replicant, it can deploy websites. It can create websites. It can deploy them. It can create apps. It it does a whole bunch of stuff, and it's really pretty cool. And it's free, at least for a while, until you get too many requests to the agent, and then it's $25 a month. So it's pretty cheap, if you can make, you know, websites for 500 to $1,000 you know, for $25 a month. And it takes me about half an hour now to make a decent site that somebody would would want to purchase. So I kind of have an idea of how. I'm just going to take you through a live session of how to actually create a site and deploy it. But it's pretty straightforward. I think everybody can do it. So let's get started. So I want to show you this. This is this website is a it's a friend of mine, so he has a landscaping company, and he did some work for me. And I talked to him, I think I've talked to people about this in the community, and I was like, Well, I tell you what for the work, I'll just create a new site for you, because he's always looking to expand his business like we all are. And what I had done for my landscaping business was to create a website of lawn care and landscaping, a directory in the area where my business always shows at the top, no matter what, no matter what people search for, my business is at the very, very top and then optimize it. It's Seo so that it comes up high in the list when people are searching for lawn care in this area or landscaping in this area. So I told him about that, and I said, Okay, I can create a similar site for you, because mainly he's a fencing company. So I said, you know, I can do that. It might drive more people to your website. And he's like, Yeah, so basically, he did all the work that I needed done for free, and now I'm going to create this site for him and give it to him, but it's, you know, it's worth. These sites are worth easily 500 to $1,000 and they are stupid simple and how you do them? So he just has a straightforward site here with examples of of what he's got, but he just wants people funneled to the site so they can do the contact, they can call them, they can email them, whatever. He just wants more potential leads for customers. Okay, so very straightforward. So let's go to replit. So it's R, E, P, L, I, t.com, and you can go on there. You create a an account, like I said, it's free to begin with. And you can see kind of what I did for the landscaping company that that I own, is I just created this every time it comes up with our company first, and then it comes up with the other people's companies, right? So, and what's funny too, is so if you go to one of these other companies, you click none of this stuff. You can't actually send an email, you can't call them, you can't do anything. So basically, if they get on this site, the only thing. The only company that they're going to be contacting is ours. So that's, you know, obviously pretty appealing for someone who's not tech savvy and doesn't have the time to create a site for themselves. And it was as simple, let me show you the prompt. So let's go ahead and let me take you through the components of replit first. So over here you have the agent. So what you do is you have conversations with this agent. So you just say, hey, I want to do this. I want to create a website that does this, that contains this blah, blah, blah, and it's, it's like a question and answer, and they will create the site and then deploy the example in this right pane over here. So you can go look at it, you can say, okay, change this part to do this. Change this to this, blah, blah, blah, back and forth. And then you have also this section right here is files. So if you wanted to drop some images in the website, you could drop images in here. And don't be alarmed. If you don't know where anything goes. You just ask the agent say, I would like to add custom images, you know, maybe pictures that you took or, you know, stock photos, or whatever that you got from somewhere else. I'd like to add them. How do I do that? It will tell it will create a folder out here and tell you exactly, you know, call the file this, and drop it in there, and everything will connect, and it'll be just fine. So that's what the files are. This gets you back to the agent where we're at the console, just kind of shows you what's happening behind the scenes. You shouldn't really have to worry about that. And then you can click this to open up the preview, if the preview is not up. And then a database. You shouldn't need a database unless you're trying to collect data, like email addresses, things like that. So we're not going to get into that too much. But so I wanted to just start a new one. So let's go ahead and create an app. Okay, so what I did is, I think I went and got the old one, the old prompt before, and I just tweaked it a little bit for this company that we were talking about, which is Fisher fence and landscaping. And I just included the the URL. So I want to create a business directory site that lists fencing and landscaping businesses in Jefferson City, Missouri. It should use the Google API to obtain the list and always include this one particular company at the top. So that's as simple as it needs to be when you first start. Now I just added this line, this to it to give it a little bit of help to find the right one. So let's start building. So it'll chug and chug, and think about it for a little while, and it pretty much tells you what it's doing. So hopefully everybody can see that saying, Okay, I'm going to create a plan for that directory website now. For this, you will need a Google API key. So a Google Maps API key, and I'm not going to show you how to get that, because I was going to, but you have to put your personal information in there. So it's it's just a matter of going to the Google Maps platform creating an account, and during that create an account process, you'll just tell it to create an API key for you that is also free.
+
+Speaker 2  08:30
+Shane, can you repeat that again? I was taking a note I kind of missed it.
+
+Speaker 1  08:34
+Sure, sure. So in order, so the Google Maps API is what allows this website to get the other businesses in the area to create that directory. So you have to have an API key for it. And when an API key is it's like a, it's a, it's the permission, essentially, to use Google Maps. So that's how, that's how our website that we're going to create, gets permission from Google Maps to get build that Directory List and get information from Google. So you just go on the Google Cloud or Google Maps platform. You can just just, you know, Google, that Google Maps platform, and go there and say, create an account. And then one of the options when you create that account is to create a Google Maps API, and you'll be able to create that and copy it somewhere so you have it okay. So it looks like it did some stuff, and it's gonna, it asked me right here. So it's kind of, it's a question and answer. Kind of thing, would you like any of these additional features, customer reviews and ratings, detailed business profile pages. So yeah, so that way, when they click on the listing, it'll take them to the business profile page. You can add a map, but the map gets a little bit more complicated, so I'm going to go. I'm going to not do that. Doesn't seem necessary. And then you could click this to enable business owners to claim and update the listings. So you could actually use this yourself and then interface with the local businesses. And they could run their own little detail pages. And you know, you could, you could charge fees. You could let them advertise on it. There's a lot of different ways you can generate revenue from something like this. So there we go. So it had its initial planning. Now it gave us some options here, and we'll just say, approve plan and start and it will start chugging and creating the site for you. So and if you notice right here, it's creating checkpoints too. So if at any point you make a change and you think, Oh, it looked really good now it's all messed up, you can always go back to the checkpoint, say, roll back to there, and it'll take you. It's almost like an undo takes you back where you were. So you can see it's just building piece by piece.
+
+Unknown Speaker  11:15
+Okay? And put some stock images in there.
+
+Unknown Speaker  11:20
+And this is the featured business at the top, just like we talked about,
+
+Unknown Speaker  11:26
+okay, we'll let it go For a minute,
+
+Speaker 1  11:41
+selecting the other and these are actual local businesses in the city that it's compiling there and building them and throwing them in the directory.
+
+Unknown Speaker  11:57
+Sorry, it's kind of slow,
+
+Speaker 1  12:01
+probably the time of day. I think the last time I did it was really late at night. It was a lot faster. Okay, so it did those, that preliminary stuff, and then you can see what it's doing over here on this bar. It basically tells you, as it goes, what it's doing. So, thinking, considering the options, going back and scanning the message that you put in there, make sure that everything matches. It's creating the components. So anybody that's very techy. You know, it's creating TypeScript files behind the scenes so the page functions the way that it should. Everything. When you click on something, it goes to the right place, it displays the right way, that kind of stuff.
+
+Unknown Speaker  13:00
+Yeah, it's getting close.
+
+Speaker 1  13:10
+Yeah, see multiple pages of real, legitimate businesses. It pulled in their reviews, what their actual reviews are from Google business profiles. It's got their websites on here, but like all AI platforms, you have to tweak it, because you can see that this doesn't appear to be the correct address. This doesn't appear to be the correct
+
+Unknown Speaker  13:47
+phone number,
+
+Speaker 3  13:51
+so we're going to have to change that around. Jesus, slow, come on.
+
+Speaker 1  14:07
+You can also, if you have a screenshot of a website that looks really good, or you want to mimic things going on, you can point it to that website and tell it to create a page or a site similar to that one. It can also do that. You can drop images in here and say, you know, use this image as the header. Use this image as whatever.
+
+Unknown Speaker  14:35
+Okay, it's still working.
+
+Speaker 1  14:42
+Okay, now it's asking me for the Google API key, so I'm going to throw that in here real fast, and because I'm going to move this off the screen for a second, just to put that in on one body, swiping my Google API key, I'm. Okay, which is what that error was before you saw it was trying to access Google without having an API key. Okay, so it looks like it finished at least the initial phases.
+
+Unknown Speaker  15:24
+So let's see.
+
+Speaker 1  15:28
+Looks like we lost some of our other businesses, but you can it. Can, you know, told you exactly what it did. So the business directory was built the API integration. It put this business at the top like we asked it to. It's got search functionality up here, so that might be it. If we take this out, maybe we'll get all of them visit the website. Okay, it took us to the actual website. That's good. So let's start tweaking it a little bit so we know this address is not correct.
+
+Unknown Speaker  16:12
+So let's go get the actual address. I'm
+
+Speaker 1  16:23
+well, it doesn't have an address in here, so maybe we won't do that, but there's the actual phone number,
+
+Unknown Speaker  16:34
+and you simply tell it change the
+
+Speaker 1  16:37
+Fisher fence and landscaping,
+
+Unknown Speaker  16:43
+phone number two,
+
+Unknown Speaker  16:48
+put that phone number in there.
+
+Unknown Speaker  17:00
+Think about that for a minute,
+
+Unknown Speaker  17:03
+and it should change it.
+
+Speaker 1  17:08
+There you go. See there's that phone number. Once we got the address, we would do the same thing with the address. We could change this snippet if we want to. We can change the image all the same way, but it looks like it's not getting the other businesses. So let's ask it why
+
+Unknown Speaker  17:30
+the other local
+
+Unknown Speaker  17:34
+landscaping businesses
+
+Unknown Speaker  17:38
+are not showing in the directory, fix this issue, and
+
+Speaker 1  17:55
+it will come up with a plan to try to fix it, to try to figure out what is going on. So see, it even tells you, you know, it can see these other landscaping companies, and it's going to try to figure out why it's not showing because the API is returning 18 of them. So well, yeah, it looks like it's, it just not clicking to the next page. So let's tell it that. So it's, it just told me right here that it got, it found 18 other businesses that are in this list. So it might be a problem with the display. So
+
+Unknown Speaker  18:48
+Page buttons at the bottom
+
+Unknown Speaker  18:53
+not working
+
+Speaker 1  18:55
+fix this issue, but you kind of see the flow how it works. You look at it, you find something wrong, you tell it to fix it. You find some data that needs to be changed, you tell it to fix it. And you just keep going over that process, going over that process until it's refined and looks the way that you want it to and functions The way that you want it to. Yeah. Thinking all okay, it just said those buttons were static and not functional. So they're going to implement the pagination functionality. So now it says, click those buttons, those buttons do not appear. So, so I'm
+
+Unknown Speaker  20:15
+just going to say the page numbers are not showing. Fix this issue. I
+
+Speaker 1  20:43
+Okay. Now it says I need to check why the page numbers aren't showing. Can you tell me how many businesses are currently, currently displayed in the more local business section? One? Okay, it says it sees the issue. The front end logic is separating featured and regular businesses, but only one business is showing instead of the 17 plus that should show. Yeah, now, okay, I haven't seen this before, so now it even tells you to press F 12
+
+Speaker 3  22:12
+and see what that those values say. Well,
+
+Unknown Speaker  22:24
+stop showing.
+
+Speaker 1  22:39
+Okay, so this little dev tools up here, this gives you your console that it's talking about. So it's saying search results, total count, find that in here.
+
+Unknown Speaker  23:02
+Okay, so it says search results is undefined.
+
+Speaker 1  23:16
+Featured business count is zero. The regular business count is zero, so that should give it the clues that it needs To debug and fix the problem. Hopefully,
+
+Unknown Speaker  23:52
+to fix it.
+
+Speaker 1  24:19
+Okay, there we go. So it fixed itself.
+
+Unknown Speaker  24:24
+Cool, well,
+
+Speaker 1  24:28
+well, I got more, but still doesn't have the page numbers on there. Says this should now display many more local fencing and landscaping businesses. Can you try the searching again to see if you get multiple pages. Okay, so let's just make it a wide open search to see what we get. There we go, and we get multiple pages. Okay? So. Right? I know that probably seemed a little wonky, but it's not always like that. This one's, I don't know it was being a little difficult, but there you go. So you see the process. You just keep going and keep going until you have a working example that looks the way that you want it to look. And it might take you 30 minutes. It might take you an hour, a couple hours, but there you go. Now, when you get get it to a point where it looks like you want it to look, then you can say
+
+Unknown Speaker  25:33
+to deploy it. Deploy the site. You
+
+Unknown Speaker  25:52
+Oh, okay, deploy now,
+
+Speaker 1  26:02
+and what it's doing is it's deploying it to the replet servers. So replit, if you have a paid subscription, will allow you to deploy as many websites as you want to their server. You're not going to get a real fancy domain name, but you can easily remedy that too. We'll talk about that. Okay, so it provisions it, it builds it, it bundles it together, and then Now it's going to promote it to the server. So okay, so it tells you, here's the domain, right? So there's the actual deployed website from the replit server, where you know you could actually, if you didn't want this to default here, you could tell it to not default that, but we should see the multiple, you know, different we do. We see all, all these different four pages of these
+
+Unknown Speaker  27:30
+different companies. Okay.
+
+Speaker 1  27:35
+Now, if we go back here, you should be able to paste that anywhere. So that would actually be enough that you could give that to someone, and there's their site. But obviously, you know, you want a fancy name, maybe, so you would go to a site like, what I always use is name, cheap. Name, cheap.com. You can register a domain for $1 a month? Yeah, there you go, 99 cents a month. Or you can get some free domains. But essentially, let's, let's try domain right here. Just click it so let's see landscape, I don't
+
+Unknown Speaker  28:24
+know. We'll call it JC,
+
+Unknown Speaker  28:27
+landscape directory.com,
+
+Unknown Speaker  28:31
+I doubt there's one that says that.
+
+Speaker 1  28:36
+There you go. It's available for $11.28 for the year. I and so you can purchase that. And then you can go back to replit, and you can say, I have a custom domain that I would like to add to this. And it will, it'll walk you through the whole process, step by step of how to apply that domain to it. So then every time that you go to you know, JC, landscape directory.com, it comes up, and coincidentally, that is exactly if you click the link in my bio on Tiktok, that website that's replit. I did that in like a half an hour on with replit, and then it took me longer to actually purchase the domain name and connect it than it did to create the website. So let's look at that real fast.
+
+Unknown Speaker  29:35
+I spelled it wrong. Here
+
+Speaker 1  29:41
+you go. So if you guys join the community, you probably saw this, and you probably clicked through and came through to school, right? You can embed videos. You can I even had it create count like calculators and. Add the calculators into the page. It's just endless. If you have an idea of anything that would be helpful in a website, just ask it if it can do it, and it will tell you whether it can do it or not. And if you don't have any other ideas, you can ask it, what are some ideas to make this website
+
+Speaker 3  30:24
+more appealing to customers or potential customers, and
+
+Unknown Speaker  30:36
+it will probably give you some good ideas.
+
+Speaker 1  30:42
+Total. Gallery, before and after project photos, business certificates that you could add customer experience improvements, quote request buttons, low case or showcase community projects. I mean it look. It gave you like, I don't know 20 different options to make it even better than what it currently is, but that's the process, right there. So most people that have a small business, especially blue collar businesses, they don't have time to sit around and do this kind of stuff. They don't care to learn it. They would just rather pay someone to do it, because they're focusing on building their business. This particular guy that from from this landscaping company, was paying a a local company $600 a month to maintain his website. And his website was basically what I showed you. There was nothing else on there, but some like a little section for reviews, and they would do some posts about landscaping every now and then in fence building, that was it, and they were charging him that much money every single month. So if you can do a similar site and help small businesses out, or your own businesses, you can either save yourself a bunch of money. Or you can start doing this on the side when you can do two or three of these easily a day, and, you know, make 1500 $2,000 $3,000 a day, additional. That's a great side hustle. And it's even a buzzword, just to tell them that, you know, you are an AI developer, and you vibe code websites and apps and integrate them with AI. I mean, that's that's what everybody wants to hear these days, but that's kind of the process right there. I know that probably went through it quickly,
+
+Unknown Speaker  32:37
+but that's how it works. Does
+
+Speaker 1  32:39
+anybody have any questions about that? I know we're kind of off topic from what we usually are in the community, but I know I've had some questions about this one particular thing, so I definitely wanted to get into it.
+
+Unknown Speaker  32:56
+Did I confuse everybody?
+
+Speaker 4  32:59
+Shane, I have, I have kind of a techie question myself, okay, you're, you're on the paid tier, right for replit.
+
+Speaker 1  33:06
+I am right now, yeah, you don't have to be on the paid tier, though, right?
+
+Speaker 4  33:10
+Do they let you select the LLM model that you're using, or do they just default to one
+
+Speaker 1  33:17
+that I think they default to their agent? I haven't seen where you can actually change it, yeah,
+
+Speaker 4  33:27
+the reason I ask is because some some models are better at coding than others. So you know, if you pick the right model, you might not even have those problems that you ran into, just these
+
+Speaker 1  33:37
+little I knew we were because this was a live demo. I knew we were going to run into problems, okay? And that's the most problems that I've run into so far. Usually it's maybe an image is stubborn, the way that it displays, and I have to change resize it, or something like that. But that, yeah, that was actually pretty stubborn. But that's always how it works with a with a live demo. But this, in particular, the this LLM, which, if you guys don't know what that means, it's large language model, and that's just the what the AI is behind it. This is specifically geared to creating websites and apps, like that's what it does. So this is one of the better ones when it comes to creating sites.
+
+Speaker 4  34:27
+Let me ask another question, unless somebody else has one. Have you thought about how, like, I think the directory is like, an amazing idea, and you could even monetize that by, you know, having a referral agreement with those other landscapers, so that if somebody clicks through your site to get to them, and they end up doing a job for them, they pay you a commission, or, you know, a small fee for the referral. Yeah, have you looked into that at all?
+
+Speaker 1  34:59
+I. At this point, no, but that's the that's the end game there. Because, you know, you could be like a local Google business, as far as you know. So if we were to go to Google
+
+Unknown Speaker  35:14
+and do the same thing,
+
+Unknown Speaker  35:18
+fencing and landscaping near me.
+
+Speaker 1  35:25
+That's basically what Google is, is is doing right people are paying. There you go. So he's all he's paying right now because he's at the top, he's already paying a lot of money for Google ads to get himself at the very top. So there you go. But yeah, you could essentially be a local Google Business Profile directory. So, yeah, yeah, definitely. That's a that's a great way to expand this. They could pay for, you know, being featured on it, but you have to drive people to it first. So you have to customize the SEO and make sure that people are actually clicking on it. That way, you can show numbers to the business owners and say, Hey, we have this much traffic through the site. We're getting this much, this many clicks, blah, blah, blah, would you like to sign up and be featured on this. And, yeah, that that way you have recurring revenue every single month. You say, Hey, give me $50 a month, and you're featured on this, and they'll keep paying as long as they are getting clicks from it, they'll keep paying it.
+
+Unknown Speaker  36:39
+It's a great idea. Patience. Do you have a question?
+
+Speaker 2  36:46
+Yeah, do I think I'm a little off here? I'm not very tech savvy such. So are you saying, basically, I can use this to replace my Google because Google did me dirty recently, like they just dipped their hand in my wallet and took a lot of my money.
+
+Speaker 1  37:08
+So for Google ads, yeah,
+
+Speaker 2  37:11
+for ads. So if I want to do this, how does this work? I'm trying to, I felt like, maybe, okay, I got a little like a brain is adding catch up. Like, how does this work with this, with the API, with the Google API, does it integrate into Google platform and give you more visibility? Or are we creating our own platform that people go into click on,
+
+Speaker 1  37:42
+yeah, creating your own, your own directory platform so it doesn't integrating in the into the Google API gives you the the listing of businesses in the area. That's how, that's how we're getting that list. We're getting it from Google data, from Google Maps, because if you have a Google pro business profile. You have your address in there, your name, photos, reviews, maybe a link to your website. All that stuff's already in there. So it's just linking and getting that data from Google and then displaying it for you. But you know, it'd be, it's, it's hard to compete with Google. I mean, they have all the traffic. It's basically a monopoly. There's nothing you can't beat Google. As far as you know, when people are going, it's a, it's a, you know, they you can see what I just did there, Googling those companies.
+
+Unknown Speaker  38:34
+So, so this was what everybody does
+
+Speaker 2  38:39
+to create a website, correct? I was a little curious when you said you drove traffic to the guy's page. And I wanted to know more. Like, how did you do it? Like, I wanted to know if there's a back door so I don't have to pay Google
+
+Speaker 1  38:54
+all of that money. Well, I mean, he's like, no matter what, he's still gonna have a Google business profile. And he probably would still do ads because they're effective. Google ads are very effective, but you would actually be doing something that's a lot cheaper and kind of a side thing to where just just having a bunch of other sites with links to his website increases his Google profile and increases his visibility and his search engine optimization. So you just continue to do that, and you optimize that directory site, and you get the same, same kind of effect. So ideally, you would just keep pumping that until it shows up. Your directory site shows up in here somewhere. And then once you get that visibility, then you have, you know, kind of some leverage where you can sell that to people like, Hey, I'm, you know, if you google this, I come up right here in the list, and this will be a directory to your business. We would feature your business, that kind of stuff. But this is. Just in addition to what he's already doing. So I was able to trade my expertise for his expertise. And, you know, it saved me, like, hundreds and hundreds of dollars. So they and it, I mean, I just did it right there, so I'll refine it a little bit and then give it to him. And it's all done.
+
+Speaker 2  40:20
+And the SEO is basically you just keep asking more questions.
+
+Speaker 1  40:27
+And if I wanted to optimize the SEO, yeah, yeah. So we could go in here and we could say,
+
+Unknown Speaker  40:35
+optimize the SEO for this
+
+Speaker 1  40:40
+website, or you can ask it first, how can I tell it to how can you see what it says? So it gives you ideas on how to do it, and then it says, Hey, do you want me to do this for you? And you say, of course, yes, implement
+
+Unknown Speaker  41:15
+all of
+
+Speaker 3  41:17
+those SEO improvements. I There we go,
+
+Speaker 1  41:27
+and it will do that for you. And notice I it, I misspelled it, it still figures it out.
+
+Unknown Speaker  41:37
+So there you go. It'll start optimizing it for you.
+
+Speaker 1  41:46
+That's why it's a really cool tool, because all of this stuff would have taken a long time to just manually do it, even, even if you've been doing it for a while, just, you know, it takes time, but it's a good starting point, and it's so friendly we you can just ask it for possible options. You can ask it to do whatever it'll debug itself. It's pretty cool.
+
+Speaker 5  42:14
+Okay, quick question about the custom domain here, do you have to do it like within the replied?
+
+Unknown Speaker  42:21
+Or you have to do it like,
+
+Speaker 5  42:24
+you know, like the name, cheap provider, yeah, yeah.
+
+Speaker 1  42:28
+You do a little of both. So what you do is, you ask replit. Replit will tell you exactly what to do. It'll say, go to your domain provider and put these things in here, it'll give you the addresses the server, you know, you'll URL, like all that kind of stuff is there, the IP addresses. And then you go to Name Cheap, and you put that stuff in there, and you save it. And then Name Cheap will give you something to put into here. And replit will actually prompt you to do that. You put one little thing over here. It say, like custom domain or something. When it's done right here optimizing, I will ask it to do that. You can kind of see what it tells you to do. Okay?
+
+Speaker 5  43:17
+And also mentioned that if you want to make your website. Ai friendly. I saw a video this morning. There was a lady. She said that if you have like a dedicated page, let's say like Q and A page, and then you can get an like, most popular, I don't know, the question from a Google Trends, or also the public those websites and have an answer in your Q and A page like on your website, the same way, like the like chat GPT, or like any other AI providers, answers it, and have it like listed, Like the question and answer that way Look those LM models will pick it up, and then they will show your website on a very top, just like you showed earlier, like the Google AI mode, right? So you will beat your competition, yeah? Like, if you have that, okay, since it's a new thing, if,
+
+Speaker 1  44:22
+yeah, and it's just a matter of just staying up on that kind of stuff. You know, this is definitely the future. It's exploded in the last year. It's crazy.
+
+Speaker 6  44:32
+Shane, there's a similar model that I've heard of called lovable, and I wasn't sure if you've used that before as well
+
+Speaker 1  44:39
+lovable, I have not but I will definitely look into it. I like playing with this stuff,
+
+Unknown Speaker  44:47
+lovable. Okay,
+
+Speaker 1  44:51
+so, so let's just ask it the question, How can I deploy. Deploy this to a custom domain.
+
+Unknown Speaker  45:16
+Okay, so it pretty much gives you
+
+Speaker 1  45:21
+all the little things that you have to do, right? And it even tells you, like, if you want to try to deploy it these other places you can if you don't want to use replit, and then what you have to do, what your domain that you purchase needs to have. Sometimes it takes upwards of 48 hours to get it to, actually, you know, be deployed on those domains. That's more of the, you know, the domain provider than it is replit. But so you just pick one of those options and you say, Well, I want, I want to do this one. And then it'll give you a step by step way to do that. And, like, it takes five minutes. It's really easy. Maybe Tim,
+
+Unknown Speaker  46:10
+can you use this for a website that's already established like
+
+Speaker 2  46:15
+and if you do, will it alter whatever your website is about already, or does it give you, like, the room to, kind of like play with your website and then go back to it?
+
+Unknown Speaker  46:32
+Should you not want to make any changes?
+
+Speaker 1  46:36
+That's a good question. I think. Do you own the site? You have all the code.
+
+Unknown Speaker  46:43
+Oh, I want to decide, I don't know.
+
+Speaker 1  46:46
+Okay, so you, you would not be able to change it through here, because that's deployed on a different domain, on a different server. Like you wouldn't have permissions to do that, but you could create an alternate using that as a model for it. Say, Hey, use this website as a model. Create one for blah, blah, blah, blah, blah.
+
+Speaker 2  47:09
+And I have a website that I have my developer change some things. And the owner of the company was like, Yeah, I will get back to you. Oh, I'll do it by the end of the day. And she never got back, and I got hold of the guy himself, and I paid a lot from years back for this, and he's like, Yeah, I'll get to it. But they always giving me excuses, so I just feel okay. I mean, there are some classes that been into the I've taught me some of these things to go back, does to go do something, but I don't have the time, like, you know, I don't have the time to go and manually do it myself.
+
+Speaker 1  47:51
+So, yeah, okay, yeah. I mean, that's, that's the thing with developers, you know, they're really busy, and they charge a lot of money, you know, because a lot of people don't have the time to learn the stuff. That's why. So AI is a good, a good option for doing things on the cheap, you know? But, yeah, I don't replicate. Would not be able to change an already deployed website on a separate server. It wouldn't, it wouldn't have permission to do that.
+
+Unknown Speaker  48:24
+Okay. Anybody
+
+Unknown Speaker  48:28
+else have any questions about replit?
+
+Speaker 7  48:40
+Can you talk a little bit about where you are find like, what's your source of finding new tools? How did you find out about replit? Or where do you, you know, where do people hang out to talk about this kind of, kind of, the kind of stuff,
+
+Speaker 1  48:56
+sure, so replit, let's see, I think the first, the first thing, first time I heard about replit, was on Tiktok. Oddly enough, I was scrolling through and I, I keep, you know, my FYP is a lot of tech stuff and it's a lot of business stuff and finance stuff, and it, it just came up with somebody saying that it was a good AI tool. So I was like, Okay, I'll go check it out. Also, medium. You can subscribe to medium and put your preferences as AI new AI tools. You know, whatever it is in tech, it's you're trying to get, and you get those emails every morning with, you know, because medium is, is basically like people create articles and deploy them to medium, and then medium charges people for subscriptions. So it's like $5 a month, I think, for medium. So I've deployed a lot of articles on medium. It's really cool, because you just never know what people are working on. You never know you. It'll have, like, really good hacks on how to get free stuff side hustle. You, you name it, whatever you're in, and not just tech stuff. You it might be financial, it might be just, just whatever. Basically, like, the same kind of stuff that you would see, like you might go to Reddit and search for a topic and try to do some deep diving and what people are doing in AI or whatever it is, and you'll get that feed every morning in your email. So that's a good source.
+
+Speaker 2  50:29
+And how do you spread a medium, just regular, medium, medium, calm,
+
+Unknown Speaker  50:34
+yeah, yeah. Medium.com, let me see.
+
+Unknown Speaker  50:38
+Thank you. Yeah. That's exactly what it is. Can you share my screen
+
+Unknown Speaker  50:49
+human stories and ideas? So there you go,
+
+Unknown Speaker  50:58
+and it's pretty much everything.
+
+Unknown Speaker  51:10
+Okay, let's go
+
+Unknown Speaker  51:11
+ahead and stop this.

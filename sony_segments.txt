@@ -1,0 +1,4 @@
+file 'sony_seg1.mp4'
+file 'sony_seg2.mp4'
+file 'sony_seg3.mp4'
+file 'sony_seg4.mp4'

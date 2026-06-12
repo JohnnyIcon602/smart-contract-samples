@@ -1,0 +1,54 @@
+{
+  "entries": [
+    {
+      "date": "2026-04-20",
+      "title": "Mission Control Fix",
+      "summary": "Fixed persistence, added proper API server"
+    },
+    {
+      "date": "2026-04-17",
+      "title": "eBay Bulk Upload",
+      "summary": "80 VA parts listed to eBay"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Income Research",
+      "summary": "Monthly income: $127K across all businesses"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "T-shirt Workflow",
+      "summary": "Dwight→Picasso→Lois pipeline, 4 designs"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "Income Research",
+      "summary": "Auto shop $100K/mo, STR $4K, fourplex $3.4K"
+    },
+    {
+      "date": "2026-04-05",
+      "title": "Weekend Work",
+      "summary": "Various tasks and agent updates"
+    },
+    {
+      "date": "2026-04-02",
+      "title": "Research Session",
+      "summary": "Afternoon research on income streams"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "April Kickoff",
+      "summary": "Started April with task review"
+    },
+    {
+      "date": "2026-03-31",
+      "title": "Research Deep Dive",
+      "summary": "Extensive research session on business opportunities"
+    },
+    {
+      "date": "2026-03-30",
+      "title": "Weekend Update",
+      "summary": "Weekend session updates"
+    }
+  ]
+}

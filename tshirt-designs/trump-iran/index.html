@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Trump vs Iran T-Shirt Design</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        h1 { color: #fff; margin-bottom: 10px; }
+        .subtitle { color: #888; margin-bottom: 40px; }
+        
+        .designs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            width: 100%;
+        }
+        
+        .design {
+            background: #fff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+        
+        .tshirt-mockup {
+            background: linear-gradient(145deg, #1a1a1a 0%, #2d2d2d 100%);
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .design1 .tshirt-mockup {
+            background: #000;
+            color: #fff;
+        }
+        
+        .design1 .tshirt-mockup::before {
+            content: "🇺🇸";
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 40px;
+        }
+        
+        .design1 .tshirt-mockup::after {
+            content: "🇮🇷";
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            font-size: 40px;
+        }
+        
+        .design2 .tshirt-mockup {
+            background: #c00;
+            color: #fff;
+        }
+        
+        .design3 .tshirt-mockup {
+            background: #fff;
+            color: #000;
+        }
+        
+        .design-text {
+            font-size: 32px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .design-info {
+            padding: 20px;
+            background: #f5f5f5;
+            color: #333;
+        }
+        
+        .design-info h3 { margin-bottom: 8px; }
+        .design-info p { font-size: 14px; color: #666; }
+        
+        .tag {
+            display: inline-block;
+            background: #22c55e;
+            color: #fff;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        
+        .tag.bold { background: #f59e0b; }
+    </style>
+</head>
+<body>
+    <h1>🇺🇸 Trump vs Iran — T-Shirt Designs</h1>
+    <p class="subtitle">3 design concepts based on current news</p>
+    
+    <div class="designs">
+        <div class="design design1">
+            <div class="tshirt-mockup">
+                <div class="design-text">MAKE IRAN<br>GREAT AGAIN</div>
+            </div>
+            <div class="design-info">
+                <h3>🔥 HOT: Make Iran Great Again</h3>
+                <p>Play on Trump's MAGA slogan. Bold, minimal, high-impact. Perfect for his base.</p>
+                <span class="tag bold">Best Seller Potential</span>
+            </div>
+        </div>
+        
+        <div class="design design2">
+            <div class="tshirt-mockup">
+                <div class="design-text">NO MORE<br>BEDDING</div>
+            </div>
+            <div class="design-info">
+                <h3>💢 No More Bedding</h3>
+                <p>Reference to Trump's "we no longer bed together" comment about Iran. Edgy, conversation starter.</p>
+                <span class="tag">Controversial</span>
+            </div>
+        </div>
+        
+        <div class="design design3">
+            <div class="tshirt-mockup">
+                <div class="design-text">AMERICA<br>FIRST<br>✝️</div>
+            </div>
+            <div class="design-info">
+                <h3>✝️ America First + Cross</h3>
+                <p>Faith-based appeal. Cross symbol with America First. Targets religious right.</p>
+                <span class="tag"> niche</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

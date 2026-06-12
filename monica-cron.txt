@@ -1,0 +1,2 @@
+0 6 * * * openclaw trigger monica
+0 13 * * * openclaw trigger monica

@@ -1,0 +1,317 @@
+Speaker 1  00:02
+Hey everybody. It's Shane with the money Language Academy. This is the mentorship Q and A. It is June 5, 2025 and we're just going to open up the floor to anybody that has any, any questions. I know there were some, some questions in the community. I think, I think, let's see if I remember, right. Rolando, you, you had a question about tax returns and s corpse, if you want to ask that question, just kind of talk about that. We can get into that a little bit if you're sure.
+
+Unknown Speaker  00:35
+Yeah, so I was looking at
+
+Speaker 2  00:40
+a laundromat. And just as an aside, they sent me. They were quite willing to send me the financials. They sent me three years of tax return. They didn't even ask for an NDA. They sent me three years of financials and and the sort of current income and expenses. And it's a little bit sloppy. I need to, I need, I definitely have some questions that I want to ask, but, but I put it into the, you know, the overall numbers. I put it, put it into your spreadsheet, the the analysis spreadsheet, I can't remember what it's called, The 5000 spreadsheet. And as it is, you know, with the numbers that they gave me, it's not it, it doesn't pass the test. You don't get the green the green light on the DSCR, but, but when I look through the tax return, it says that they're paying $60,000 as a what do you call it, Officer compensation? And so if I add that back in, then it makes a DSCR look much better. So my question is, is that one of those add ins that I just have the have the freedom to go ahead and add that back in, or is a lender going to look at that and allow me to do that? Or are they going to expect some amount of do that? Does a lender want to see some amount of compensation in there? And if so, what's, is there a rule of thumb to know what the right amount should be? I mean, that's basically what my question comes down to, sure.
+
+Speaker 1  02:13
+So, so with that, that would be an add back, if that officer is the current own, you know, the who's considered, you know, the the main operator manager of that S corp or C Corp, or whatever it is. So, yeah, that that would be considered an add back, that's like them taking a salary. So that would be, you know, money back in your pocket that you could elect to take a salary or not take a salary. To the second part of that question, yes, a lot of times a bank or the SBA will want to see you take some sort of compensation for a deal if that's going to be your primary source of income. If you have other income coming in, it's not as big a deal. But if you're saying I'm going to be an owner operator. I'm going to jump into this. This is going to be my primary source of income. Then they want to see you take something, it's not, it's not realistic, in their mind, for you to not take something to survive on. Yeah, while the business, you know, while you're building that business, you know, because they know, just common sense wise, that you're going to have to pay your bills. You're going to have to pay your mortgage, your rent, whatever it is, you know, your food and everything. So, so yeah, now, but if you have another job, you have investments, you have rental properties, you have other things where incomes coming in, and you can prove that you have bank statements and, you know, whatever tax returns, then you can show them, you know, I don't need to take a salary, then it won't be a big deal. But if you don't have any income, it, yeah, it'll be an issue,
+
+Speaker 2  03:51
+okay, um, the other question is, um, it's a pretty large space, and so they're spending a lot of money on rent, and they're spending a lot of money on utilities. And my question is, it's hard for me to sort of evaluate what the right number is in terms of like, are they overspending, or is it, is it worth it, or, I mean, there's just a whole bunch of questions that looking, looking at their tax return and everything, leads me to a whole bunch of questions. And like, is there, is there, like, a website or somewhere where I can plug in, you know, I have this much square footage, I have this many machines. How much can in this particular metro area, how much can I expect to spend on, you know, water, you sewer, utilities, electric, etc, gas, whatever. I mean, maybe that's unrealistic, but I'm just wondering if there's any tools out there to help you estimate what a cost, what the costs are of running, of running an operational event? Sure.
+
+Speaker 1  04:59
+Well, what. What I do is I try to first thing I do is I break down the lease to see if it's a fair lease. So you can go to chat GPT, and you can say, what is the average cost per square foot for commercial property in this area? And you can even specify the type of commercial property, because you have light industrial you you have multiple different categories of commercial property space. So you can say commercial property for a laundromat, and it will usually give you comparative numbers per square foot in that area in that zip code. So then you can say, Okay, this is how many square foot it is. This is what they're they're paying. This is what you know, the lease is. Is that a fair lease? So that's a good starting point, right there. You can see if they're overpaying, even if they're wildly underpaying. That is also a red flag, because when you come in, it's going to be an general especially if the owner owns it already. It's going to be a new lease. If they're leasing it from someone else, then you inherit that lease. It's not that big of a deal, but if they own it, they're going to want to, you know, raise those that lease and all that stuff. So that's one thing you can do, as far as the lease itself, now, the the sewer and the water and all that that should already be on the profit and loss when you when you look in there, you should be able to see how, what the utilities they pay month to month. So and that that's not going to fluctuate. That's not something you can negotiate. That's just what the utilities are in that, you know, municipality or whatever. So those things don't change that much. So they're pretty concrete numbers. You can, you can pretty much hang your hat on those numbers, but the lease itself, yeah, that's one of the first things I do after the numbers either work or don't work, is I'll go look at that lease. Because I generally, I, you know, I'm not buying the real estate because that, that's a different kind of deal. I'm focusing on the business itself. So I want to make sure that that lease is not, you know, it's not too high or too low if it's in that sweet spot. And chat GPT will give you those numbers. It'll say It'll even give you, if you drill down and do a deep dive, it'll say this address is currently listed for, you know, to be leasable for this much. And it includes this, this and this, because it goes out and finds those listings on listing sites. So it gives you real, live, current data that you can go by. And if that lease is off, it can also be a bargaining position. You can say, well, you know, this lease is really low. It's not, it's not realistic for the future. So I'm not comfortable paying this price. We need to factor that into the deal. You know, everything is it's like, when you go to get a used car, you know, you might love that car, but you see it, the tire is scuffed. You're like, oh, this tire scuffed. I can't buy this. You know, you're you're you're trying. Once you once you know the numbers generally work, then you're trying to find a way to get it more manageable so you can maximize your your investment in your return. But, but, yeah, that's a good starting point for sure. Yeah.
+
+Speaker 2  08:14
+I mean, one of the things I noticed about this place, and is there a way to know this was on biz, buy, sell. Is there a way to tell how long the listing has been there? Because I feel like I I had it in my saved listings for for a while. I want to say at least nine months, six months. I'm like that. And for some reason, they they emailed me saying the seller has updated their listing. And so that's why I got the reminder, like, let me take a look at it again. And that's when I started digging a little deeper, and I asked, started asking questions. And I think there's some potential there. I think there's he's asked, he's kind of a high price, but I think, but I think there's some potential if I say to the to him, Look, here's where the numbers, here's how the numbers shake out. Therefore, I can't offer you what you're asking. I'd like to offer you this much instead and see if we can work something out. And you know, but I think one of the questions that I need to figure out is, you know, like, has he deferred any maintenance on the machines, for example, you know, has he, has he been cutting corners to try and save make himself some more money.
+
+Speaker 1  09:21
+Well, that's all due diligence stuff, right? So, you know that comes along. So when you, when you enter into your loi phase and you start the due diligence, you know, that's not binding at all. You know you can, you if you get in there and you find out that those machines are in disrepair, you know you can, you can take off and say, nope. This is not for me that you know, and that's, that's what that phase is for. You just want to make sure you're more likely to close on a deal if you get it under loi, if you try to negotiate too much before LOI. But then a lot of times it's gonna, it's gonna just start off on the wrong foot. So like. Things like the state of the building, the state of the machines, the you know, the employees themselves, like things like that. You know, those come from due diligence. That's after loi, before LOI. You're mainly looking at add backs, you're looking at tax returns. You're looking at all the stuff that we were just talking about the lease, you know, and if the numbers during that, that analysis phase, if those numbers are favorable, and you're like, Okay, if all of this stuff is true, if these, if these washers and dryers and the building and everything is the way I that they're proclaiming it to to be this is a good deal. Then you go ahead and put the LOI in and you, you know, you think about a price with all those things being true. You put in that, you know, you put in that, that offer in your LOI. Or you, what you can do is you can do a range, and they'll, that's what I do. I'll put a range in there, and I'll say, okay, the top is what they're asking. Because what they're asking for is the ideal amount that they could ever get, just like in real estate, like that's their max number, you know. So you maybe come down 20% say, I would pay a range of, if they're asking 500,000 I would, you know, from anywhere from 425, to 500 depending on the due diligence phase and what I find out. And you can, you can get them to agree to that, and then you can get in there, and you can say, well, let's, you know, bring someone in that knows what those machines should look like, how they should function, send your sister in law in there to do some loads of laundry, you know. I mean, whatever it is like there, there are no holds barred on this stuff, you know, you're, you're doing reconnaissance, you're, you know, looking at the kind of people that come in there at night. Because laundromats can be a den for drug users and homeless people and, I mean, all that kind of stuff, you know. So you have to the due diligence, the you have to really be willing to put the work in from beginning to end, not just the financials, but talking to everybody, even the business next door. You go and knock on the you know, there's a hair salon next door, and you find the lady that runs the hair salon say, hey, what do you think about this? You'd be surprised the type of alpha information you can get that you're not going to get from the seller. You're not going to get from the broker or any employees. She's going to say, well, you know, overnight, there's so many homeless people hanging out there that they trash our place, that kind of stuff. You know, that's that's all due diligence. There are no holds barred. They have to give you access to just about everything, as long as you keep it to yourself. Because you will, I'm sure you'll have to sign an NDA at that point, because they're not going to want their, you know, all of that information to get out. But, but, but, yeah, so you don't want to put too much into your your research before loi, because you can always get out, just like what we were just talking about, the wholesaling and the inspection period your loi, you can get out for any reason at any time and get your your if you have to put a deposit in which you don't always have to, you can get your money back. So, so yeah, that's kind of what that's for. So, so try not to get too wrapped up into the machines and that stuff. It's all about numbers. And if, if everything that you think to be true right now is true, is it a good deal? And if those things are true, then you loi, you know, and then move forward from there.
+
+Speaker 2  13:42
+Okay, one of the things that I was watching one of your videos, and it says you should try and get three years of P and L's a P L statement. My question is, is a P L something that? Is that, something that they're going to have on hand, like they would have a previous year's tax return, or is it something that they would have to try and recreate from memory based on what they knew, like in other words, is it something they always have? They get it every year?
+
+Speaker 1  14:15
+Yeah, they should, even if they're doing their own taxes. Most business owners, if they're doing their own taxes, are going to have QuickBooks, unless they are just somebody that's really stubborn and refused to, you know, to use any software whatsoever, they would, yeah, more than likely they're going to have QuickBooks. And you can go back however many years in QuickBooks and run that report and provide you with that information. If they don't, I would probably walk because if it's an owner that's doing everything all on their own, and they don't have the access to that information, that's a red flag, and I know that the books are going to be a disaster, and the bookkeeping and. I don't want any part of that, because no telling what you know. There's no source of you have the tax returns, yeah, but you you can't verify anything it because they earn this much and this was their expenses. You don't know what expense was, what you know, because it's not categorized on the tax return. So without good P and L's, ideally from an accountant. It makes everything. It muddies the water. So I yeah, if they can't provide you with that, I'm walking.
+
+Speaker 2  15:32
+Okay, okay, good to know. Yeah, thank you,
+
+Unknown Speaker  15:38
+Keith, did you have a question? Yeah,
+
+Speaker 3  15:42
+looking at another auto repair shop. It's in a very good location. It's looks like it's greatly under priced. He doesn't have any bit of listed, but he's asking his the gross revenue is almost triple as to what he's asking. He's just basically saying he's selling it because he doesn't have the time right now. And, yeah, he says on the time right now. Is that something like that, it's and it looks like it's direct owner as well, too. Is that something like that's too good to be true? Or should I be very apprehensive? Or just get on the phone, talk them, see what's going on.
+
+Speaker 1  16:17
+It's always worth looking into, right? The only thing cost you was time. So, but, but just remember that gross revenue means nothing, yeah, yeah, literally. So it's all about the seller discretionary earnings of the cash flow like at so, you know, they might make $1 trillion in gross revenue. And you know, the discretionary earnings are $100,000 so, yeah, just, just remember that. And if they're not showing the EBITDA or the cash flow on the listing, then there might be a reason for that, but not necessarily. Is it a broker, or is it the first looks
+
+Speaker 3  16:52
+like it's direct to owner, because I googled it and it just Yeah, it's directed or not,
+
+Speaker 1  16:58
+when it's those situations and it's no holes barred like they generally don't even know, especially the business, they have no idea what they're doing. They listed it. They just they they might not want to deal with a broker. They think they can handle it themselves. That can be either really
+
+Speaker 3  17:16
+good or really, really bad, okay, especially because someone's book centered, yeah,
+
+Speaker 1  17:21
+most owners that don't use a broker will overvalue their company, but not, not always, but I would say it's definitely worth checking out. Just the fact that they're not using a broker is that's a green flag to me, like you don't have to deal with some jerk broker. Just talk to like lead, you know, right from the horse's mouth, yeah, try to get more information.
+
+Speaker 3  17:45
+Okay, yeah, it's been in business since 2010 the SDE is decent. It's over twice the rent. So, yeah, I'll give them a call tomorrow, so I should be in the area.
+
+Speaker 1  17:54
+You do have the SDE? What's the SD? 6000 6000 a month? Yeah. And the the asking price is, what
+
+Unknown Speaker  18:02
+40 40,000
+
+Speaker 1  18:06
+40,000 what for the whole asking? Yeah, that's why I'm asking.
+
+Unknown Speaker  18:09
+That's what I'm saying is, Is this too good to be true?
+
+Speaker 1  18:14
+Yeah, I don't know what's going on there. Yeah, it's wanting to sell an auto repair shop for $40,000
+
+Speaker 3  18:23
+smock shop. Oh, smog shop, yeah, but still, I
+
+Speaker 1  18:26
+mean, that's really small, like a single bay kind of thing. It looks like it
+
+Speaker 3  18:31
+I'm looking at one picture, and looks like it's small. But again, I can actually, I can go look at tomorrow this week, and I'll be in the area.
+
+Speaker 1  18:36
+So, yeah, I would check it out. Because, so you're talking about, what 70? What is that?
+
+Unknown Speaker  18:43
+$72,000 SDE, yeah,
+
+Unknown Speaker  18:49
+probably too good to be true.
+
+Speaker 3  18:50
+Yeah, I know, yeah. So I would, I would, if the conversation goes well, I'll probably bring my girlfriend's father, because he's a mechanic himself, and he can maybe look at the equipment for me as well, too, if, like, if we get into another like, Go threat, pass the preliminary phase.
+
+Speaker 1  19:06
+That's exactly what I do. I have a friend that's been in auto repair. He's been a mechanic, certified mechanic, for 25 years, so I might visit a shop. Yeah, I just, I don't even have to tell him anything. He just starts going and looking at tools and looking at equipment, and he doesn't even say anything. He's a real quiet guy. And yeah, it does.
+
+Unknown Speaker  19:26
+It scares the crap.
+
+Speaker 1  19:31
+But, you know, he's really, he saved me, actually, from getting into deals. He's like, all these lifts are trash. All, you know, all this equipment is old. You're gonna have to replace this and this and this and this, you know, it's, it's well worth it. So, so that, yeah, that's a great idea, like we talked about earlier. Regina, subject matter expert, you know, I can't change your transmission. I don't even know what tools are involved, but I know somebody who does. So, yeah, exactly.
+
+Unknown Speaker  19:58
+Yeah. Excellent, okay, cool, thank you.
+
+Unknown Speaker  20:12
+Anybody else? What's everybody got going on?
+
+Unknown Speaker  20:17
+Mariano, how are things? How's the business?
+
+Speaker 4  20:39
+Hi, there, Hey, how's it going? I mean, it's, it's getting a little better. I'm still, I'm still having a little bit of cash flow issues, because I'm still working really hard on customer acquisition, which is, you know, starting brand new. It's the hardest part. But I had some interesting things this this week I actually I got in touch with the with the with the Chamber of Commerce of my area, and I went to a larger event where I met up with some potential large customers, which some of them are part of the recruiting procurement system. So I I touch base with conference and Metro Division, so I already got some some contacts of that, and I'm kind of working on trying to sign up on the on the procurement website and working along with them to see what the qualifications are for me to be able to to engage and do business with the local sectors. So I kind of got that going right now. And then the other thing too, like, I'm still pushing really hard at word of mouth. So, you know, like, whenever I'm on the on the street and I approach, like, work sites or stuff like that, I get off, I talk to the contractors and stuff like that. And I've already landed a good potential customer, which is a contractor. He has like, five trucks, and as a matter of fact, I have one sitting in the shop. And, you know, I, I sent them an estimate, and he seems like he's gonna go for it. So it's gonna bring me in about $5,000 worth of labor.
+
+Speaker 1  22:15
+What are you doing here? You should be out there working on that truck. Yeah, right. That's, that's that's great, man. I'm glad to hear it. And I'm glad you mentioned the Chamber of Commerce, because I don't think that's something we've talked about. Chamber of Commerce is huge for networking, huge. And it seems like, well, you know, have to, you have to pay these dues every year. And it's like, why am I paying? You know, I'm already buying, I've got a business license. I've got, you know, I'm doing all my commercial, all my reg, you know, certifications, and everything you're paying for all that. And it's like, why would I need to do this? But it's because you get into the rooms with all those people when they're gathered, and you get into all those events, and that's where the big things can happen. So I'm glad, I'm glad, I'm glad you mentioned that, because I don't think we've ever talked about it, but it's absolutely worth it. I'm in the Chamber of Commerce in every city that I have a business in. I'm in that chamber of commerce. It ends up being well worth it. Well worth it.
+
+Speaker 4  23:12
+Yeah, no. And it actually puts you in the spot, because, like, at the same time, like, there's other local businesses that come to it, so so it just gives you a much broader opportunity to actually, to network with the other businesses that are around, you know, and, and so, yeah, I think it was a good option. It was an interesting week. I got to do that. And, yeah, so, like, I mean, still pushing, you know, grinding out here, trying to acquisition customers. So, yeah,
+
+Speaker 1  23:41
+have you thought about using any of the like lead generations, like Angie's List? You know, even the Google has one too. Now the Google verified, where you can get verified on Google and that they'll send you leads, that kind of thing. Yeah?
+
+Speaker 4  23:57
+So actually, I got, I got that going as well. I think it's called Google ads. So I got started by doing a doing a Google profile with the address, and then uploaded pictures of the business itself. And then I did like, a questionnaire where, where people look me up on on Google, and then they review everything that the business does. And then I have like, a bunch of questions, like, for steps, for several scenarios, like, if my truck has this issue, like, will be the outcome, right? So I have kind of like answers so that people can read it and have a more detailed aspect of what they will expect in the services. And then at the same time, like, it seems like the feature has an option that I could enable from my phone, and then it's going to generate it some advertising. But right now, with the few four, few, four customers that I had last week, I got them to give me some reviews on Google, that way I could get the system to actually interact a little bit more.
+
+Unknown Speaker  24:59
+Yeah, well, it's. Might. It's three different
+
+Speaker 1  25:00
+it's three different things, right? So the Google profile is, is what any business can create a Google profile. So that's going to be your pictures, your name, the hours of operation, what you do, your you know, your the areas that you cover, things like that. That's your Google business profile. Then you have Google ads, where you have to have to have a business profile in order to do Google ads. But you can do Google ads where you know you're you can do different campaigns where you're trying to you get Google to push your list, your Google profile, for your for your business above other people's by how much you pay Google for those for pushing it so it's you pay per click, or you pay per call. There's a lot of, there's a whole that's a that's like, really, like a week of classes to be able to get the Google ads right. So that's, that's the second part of it. The third part is the Google verified. So Google verified takes one step above that. You have to give them your certifications. Like, if you, know, you have a business license, you you're certified diesel mechanic, like whatever that. You know, Google has their own little criteria that they require for it, and that puts you up above even the sponsored so when, if you think about when you Google something, I'm looking for blah, blah, blah in my area, in, you know, near me, you'll see at the bottom, you'll see the everybody, the whole you know, everybody that has a Google business profile. Then you'll see the sponsored above that, and then you'll see Google verified above that. Google verified is something that's hasn't been around that long, I think within the last six months or maybe a year or less. I don't know. It's not something that's been around for a long time, but That's Google's answer to competing with Angie's Angie's leads, home advisor those kind of things, because what those places are doing is they optimize to get to the top of that list in Google Search, and then they have a network of people that they source those leads to, and then they charge you for those leads. So for instance, if if somebody goes on Google and says, I'm looking for diesel repair in your zip code, you're paying the Google verified to put you at the top and to send you send your information to that person first. And if they click on your Google business profile, you have to pay Google for that click. It's a little it's a little bit different. Angie's leads works the same way. If somebody goes to Angie's List and says, Hey, I'm looking for diesel mechanic in this area. You know you are a member, so you're at the top, and they will only allow the person to click on one diesel repair shop at a time. So you know that you're exclusively getting that click from that site from Angie's leads, but you have to pay. It's like 3040, 50. It depends on the quality of the lead. Like, if they're looking for an oil change, that's one thing. But if they say they're looking for an engine, a full engine, I don't know, take the block, whatever, you know, like a really big job, then you're going to pay more for those leads, so that that's that customer acquisition thing that it comes back to. But Google is also competing with Angie's leads now for that. So if you're already on there, and you're already doing Google's at Google ads, you might be able to go one step further to get those, like, serious, important leads.
+
+Speaker 4  28:31
+Yeah, like I said, I mean, it's still not done all the way. I'm still working on the I'm still working on the profile. But from, from, from what I understood is that once I actually, once I actually enable and launch the Google ads. I think, I think I understood that most of the leads that I will be getting is people that are actually ready to buy the product, right? So, so the other, the other aspect of it too, is like, I need to figure out how to tie in that to set some of the leads to my actual website that I'm trying to develop where where I have options for people to book in appointments. As far as, like, somebody needs their particular Particulate Filter, Filter cleaned, or they need to do a tune up, or or they need, they need some other services. Another thing that's really not popular, but it's, it's really a high demand. It's like now here in California with the with the California carbs, now there's, they have a lot of high restrictions on diesel trucks from a certain weight range, which is like 14,000 pounds and above. So, so those structure are being placed on a mandate where they have to be compliant, so they have to do, like, like, a small check. So I kind of, I've been working on getting the certificate to be able to do those. So I'm actually trying to push that that way. You know, it. It's easy, easy money. Because, like, one of those tasks will take me, like, 30 minutes, and I could charge up to, like, it varies, like, 100 to $200 you know, and if I could land 10 of those a day, like that, that, like, my goal is to at least score, like, get it in the habit of at least me bringing in about $1 a day. But it's all about customer acquisition, right? So I just got to make, make sure that the system is going to work right, and put me on the top of the list. So that's really what I'm working on.
+
+Speaker 1  30:30
+Okay, cool. Are you able to do just regular inspections, like vehicle inspections? Are you certified to do that? Yeah. Is that also bringing customers too cheap, right?
+
+Speaker 4  30:42
+And then, like, one of the biggest obstacles that I'm kind of running into that in that aspect to doing, like, 60 inspections, 90 day inspections, bid inspections, all that stuff that's related to do T regulation, is that most of it, since most of those are, like, on the big trucks and trailers, my shop doesn't really have the footprint to house a tractor trailer, so I would have to kind of force to go and do it on site, right? And so another thing too, like, I don't quite have the equipment right now because, because I need a service truck, and I just don't have the funds to buy one yet. So so right now, my strategy, I kind of shifted from doing like, heavy, heavy duty trucks to like doing medium duty trucks. And that's kind of what like, like the target right now, kind of changing the niche so that I could put potentially get as much as I can from the shop itself before I actually go and do mobile service, you know. Okay, yeah, that's kind of in my plans. But right now, like, I'm trying to to, utilize the shop footprint as much as they can.
+
+Unknown Speaker  31:44
+Okay, nice. Yeah, thank you. I appreciate you guys hearing me out. Yeah.
+
+Speaker 1  31:52
+I mean, it sounds like you're moving forward. That's good, that's good.
+
+Speaker 4  31:56
+And then I guess the other obstacle that I have right now, like I was, I was actually an asset about that, because it seems like you you have a couple of shops, and so based on my integration, I'm currently working with the Mitchell Mitchell one, which is giving me the support for technical and then it's helping me create the invoices. But as far as like, like getting a platform for payment, I was kind of using Stripe, but I've noticed that some of my customers kind of had a little bit of difficulty using it because a lot of them are not really technical savvy. So so I'm in the transition where I'm looking for a better payment processor that I could integrate to to Mitchell. And so right now I'm looking at, I think it's 360 payments, and then global, global payments and like, like, I think, I think I'm looking at those. It's just that 360 is gonna cost me, like, $50 a month. And I also have to rent a device for payments, you know, so I was, I was thinking, like, what will be your input?
+
+Speaker 1  32:58
+Well, I mean, that's pretty common that you have to rent the the the actual hardware, right, as far as Mitchell goes, I'm not sure, because we don't, we use shot monkey everywhere, because we're not. I know that Mitchell, you said I think last week that Mitchell is a little bit better for diesel stuff that has more correct, it has more support. Yeah, so, but we're using shop monkey and stripe. That's what we use everywhere. So, and the only issue that customers have with stripe is the the fees related to the payment. So we absorb those fees. They don't know that those fees are there. But really, what we do is we add it into the price before they're invoiced. So it ends up working out, you know, they still pay for it. It's just not like we don't quote them a price of $200 and then they actually go to pay, and it's 210 because of processing fees. You know, it's costing us 190 we're charging them 200 and then when they get invoiced, it says 200 you know. So there's no surprises there. I think that's what people don't like. Is that surprise? But, but, yeah, we've, we've contracted all this stuff through stripe. We haven't had any problems. But, you know, we don't have a lot of people that are paying online. You know, most people come and pick their cars up. They swipe their card right there. And, you know, they're, they're through and you know, something else that I've done and is we don't take cash payments. Okay, gotcha, you don't take any cash payments. And part of that is because I'm not at the businesses day to day. And I think that just makes when you don't allow cash, it makes it easier to manage the people. You don't have to worry about it, right? It's, there's a big amount of cash in your business for anything. It just, it's temptation, and then somebody has to go to the bank. It's just a whole bunch of stuff that that adds on to the top of it. And we haven't had anybody, any customers say, Oh, you don't take cash. Well, we're not, you know, we're not going to do this. You know, at in the least, maybe they'll do a check, you know, and I'll take the checks to the bank at the end of the end of the week. That's not, if I have to, that's not a big deal. But you can just Remote Deposit those anyway. Just take a picture. Take a picture. You're good to go. But, yeah, that's what we've we've done as far as cash payments go. But I like Stripe. Stripe is reliable. Stripe is the industry standard people know, know it and trust it. If you're worried, like, say, if it's a huge job, like somebody comes in with something, you know, it's going to cost 10s of 1000s of dollars, you can have them put their card on file ahead of time. So that way, if there's any you know, if there's some kind of discrepancy, like, hey, they don't want to pay or whatever, you can still charge the card. You know, they can always later, but, I mean, it's just good to have that reassurance,
+
+Speaker 4  35:50
+yeah, because I think there's options in there where stripes gonna try to like multiple ways, right, to try to process a payment. And overall, I like Stripe because I like their, their their I like their Gage, how they have the the thing on the back end where you can see all the reviews. I mean, you can see, you could track all the transactions and stuff like that. You know,
+
+Unknown Speaker  36:17
+financing stripe too.
+
+Speaker 4  36:19
+Yeah, exactly. It's just, it's just, it's just the fact that, when I have created the the the invoices, I think that the templates on on stripe are not really customizable. And the thing is, like with automotive invoices, like they're really, they're really atomized. So, so that's kind of like the birds when I'm running into issues. You know, I would put
+
+Speaker 1  36:43
+your Mitchell should create your invoices, and then stripe should just be your payment processor. It shouldn't necessarily be your invoice creator. Mitchell should do the invoices for you, and then have a link on the invoice that if they want to pay online, they pay online through stripe, but the invoice is from Mitchell. That's how it works for shop monkey,
+
+Speaker 4  37:04
+okay, so some so in other words, you have records of all the invoices on shop monkey, but then you have separate records of all the invoices that are coming in, right? Because, you imagine, we don't
+
+Speaker 1  37:15
+even have the invoices on there. We just have the payments themselves and then an invoice number that comes through from stripe, so you can match them, if you need to match them, but it'll, you know it already, it automatically does it for you behind the scenes, like I don't have to worry about that. I just know that if they, if I send them an invoice electronically from the business through SHOP monkey, when they pay it through the link that comes in there. They pay it through stripe, and it comes directly to our bank account A couple days later.
+
+Speaker 4  37:45
+Oh, okay, you know, maybe, maybe there is a picture I haven't explored, you know, maybe I need to look more into it, because I
+
+Speaker 1  37:53
+would assume that it does that's pretty that's pretty standard. I bet, I bet there's something you need to activate in Mitchell,
+
+Speaker 4  37:58
+yeah, yeah. Because that way, if that's the case, then I want to have to change anything, you know? Yeah, so okay, I'll look into that. I'll probably, I'll probably follow up with you so you can walk me through it. Okay?
+
+Speaker 1  38:12
+I mean, I can try to help, but I don't know much about Mitchell, but I can try. You should have a rep that you should be able to talk to if you're paying for the software, to go customer support and say, hey, you know we're using Stripe. We don't like the invoices. Do you handle invoices through Mitchell? And how does that work? They should be able to walk you through the whole thing, because they don't want you to leave. They want that recording.
+
+Speaker 4  38:37
+Yeah, I just spoke to them, and, like I said, they right, right now. They're giving me two options. I could either use 360 payments, and I think they have another option, which is global, global payments. So So I have an appointment Monday morning, and then we're going to go through it and see, see the options, and compare it against right and see the
+
+Speaker 1  38:57
+payment processor itself. What you want to ask them is about the invoice itself. Like, will Mitchell create the invoice? That's a kind of a different it's a different level.
+
+Speaker 4  39:11
+Yeah, I think that, I think I was sold it. It doesn't like it has to. It has to. I mean, it creates an invoice on itself and with all the details and the taxes and all that. But it doesn't really have a link, and I think it's, it's only able to be enabled through a third party, which is a global, global payments. And if I use that feature, like, I wouldn't pay an extra, an extra fee to use it, you know, like, again, like the fees will be transferred over to the
+
+Unknown Speaker  39:43
+to the customer on the invoice that will be added on there.
+
+Speaker 1  39:48
+Okay, gotcha, but yeah, I mean, I'm sure they have something that's easy for business owners. Like, they want to make it as easy as possible. So there has to be some kind of solution if you. Like, those invoices and Stripe, they have to have something that's because, I mean, Mitchell is pretty popular. It's a, you know, they're, It's neck and neck, so
+
+Speaker 4  40:09
+they have to, yeah, I mean, I, I mean, I'm pretty comfortable with them. I like, like, they have great support. It's just the, it's just the payment thing, that it's really, you know, an inconvenience, you know, like, and I've noticed too, that, like, like, when I try to work it out, or I do the invoice, and then it takes me time, like, trying to figure putting an estimate together on strike, it kind of holds up the customer, so kind of creates a backlog of them, getting them in and out. Like, as quick, as quick as I would like, you know,
+
+Speaker 1  40:40
+yeah, and there are also, you know, if you don't want to use stripe, there's a lot of different invoicing, you know, apps out there that you can put on your phone create an invoice that's integrated with stripe as a third party. Things. I'm trying to think of what it's called, I can't remember. Now, we used to use it for the for the landscaping, but like jobber is one of them where you can create invoices, if you just go right now to the app store, I don't know if you have an iPhone or just whatever, and just look for invoice apps to Create Invoice. Invoice like payable invoice apps, there's a ton of them out there, and that make it really easy. You can create templates. You can put your business logo on there. You can say, like, if you have recurring things all the time that come up, you know, you can just say, Okay, here's this template, and it'll automatically plug the data in for that customer. And it just makes it way easier. There's, there's always a software solution. Just sometimes you might have to go to a third party vendor. Yeah.
+
+Unknown Speaker  41:41
+Right? Yeah, yeah. I'll do some more research.
+
+Speaker 4  41:47
+Because overall, like, I was just trying to take up, like, the invoices straight for Mitchell, and kind of try to drop them into into a stripe, and hoping that it was going to follow the the template. But it quite doesn't, you know. So, yeah, I'm just gonna look into that.
+
+Unknown Speaker  42:04
+Gotcha, and there you go. So Gina said, Look at wave.
+
+Unknown Speaker  42:09
+That might be one. Yeah. Also,
+
+Speaker 5  42:14
+once it was sent Mariana, you can install, like a chat GPT app on your computer, and you can share your screen. And if you, let's say you start with like, integration problems, you can ask AI, and it will walk you through like, how to integrate, like, either stripe or any other apps. So that's a great help. Like, basically, it watches your screen, whatever you do, and you can ask questions, and it will show you, like, you can click this or do that. So I think that's, that's great,
+
+Speaker 4  42:45
+yeah, okay, I'll give that a try, because I think I just got, I got done downloading chat GPT couple of
+
+Speaker 5  42:52
+days ago, yeah? Well, like, even, like Google, Gemini or Claude, AI, those, uh, they're all good, right?
+
+Speaker 4  43:01
+Yep. Okay, awesome. Thank you guys. I appreciate the input. Yeah, no problem.
+
+Unknown Speaker  43:09
+Patience. You have a question?
+
+Speaker 6  43:13
+Yeah, I do. So I'm just still on my journey trying to acquire the beauty show. At what point do you go to the bank like trying to deal with the seller? On one end, I got the business settled, the one that's going to acquire the business. I got an ear and and a phone for the business as well. Somebody was saying, I listened to somebody online recently, and they were saying, who's a financial person? I was saying like, you know, most banks will rather you register your business with the name of where you stand. If they want to lend you money, they want to be able to track where you are, you know. But then I think there were other that I heard before that they said, Well, you don't want to look like you want the business to look as professional as possible. So already I got a virtual address that I registered a business with, although I bank with this bank so they know me. I have financed the vehicle with them before, but with a different branch, so they kind of know me. Nothing is because I'm still dealing with a seller and a lawyer trying to get the LOI into him, you know, to start the process going. At what point do I go to the bank to establish the lending to. Do I wait until I see that document? Or do I need I know one of my bank said you have to bring the financials, the PnL and the tax for three years. But the other bank, the guy, was more friendly and more willing to, like, advise me, wanting to quote me, because I have my other business in the bank as well. So he, he kind of gave me a breakdown of what he think I should do, and that once I get that going, put pressure on the lawyers so you can start the process going. So my thing is, at what point do I go to start, you know, like the SGA process, just another monthly process. So it is, it is started.
+
+Speaker 1  45:55
+Yeah, you so you didn't even need to have a bit at for this portion. You didn't need to have a business entity, yet, you know that, oh, the business entity and having everything created the right way for on that LLC is for capital stacking and getting lines of credit for that business itself, for that LLC to for a startup, or for Whatever that that's not necessary. That's not for business acquisition. You know, that's for
+
+Speaker 6  46:26
+he wanted me to get it because what he told me was, if we gonna give you this money, we want to make sure you have a bank account in the name of the business and everything like, When am I gonna give it to you?
+
+Speaker 1  46:41
+But you can do, yeah, you can do that at any point later, because, look, they're not going to look at really anything from that business. They want to make sure that you have before they're going to give you the loan to make sure that you have a structured corporation that's in good standing in the state, you know that that's all they really care about, but everything else is going to be based on your personal credit profile. And then what the what you're acquiring. So what you do is you get the financials, you get those P and L's, you get the tax returns, and you go to whatever bank and they're the banker, or the SBA lender or the rep there is the first person that's going to look at those financials, other than you. So they're like, your first line of defense. When you go to the lender and you say, Okay, this is what they're asking. I like the business. I you know, I like the numbers. I like whatever. Here's the financials, and they'll look at them first. You know, they do this stuff all the time. They do commercial loans, you know, they've probably done, you know, huge deals, small deals, startups, acquisitions, you name it. They'll look at those P and l's and those tax returns, and they'll be able to tell you from at an expert level. This is, yeah, we could probably finance this. This is the DSCR. Is this? You know, all the stuff that we took, we put in that analyzer and that spreadsheet, they're going to go through that, they're going to it's going to be on their computer. They're going to plug those numbers in, it's going to come out. So that's pretty much the first outside person that looks at your deal. Is that lender? So, yeah, you as soon as you get the financials and you look at them yourself, and you plug them into the spreadsheet that we have, and you know that it looks good. It looks like it's going to make money. It's a type of business that you want, like all those things that we talk about. Then you, you take all that stuff to a lender, and they look at it, and then if they say, yeah, we can, you know, we can fund it. Blah, blah, blah. Then you do a loi to, you know, to the business, to put a letter of intent down to where you can say, okay, yeah, pre approved, you know. But you, you know, I'm pre approved for the financing, whatever I went to this bank with, you know, with the numbers, and they will fund it. Then you can, from that point, you can work on your LLC and all that stuff if you need it, but you already have one, so you're good there. But that's you generally, the stages that you go. And then you have, you know, 90 days of due diligence after the LOI or more, where you're going through all of those phases, you're looking at everything, you're making sure that what they told you is true, that you know everything is what you think it is. And then you move on from there, so that that's one that's if you have the down payment, if you have the ability to bring the down payment yourself, okay, if you don't have the ability to bring the down payment yourself. Then, and you're wanting a capital stack, then you create, you start with an LLC. You properly form the LLC, and then you do business funding to get, to get the funds for the down payment. And you put them in, you liquidate those cards, put them in your bank. Count, and then you move on to LOI. Does that make sense? Yeah.
+
+Speaker 6  50:04
+But how do you, how do you get capital funding for a new business like the business doesn't have any profile,
+
+Speaker 1  50:13
+that's what Gabriel Yeah, if it's because, I don't know why they fund it. But they do. You know, that's what you know, you can get 70 to $80,000 in business funding in form of business credit cards, through capital stacking, as long as you have a strong personal credit profile and you form the LLC in the correct way. So you need, you need several things to have a strong credit profile. You need over 700 credit score. You need, you need seasoned credit cards from national banks, at least one that's over a $5,000 limit, that's not in that you don't have collections or something like that. I mean, you it needs to be a good credit score. So, so what they're basing that that funding on is your personal credit. That's why, yeah, because you have to personally guarantee it. You know, the the days of being able to just create an LLC and go out and get funding that wasn't attached to you personally, those days are over. You have to have a your business has to have been around for a long time with a good business credit score, multiple lines of credit and, you know, and yeah, there's, you just can't really do that anymore, but, but that's why they're they're willing to give it to you, because your personal credit is on there. So it just depends. Are you able to bring a down payment yourself? Are you looking to finance the down payment?
+
+Speaker 6  51:48
+Actually dipped into my down payment a little bit because my other business that I started a baby that's not wanting to leave is really cool and true. I just feel like I've spent so much, you know, so at the beginning of the taxes, and I had, like, you know, a chunk of money that should have been greatly, like, intact for down payment, but I had to dip into it because of this business, and I have, we have, like a broker already, like the business is just about to take off by next week, hopefully I'm signing some paperwork so believing you know, by the time you know everything is set to go, this business should be bringing some money back To me, my own money that that it got already. So, yeah, I have the down payment, but like, I'm spending my money is just I'm spending, which is something that I can stop, like I have to take care of some stuff. But hopefully, if the payment, or if the whole process lingers, like you should be closing, takes like six weeks, right?
+
+Unknown Speaker  53:06
+Yeah, yeah. I mean,
+
+Unknown Speaker  53:09
+are you going traditional bank?
+
+Speaker 6  53:13
+Yeah, traditional bank. But they want to, they want to put me through the SBA,
+
+Speaker 1  53:18
+or bringing 20% for, okay? So yeah, with an SBA, you're going to need at least six weeks. So that's why, that's why, if you have the financials already, you're better off to go ahead and go to go to the bank with those financials and talk to the SBA person there. Say, here's the financials, fundable.
+
+Speaker 6  53:38
+I don't have the financials yet. And my little worry right now is the fact that, like, I've listened to you talk with Keith tonight, and I've listened to what you just said recently to Mariano, it seemed like I'm going about mine the wrong way. My loi is coming first before anything. Like, why is mine different? Like, haven't seen any financials and I'm doing LOI. Like, God help me.
+
+Speaker 1  54:08
+Like, yeah, you don't want to do an LOI before you get the financials. Yeah? This is if they're demanding an LOI first. I wouldn't do it. Yeah? Why would they want you to I even though it's non binding, it doesn't make sense. You you sign the the traditional ways. You sign an NDA, where you know you're not going to put their business out there. You know, all their personal information, their numbers. You sign the NDA, they give you the financials. Then you you vet the business, you decide if it's a good deal for you or not. If it is, then you do an LOI. But you should not have to do an LOI first.
+
+Speaker 6  54:49
+Yeah, okay, sorry again. Tell them
+
+Speaker 1  54:58
+that's highly irregular. There, and there's no you're not comfortable entering into an LOI without seeing financials, and you're willing to sign a non disclosure and all that stuff, but you're not willing to, you know, waste your time if the financials don't meet your criteria.
+
+Speaker 6  55:20
+Because, like this, this is ringing the bell right now. Why do an LOI first? Like, I don't even know where we go with this yet.
+
+Speaker 1  55:27
+Yeah, yeah, find it. You inquire. You you do an NDA. You give financials. You decide if you want to move forward. If you do, then it's LOI. Then you do due diligence at that point, and then you do purchase agreement, and then you close. That's pretty much the sequence of how it should
+
+Speaker 6  55:47
+be okay. So NDA, financials, loi and purchase agreement, yep. Now this lawyer is claiming he has done a bunch of acquisition, a bunch of sales, and actually a friend recommended him to me, who has used him in the past. And he's like, Yeah, trust me, I put this on my on my letter headed paper, meaning I know what I'm doing.
+
+Unknown Speaker  56:13
+Like, I don't seem comfortable either.
+
+Speaker 1  56:17
+The only, the only time that a lawyer would even be involved is at the LOI stage, so he's just jumping in to where he normally starts, like it's too early for for lawyers.
+
+Speaker 6  56:28
+I see, I see what you mean. Yeah, it's just too I think it's because the other the seller and his lawyer insisted they don't want to deal with nobody. They want to be lawyer to lawyer, well,
+
+Unknown Speaker  56:45
+then maybe they don't want to sell bad enough. I mean,
+
+Speaker 1  56:50
+I mean, you're you're willing to do reasonable things in order to close a deal, but you're not willing to take unnecessary risk, what? And then you're not willing to go to an attorney at this stage and spend unnecessary money on a business that may or not, it might not even be solvent. It might be losing 50,000 a year. You don't know until you see the financials. So you don't want to be anywhere near that if that's if that's the case, why waste money if, if it's not a viable business. And the only way you know you have a hint to where it maybe it's viable, maybe it's not, is with those financials. So if they're not willing to give you those financials, they are not a good faith seller, and I would just move on.
+
+Speaker 6  57:37
+Okay, all right, thank you. I think the issue with him was he had already made up his mind to sell out and close up and go so he see no reason to like if you want to do it, do it for you. If you don't want to, then I'll move on.
+
+Speaker 1  57:59
+Yeah, well, but what they have going on, you have to keep yourself safe, and you don't want to waste your things like that.
+
+Unknown Speaker  58:10
+Okay, thank you.
+
+Speaker 1  58:18
+Anybody else got any questions? Joe, being super quiet. Are you instacarting right now? Is that what's going on?
+
+Unknown Speaker  58:32
+Yep, I bet so.
+
+Speaker 1  58:38
+Okay, well, this was a good one. Guys next I'm not sure about next week's class what we're going to do, but we'll figure something out, something useful, probably back on the business side, but but we'll see maybe even a lead generator, like we talked about, that might be something that is worth looking into just because I've dealt with those people before, and I would not recommend Angie's leads to anyone just because I had some bad experiences with them. They did. They will give you leads, but you have to pay a lot of money to get leads. So that might be something worth looking into for next week. But, yeah, okay, I'm gonna go ahead and shut the mentorship recording down.

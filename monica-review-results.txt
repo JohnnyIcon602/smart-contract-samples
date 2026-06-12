@@ -1,0 +1,90 @@
+# Spreadsheet Review: parts-corrections-combined.csv
+
+## Summary
+Reviewed 80 Mercedes auto parts across 4 sections with different column formats.
+
+---
+
+## ERRORS IDENTIFIED
+
+### 1. Part Number Formatting Issues
+- **MB-A 210 820-01-56** (row 53): Missing hyphen - should be "MB-A 210-820-01-56"
+- **MB-A 202-860-1 0-47** (row 40): Erratic spacing - should be "MB-A 202-860-10-47" or similar
+
+### 2. Incorrect Vehicle Fitment Match
+- **MB-201-270-03-73** (row 13): Part name "Cable (Left)" with W129 SL fitment, but MB-201 prefix typically indicates W201 (190 Series), not W129. Possible mismatch.
+
+### 3. Price Calculation Issues
+- **Section 2** (rows 23-42): Uses "$" prefix in price columns ($150.00, $135.00, etc.) while other sections use plain numbers. This inconsistency can cause calculation/import errors.
+- The "$" format appears in both "Estimated Price" and "Discounted Price" columns.
+
+### 4. Unverified/Placeholder Data
+- **MB-203-33-09-14**: Part name contains "(Verify Application)" - flagged as unverified
+- **MB-204-333-11-14**: Year range "2005-2020" is unusually long for W204 C-Class (typically 2007-2014)
+- **MB-230-810-05-10** & **MB-230-810-06-10**: Part names contain "(Unverified)"
+- **MB-A 463-810-51-16-9744** & **MB-A 463-810-70-16-9744**: Prices and fitment all marked "Unknown"
+
+### 5. Duplicate/Overlapping Data
+- **MB-210-820-01-56** appears in both Section 1 (row 19) and Section 3 (row 53):
+  - Section 1: $215.70 discounted
+  - Section 3: $223.20 discounted
+  - **Different prices for the same part!** (likely source variation)
+
+---
+
+## INCONSISTENCIES
+
+### 1. Column Format Mismatch
+The spreadsheet has 4 different header row formats:
+- Section 1: Proper pricing (no $ sign, auto-calculated averages)
+- Section 2: Has "$" in prices, simple 2-price columns
+- Section 3 & 4: Similar to Section 1
+
+### 2. Discount Labeling Inconsistency
+- Most use "Discounted Price (10% off)"
+- Section 2 uses "Discounted Price" without the "(10% off)"
+
+### 3. Generic Vehicle Fitments
+Several parts in Section 2 use generic "Various W163/W164/W202/W171" instead of specific model fitment, which reduces usefulness.
+
+### 4. Part Number Prefix Inconsistency
+- Some entries: "MB-A xxx-xxx-xx-xx"
+- Some entries: "MB-N xxx-xxx-xxxxxx"
+- Some entries: "MB-BQ 6-xx-xxxx"
+- Some entries: "MB-Q 6-xx-xxxx"
+
+---
+
+## MINOR ISSUES
+
+1. **Row 20** (MB-124-820-89-10): "Window Switch" is vague - could specify front/rear or driver/passenger
+
+2. **Row 21** (MB-124-880-02-20): "Hood Release Handle" and Row 22 "Bonnet Release Catch" - similar items, verify not duplicate
+
+---
+
+## MISSING DATA
+
+1. **MB-A 463-810-51-16-9744** and **MB-A 463-810-70-16-9744**: No prices, no specific fitment (just "Mercedes G-Class")
+
+2. **MB-A 270-096-00-80**: Year range "2015-2026" - 2026 is in the future, likely should be "2015-2025" or similar
+
+---
+
+## RECOMMENDATIONS
+
+1. **Standardize all price columns** - remove "$" signs for consistency
+2. **Fix part number formatting** - ensure consistent hyphen placement
+3. **Verify W129 vs W201 conflict** on MB-201-270-03-73
+4. **Resolve duplicate entry** (MB-210-820-01-56) - choose one source or note price variation
+5. **Replace "Unknown" entries** with actual data or remove rows
+6. **Correct year ranges** for future dates (2026 should be current year or 2025)
+7. **Add specific vehicle fitments** where currently generic
+
+---
+
+## STATISTICS
+- Total parts: ~80
+- Errors requiring fix: 5+
+- Inconsistencies: 7+
+- Unverified/Unknown entries: 6

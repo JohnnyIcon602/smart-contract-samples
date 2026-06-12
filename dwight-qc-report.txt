@@ -1,0 +1,168 @@
+# FINAL QC REPORT - Parts Spreadsheet Review
+**Date:** 2026-03-06  
+**Reviewer:** Dwight (Subagent)  
+**File:** parts-corrections-combined.csv  
+**Purpose:** eBay Bulk Upload Preparation  
+
+---
+
+## EXECUTIVE SUMMARY
+
+Total Parts: ~80 across 4 sections
+
+Monica identified 5+ errors and 7+ inconsistencies. This review **VERIFIES** most findings and adds additional items.
+
+---
+
+## ✅ VERIFIED ERRORS FROM MONICA'S REVIEW
+
+### 1. Part Number Formatting Issues ✓
+| Row | Current Part # | Issue | Should Be |
+|-----|----------------|-------|-----------|
+| ~40 | MB-A 202-860-1 0-47 | Erratic spacing | MB-A 202-860-10-47 |
+| ~53 | MB-A 210 820-01-56 | Missing hyphen | MB-A 210-820-01-56 |
+
+### 2. Price Format Inconsistency ✓
+- **Section 2** (rows 23-42): Uses "$" prefix ($150.00, $135.00)
+- **Other sections**: Use plain numbers (150.00, 135.00)
+- **Impact**: Will cause import errors in eBay bulk upload
+
+### 3. Duplicate Entry ✓
+- **MB-210-820-01-56** appears twice:
+  - Section 1: $215.70 discounted
+  - Section 3: $223.20 discounted
+- **Issue**: Same part, different prices
+
+### 4. Unverified/Placeholder Data ✓
+| Part Number | Issue |
+|-------------|-------|
+| MB-203-33-09-14 | Contains "(Verify Application)" |
+| MB-204-333-11-14 | Year range "2005-2020" (too broad) |
+| MB-230-810-05-10 | Contains "(Unverified)" |
+| MB-230-810-06-10 | Contains "(Unverified)" |
+| MB-A 463-810-51-16-9744 | All data "Unknown" |
+| MB-A 463-810-70-16-9744 | All data "Unknown" |
+
+### 5. Future Date Error ✓
+- **MB-A 270-096-00-80**: Year range "2015-2026" (2026 = future)
+- **MB-A 276-018-00-80**: Year range "2015-2026" (2026 = future)
+
+---
+
+## ❌ ISSUES MONICA MISSED
+
+### 1. Column Header Mismatch (CRITICAL)
+The spreadsheet has **4 DIFFERENT COLUMN STRUCTURES**:
+
+**Section 1 (rows 1-22):**
+```
+Part Number, Correct Part Name, Correct Vehicle Fitment, Source 1 Price, Source 2 Price, Source 3 Price, Average Price, Discounted Price (10% off)
+```
+
+**Section 2 (rows 23-42):**
+```
+Part Number, Current Description, Corrected Description, Vehicle Fitment, Estimated Price, Discounted Price
+```
+
+**Section 3 (rows 43-70):**
+```
+Original Part Number, Correct Part Number, Part Name/Description, Vehicle Fitment, Source 1 Price, Source 2 Price, Source 3 Price, Average Price, Discounted Price (10% off)
+```
+
+**Section 4 (rows 71-80):**
+```
+Original Part Number, Corrected Part Number, Part Name/Description, Vehicle Fitment, Source 1 Price, Source 2 Price, Source 3 Price, Average Price, Discounted Price (10% off)
+```
+
+**Impact**: Cannot be imported as single consistent dataset to eBay without significant rework.
+
+### 2. Part Number Inconsistencies
+| Current | Issue |
+|---------|-------|
+| MB-A 203-440-72-07 | Original has "MB-A " prefix, corrected is just numbers |
+| MB-A 203-698-19-98 | Same issue |
+| MB-N 000000-003661 | Non-standard format (includes leading zeros) |
+| MB-BQ 6-54-0017 | Non-standard format |
+| MB-Q 6-82-0729 | Non-standard format |
+
+### 3. Fitment Description Issues
+| Part # | Current Fitment | Issue |
+|--------|-----------------|-------|
+| MB-A 163-820-49-61-64 | Various W163/W164/W202/W171 | Wrong - W171 is A-Class (2004+), W202 is C-Class (1993-2000), W163 is M-Class (1998-2005), W164 is M-Class (2005-2011) - These don't overlap |
+| MB-A 001-821-49-51 | Various W163/W164/W202/W171 | Same issue |
+| MB-201-270-03-73 | W129 SL (1989-2001) | MB-201 prefix usually = W201, but W129 is different platform |
+
+### 4. Price Calculation Errors
+| Part # | Source 1 | Source 2 | Source 3 | Avg | 10% off |
+|--------|----------|----------|----------|-----|---------|
+| MB-220-820-12-66 | 267.93 | 280.00 | 255.00 | 267.64 | 240.88 |
+| MB-220-980-10-64-05 | 85.00 | 95.00 | 78.00 | 86.00 | 77.40 |
+
+Math verified - these appear correct.
+
+### 5. Missing Required eBay Fields
+For eBay bulk upload, these fields are typically REQUIRED:
+- **Category ID** - NOT PRESENT
+- **Item Specifics** - Inconsistent
+- **Title** - NOT A EUC (not in proper listing format)
+- **Condition** - NOT PRESENT (eBay requires New/Used/etc.)
+- **Image URLs** - NOT PRESENT
+
+### 6. Description Quality Issues
+Several entries have:
+- Vague descriptions: "Part Interior", "Switch", "Trim", "Cable (Left)"
+- Inconsistent capitalization
+- Some have "(Verify Application)" or "(Unverified)" markers
+
+---
+
+## 🚨 HIGH PRIORITY ISSUES (MUST FIX)
+
+1. **Standardize all price columns** - Remove "$" signs from Section 2
+2. **Fix part number formatting** - Add missing hyphens, fix spacing
+3. **Resolve duplicate entry** MB-210-820-01-56 - Remove one or average prices
+4. **Fix future dates** - Change 2026 to 2025
+5. **Fix column structure** - Consolidate to one format OR separate into distinct sheets
+
+---
+
+## ⚠️ MEDIUM PRIORITY ISSUES
+
+1. **Generic fitments** - Replace "Various W163/W164/W202/W171" with specific models
+2. **Unverified parts** - Either remove or clearly mark in title
+3. **Part number prefixes** - Standardize "MB-A", "MB-N", "MB-BQ", "MB-Q" usage
+4. **Missing eBay fields** - Add Category ID, Condition, Image URLs if required
+
+---
+
+## 📊 RECOMMENDATIONS FOR EBAY UPLOAD
+
+1. **Split into multiple spreadsheets** by section (different column formats)
+2. **Add eBay-required fields**:
+   - eBay Category ID (e.g., 33564 for Mercedes Parts)
+   - Condition (New, Used, Remanufactured, etc.)
+   - Listing Type (Fixed Price / Auction)
+3. **Clean up titles** - Current "Part Name" is not listing-ready
+4. **Add photos** - eBay listings need image URLs
+5. **Remove Unknown entries** - MB-A 463-810-xx-9744 parts have no pricing
+
+---
+
+## FINAL VERDICT
+
+**APPROVED WITH CONDITIONS**
+
+The spreadsheet contains usable data but requires fixes before eBay upload:
+
+| Category | Count |
+|----------|-------|
+| Critical errors | 5 |
+| Format issues | 12+ |
+| Unverified/Unknown | 6 |
+| Duplicate entries | 1 |
+
+**Action Required**: Fix formatting issues #1-5 above before upload. Consider splitting by section or standardizing columns.
+
+---
+
+*End of QC Report*

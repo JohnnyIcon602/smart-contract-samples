@@ -1,0 +1,83 @@
+Part Number,Current Description,Issue Found,Correct Description,Corrected Vehicle Fitment,Notes
+MB-A 000-542-38-25,Mercedes A-Class W168 Headlight Ballast Xenon,WRONG - Actually a Potentiometer,Potentiometer for Instrument Lighting,W168 A-Class (1998-2005),Not a headlight ballast
+MB-A 202-860-1 0-47,Mercedes W202 C-Class Part Interior,WRONG,Windshield Washer Nozzle Right Side,W202 C-Class (1993-2000),Corrected description
+MB-N 000000-003661,Transmission Shift Linkage,INCORRECT - Actually a Fuse Link,Fuse Link (or Bulb holder),Various Mercedes - older part number,Needs verification
+MB-A 463-810-51-16-9744,Mirror (Unverified),Needs verification,Door Mirror Assembly Right (Black),Mercedes G-Class W463 (1990-2018),Found as mirror part
+MB-A 463-810-70-16-9744,Mirror (Unverified),Needs verification,Door Mirror Assembly Left (Black),Mercedes G-Class W463 (1990-2018),Found as mirror part
+MB-BQ 6-54-0017,Fill Level Sensor (Likely variant),Wrong format number,Fill Level Sensor 204-540-06-17,Mercedes C-Class W203 (2000-2007),Correct part number format
+
+VERIFIED CORRECT - No Changes Needed:
+MB-000-820-81-10,Power Window Switch (Right Front) - CORRECT
+MB-000-820-82-10,Window Switch with Lockout - CORRECT
+MB-112-200-14-01,Water Pump (with Parts Kit) - CORRECT
+MB-124-460-01-19,Idler Arm Bushing Kit - CORRECT
+MB-124-820-17-75,Door Lock Actuator Motor - CORRECT
+MB-124-820-46-10,Interior Rearview Mirror - CORRECT
+MB-124-820-89-10,Window Switch - CORRECT
+MB-124-880-02-20,Hood Release Handle - CORRECT
+MB-124-880-03-20,Bonnet Release Catch - CORRECT
+MB-126-460-08-19,Intermediate Lever (Idler Arm) - CORRECT
+MB-140-821-29-51,Switch (Various Functions) - CORRECT
+MB-163-680-98-39,Ornamental Cover (Lid) - CORRECT
+MB-201-270-02-98,Sieve Insert/Filter - CORRECT
+MB-201-270-03-73,Cable (Left) - CORRECT
+MB-201-460-00-50,Steering Coupling - CORRECT
+MB-203-33-09-14,Control Arm Bushing - CORRECT
+MB-204-333-11-14,Hydromount (Upper Control Arm) - CORRECT
+MB-210-820-01-56,Front Fog Lamp Assembly - CORRECT
+MB-210-820-02-56,License Plate Lamp - CORRECT
+MB-210-826-07-82,Tail Light Socket - CORRECT
+MB-A 000-821-15-52,Contact Switch Turn Signal - CORRECT
+MB-A 000-826-12-59,Interior Trim Panel - CORRECT
+MB-A 001-821-49-51,Door Mirror Glass with Heating - CORRECT
+MB-A 001-826-53-82,Interior Socket Outlet - CORRECT
+MB-A 163-820-49-61-64,Headlight Assembly Left - CORRECT
+MB-A 163-860-04-69-05-9051,Exhaust Clamp Bracket - CORRECT
+MB-A 163-885-07-81,Fuel Line Hose - CORRECT
+MB-A 164-320-11-31,Rear Shock Absorber - CORRECT
+MB-A 164-581004649040,Air Suspension Strut Front - CORRECT
+MB-A 164-740-03-35,Air Suspension Compressor Pump - CORRECT
+MB-A 164-810-14-64-9040,Interior Mirror Housing - CORRECT
+MB-A 164-820-1585-7E94,Interior Trim Panel - CORRECT
+MB-A 164-820-50-61-64,Interior Trim Cover - CORRECT
+MB-A 166-440-70-13,Suspension Linkage - CORRECT
+MB-A 171-830-01-85-05,Climate Control Panel AC - CORRECT
+MB-A 202-720-35-35,Radiator Cooling Fan - CORRECT
+MB-A 202-730-07-35,Viscous Fan Clutch - CORRECT
+MB-A 202-800-03-78,Power Antenna Mast - CORRECT
+MB-A 203-440-72-07,Wiring Harness - CORRECT
+MB-A 203-698-19-98,Upper Rocker Panel Molding Seal - CORRECT
+MB-A 203-811-04-60-9040,Mirror Housing - CORRECT
+MB-A 203-820-07-21,Turn Signal Lamp (Door Mirror) - CORRECT
+MB-A 203-885-18-81,Grille/Bumper Cover - CORRECT
+MB-A 204-820-10-56,License Plate Light - CORRECT
+MB-A 204-885-17-74,Trim Molding - CORRECT
+MB-A 208-760-02-61,Interior Door Handle - CORRECT
+MB-A 208-820-70-01,Turn Signal Lamp - CORRECT
+MB-A 210-820-01-56,Front Fog Lamp Assembly - CORRECT
+MB-A 210-810-08-16,Outside Rearview Mirror - CORRECT
+MB-A 210-810-19-17,Door Mirror Assembly - CORRECT
+MB-A 210-811-01-60-7721,Mirror Housing - CORRECT
+MB-A 210-820-20-75,Antenna - CORRECT
+MB-A 210-820-55-02,Speaker - CORRECT
+MB-A 210-821-42-51,HVAC Blower Motor Resistor - CORRECT
+MB-A 210-832-00-15,Piping/AC Hose - CORRECT
+MB-A 210-860-03-08,Trunk Trim Part - CORRECT
+MB-A 210-811-01-60-9040,Mirror Housing Cover - CORRECT
+MB-A 211-826-02-90-64,Socket/Taillight Bulb Holder - CORRECT
+MB-A 212-885-05-74,Trim Molding - CORRECT
+MB-A 219-820-02-64,Interior Armrest - CORRECT
+MB-A 220-270-06-12,Control Unit / Controller - CORRECT
+MB-A 220-271-00-68,Transmission Pan Bolt Retainer - CORRECT
+MB-A 220-810-10-64-9197,Trim - CORRECT
+MB-A 220-810-10-64-9999,Trim - CORRECT
+MB-A 220-820-05-21,Turn Signal Lamp - CORRECT
+MB-A 220-820-12-66,Tail Lamp Lens - CORRECT
+MB-A 220-980-10-64,Telescoping Spring - CORRECT
+MB-A 221-270-12-12,Oil Pan - CORRECT
+MB-A 230-810-05-10,Sun Visor - CORRECT
+MB-A 230-810-06-10,Sun Visor - CORRECT
+MB-A 270-096-00-80,Intake Manifold Gasket - CORRECT
+MB-A 276-018-00-80,Bleed Line - CORRECT
+MB-A 463-810-02-86,Sun Visor - CORRECT
+MB-Q 6-82-0729,CD Changer Bracket - CORRECT

@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎯 Mission Control 2.0</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #05060a;
+            color: #f4f4f4;
+            min-height: 100vh;
+        }
+        a { color: #00d4ff; }
+        .header {
+            background: linear-gradient(135deg, #050b1a, #0f1f3f);
+            padding: 22px 30px;
+            border-bottom: 1px solid #1d2b4f;
+        }
+        .header h1 {
+            font-size: 1.8rem;
+            letter-spacing: 0.04em;
+            background: linear-gradient(90deg, #00d4ff, #7b2ff7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .header .subtitle { color: #b2c2f0; font-size: 0.92rem; margin-top: 6px; }
+        .container { max-width: 1500px; margin: 0 auto; padding: 24px; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 18px;
+        }
+        .section {
+            background: #0e1424;
+            border-radius: 16px;
+            padding: 20px;
+            border: 1px solid #1e2b4f;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+        }
+        .section h2 {
+            font-size: 1.05rem;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #1e2b4f;
+            padding-bottom: 8px;
+        }
+        .section h2 span { font-size: 0.8rem; color: #8893b8; }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            margin-bottom: 25px;
+        }
+        .stat-card {
+            background: linear-gradient(145deg, #0b1020, #121b34);
+            border-radius: 14px;
+            padding: 18px;
+            border: 1px solid #1f2f54;
+        }
+        .stat-card .label { color: #9dacd4; font-size: 0.82rem; text-transform: uppercase; }
+        .stat-card .value { font-size: 1.9rem; font-weight: 700; margin: 8px 0; }
+        .stat-card .change { font-size: 0.85rem; color: #6af3ff; }
+
+        .timeline { display: flex; flex-direction: column; gap: 12px; }
+        .timeline-item {
+            display: grid;
+            grid-template-columns: 70px 1fr;
+            gap: 14px;
+            background: #070c17;
+            padding: 12px 14px;
+            border-radius: 10px;
+            border: 1px solid #17213d;
+        }
+        .timeline-item .time { font-size: 0.85rem; color: #7ea7ff; }
+        .timeline-item .details { font-size: 0.92rem; }
+        .timeline-item .agent { font-size: 0.8rem; color: #8c96b8; }
+
+        .memory-stream { display: flex; flex-direction: column; gap: 12px; }
+        .memory-card {
+            background: #080d19;
+            padding: 14px;
+            border-radius: 12px;
+            border: 1px solid #1a2444;
+        }
+        .memory-card h3 { font-size: 0.95rem; margin-bottom: 6px; }
+        .memory-card p { font-size: 0.88rem; color: #c9cee1; }
+
+        .doc-list, .agent-grid { display: flex; flex-direction: column; gap: 12px; }
+        .doc-item, .agent-card {
+            background: #070c17;
+            padding: 12px 14px;
+            border-radius: 12px;
+            border: 1px solid #1c2749;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .doc-item span:first-child { font-weight: 600; }
+        .doc-item .meta { font-size: 0.8rem; color: #97a4ca; }
+
+        .agent-card {
+            gap: 10px;
+            align-items: flex-start;
+        }
+        .agent-info { flex: 1; }
+        .agent-name { font-weight: 600; }
+        .agent-role { font-size: 0.82rem; color: #9dacd4; margin-top: 2px; }
+        .agent-status { font-size: 0.8rem; padding: 4px 10px; border-radius: 999px; border: 1px solid #283963; }
+        .status-active { color: #5af5ff; border-color: #2ea3ff; }
+        .status-idle { color: #fdda6b; border-color: #f8c146; }
+        .status-paused { color: #f77979; border-color: #f55555; }
+
+        .office-container {
+            background: linear-gradient(180deg, #1a1f35 0%, #141824 100%);
+            border-radius: 16px;
+            padding: 20px;
+            min-height: 320px;
+            position: relative;
+            border: 1px solid #2a3550;
+            background-image: 
+                linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        
+        .office-title {
+            font-size: 0.9rem;
+            color: #8893b8;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .office-floor {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 16px;
+            height: 240px;
+        }
+
+        .desk {
+            background: linear-gradient(145deg, #1e2438, #161c2e);
+            border-radius: 12px;
+            padding: 14px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            border: 1px solid #2a3249;
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: default;
+        }
+
+        .desk:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px rgba(0, 200, 255, 0.15);
+            border-color: #3d4f70;
+        }
+
+        .desk-computer {
+            width: 50px;
+            height: 32px;
+            background: linear-gradient(180deg, #2a3147, #1a2035);
+            border-radius: 4px;
+            position: relative;
+            border: 1px solid #3d4f70;
+        }
+
+        .desk-computer::after {
+            content: '';
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            right: 3px;
+            bottom: 3px;
+            background: linear-gradient(180deg, #0a1525, #0d1a2d);
+            border-radius: 2px;
+        }
+
+        .desk-computer::before {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 4px;
+            background: #3d4f70;
+            border-radius: 0 0 2px 2px;
+        }
+
+        .agent-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            position: relative;
+            border: 2px solid;
+        }
+
+        .agent-avatar.j5 { background: linear-gradient(135deg, #1a3a5c, #0d1f30); border-color: #00d4ff; }
+        .agent-avatar.monica { background: linear-gradient(135deg, #3a1a5c, #1f0d30); border-color: #c084fc; }
+        .agent-avatar.dwight { background: linear-gradient(135deg, #5c3a1a, #301f0d); border-color: #fb923c; }
+        .agent-avatar.picasso { background: linear-gradient(135deg, #1a5c3a, #0d301f); border-color: #4ade80; }
+        .agent-avatar.lois { background: linear-gradient(135deg, #5c1a3a, #300d1f); border-color: #f472b6; }
+        .agent-avatar.addy { background: linear-gradient(135deg, #3a5c1a, #1f300d); border-color: #a3e635; }
+
+        .agent-status-dot {
+            position: absolute;
+            bottom: 2px;
+            right: 2px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 2px solid #1e2438;
+        }
+
+        .agent-status-dot.active { background: #4ade80; box-shadow: 0 0 8px #4ade80; }
+        .agent-status-dot.idle { background: #fbbf24; box-shadow: 0 0 8px #fbbf24; }
+        .agent-status-dot.paused { background: #f87171; box-shadow: 0 0 8px #f87171; }
+
+        .desk-label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #d1d7ec;
+            text-align: center;
+        }
+
+        .desk-task {
+            font-size: 0.7rem;
+            color: #7a85a8;
+            text-align: center;
+            max-width: 90px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /* Hover tooltip */
+        .desk-tooltip {
+            position: absolute;
+            bottom: calc(100% + 12px);
+            left: 50%;
+            transform: translateX(-50%) scale(0.9);
+            background: linear-gradient(145deg, #1e2438, #12161f);
+            border: 1px solid #3d4f70;
+            border-radius: 10px;
+            padding: 12px 16px;
+            min-width: 160px;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.2s ease;
+            z-index: 100;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .desk:hover .desk-tooltip {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) scale(1);
+        }
+
+        .desk-tooltip::after {
+            content: '';
+            position: absolute;
+            bottom: -6px;
+            left: 50%;
+            transform: translateX(-50%) rotate(45deg);
+            width: 12px;
+            height: 12px;
+            background: #1e2438;
+            border-right: 1px solid #3d4f70;
+            border-bottom: 1px solid #3d4f70;
+        }
+
+        .tooltip-name {
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: #fff;
+            margin-bottom: 4px;
+        }
+
+        .tooltip-role {
+            font-size: 0.75rem;
+            color: #8893b8;
+            margin-bottom: 8px;
+        }
+
+        .tooltip-task {
+            font-size: 0.8rem;
+            color: #4ade80;
+            background: rgba(74, 222, 128, 0.1);
+            padding: 6px 10px;
+            border-radius: 6px;
+            border: 1px solid rgba(74, 222, 128, 0.2);
+        }
+
+        .coffee-machine {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 30px;
+            height: 35px;
+            background: linear-gradient(145deg, #3d4f70, #2a3249);
+            border-radius: 4px;
+        }
+
+        .plant {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 1.5rem;
+        }
+
+        .todo-list { display: flex; flex-direction: column; gap: 10px; }
+        .todo-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: #070c17;
+            border-radius: 12px;
+            padding: 12px 14px;
+            border: 1px solid #192341;
+        }
+        .todo-item .task-text { flex: 1; font-size: 0.93rem; }
+        .todo-item.completed .task-text { text-decoration: line-through; color: #5d678b; }
+        .status-select {
+            padding: 6px 10px;
+            border-radius: 8px;
+            background: #0d1528;
+            color: #d1d7ec;
+            border: 1px solid #283963;
+        }
+        .delete-btn {
+            background: none;
+            border: none;
+            color: #f77979;
+            font-size: 1.2rem;
+            cursor: pointer;
+            opacity: 0.6;
+            transition: opacity 0.2s;
+        }
+        .delete-btn:hover { opacity: 1; }
+        .status-select.pending { border-color: #ffd700; color: #ffd700; }
+        .status-select.active { border-color: #44f6ff; color: #44f6ff; }
+        .status-select.complete { border-color: #44ffb1; color: #44ffb1; }
+
+        .add-task-form { display: flex; gap: 10px; margin-top: 12px; }
+        .add-task-form input {
+            flex: 1;
+            padding: 11px 14px;
+            border-radius: 10px;
+            border: 1px solid #1a2647;
+            background: #050912;
+            color: #f3f6ff;
+        }
+        .add-task-form button {
+            padding: 11px 20px;
+            border-radius: 10px;
+            border: none;
+            background: linear-gradient(135deg, #00d4ff, #7b2ff7);
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        /* Clock and save indicator removed - causing overlay issues */
+    </style>
+</head>
+<body>
+    <!-- Fixed UI elements removed -->
+
+    <div class="header">
+        <h1>🎯 Johnny Five Mission Control</h1>
+        <div class="subtitle">Command hub • Mission log synced with memory journal • <span id="lastUpdate"></span></div>
+    </div>
+
+    <div class="container">
+        <div class="stats-grid" id="statGrid"></div>
+
+        <div class="grid">
+            <div class="section" style="grid-column: span 2;">
+                <h2>🗓️ Autonomous Schedule <span>Next 24h</span></h2>
+                <div class="timeline" id="schedule"></div>
+            </div>
+            <div class="section">
+                <h2>🧠 Memory Stream <span>Daily journal snapshots</span></h2>
+                <div class="memory-stream" id="memoryStream"></div>
+            </div>
+            <div class="section">
+                <h2>📂 Docs & Artifacts <span>Latest deliverables</span></h2>
+                <div class="doc-list" id="docList"></div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="section">
+                <h2>📋 Task Board</h2>
+                <div class="todo-list" id="todoList"></div>
+                <div class="add-task-form">
+                    <input type="text" id="newTaskInput" placeholder="Add a new task..." onkeypress="handleEnter(event)">
+                    <button onclick="addTask()">+ Add</button>
+                </div>
+            </div>
+            <div class="section">
+                <h2>🏢 Agent Office</h2>
+                <div class="office-container">
+                    <div class="office-title">OpenClaw Headquarters</div>
+                    <div class="office-floor" id="officeFloor">
+                        <div class="desk" data-agent="j5">
+                            <div class="desk-computer"></div>
+                            <div class="agent-avatar j5">🦅<span class="agent-status-dot active"></span></div>
+                            <div class="desk-label">J5</div>
+                            <div class="desk-task">Managing</div>
+                            <div class="desk-tooltip">
+                                <div class="tooltip-name">🦅 J5</div>
+                                <div class="tooltip-role">Operations Lead</div>
+                                <div class="tooltip-task" id="tooltip-j5">Overseeing team</div>
+                            </div>
+                        </div>
+                        <div class="desk" data-agent="monica">
+                            <div class="desk-computer"></div>
+                            <div class="agent-avatar monica">📋<span class="agent-status-dot active"></span></div>
+                            <div class="desk-label">Monica</div>
+                            <div class="desk-task">PM</div>
+                            <div class="desk-tooltip">
+                                <div class="tooltip-name">📋 Monica</div>
+                                <div class="tooltip-role">Project Manager</div>
+                                <div class="tooltip-task" id="tooltip-monica">Orchestrating daily</div>
+                            </div>
+                        </div>
+                        <div class="desk" data-agent="dwight">
+                            <div class="desk-computer"></div>
+                            <div class="agent-avatar dwight">🕵️<span class="agent-status-dot idle"></span></div>
+                            <div class="desk-label">Dwight</div>
+                            <div class="desk-task">Research</div>
+                            <div class="desk-tooltip">
+                                <div class="tooltip-name">🕵️ Dwight</div>
+                                <div class="tooltip-role">Research Analyst</div>
+                                <div class="tooltip-task" id="tooltip-dwight">Scanning trends</div>
+                            </div>
+                        </div>
+                        <div class="desk" data-agent="picasso">
+                            <div class="desk-computer"></div>
+                            <div class="agent-avatar picasso">🎨<span class="agent-status-dot idle"></span></div>
+                            <div class="desk-label">Picasso</div>
+                            <div class="desk-task">Design</div>
+                            <div class="desk-tooltip">
+                                <div class="tooltip-name">🎨 Picasso</div>
+                                <div class="tooltip-role">T-Shirt Designer</div>
+                                <div class="tooltip-task" id="tooltip-picasso">Waiting for briefs</div>
+                            </div>
+                        </div>
+                        <div class="desk" data-agent="lois">
+                            <div class="desk-computer"></div>
+                            <div class="agent-avatar lois">🛒<span class="agent-status-dot idle"></span></div>
+                            <div class="desk-label">Lois</div>
+                            <div class="desk-task">eCommerce</div>
+                            <div class="desk-tooltip">
+                                <div class="tooltip-name">🛒 Lois</div>
+                                <div class="tooltip-role">Store Manager</div>
+                                <div class="tooltip-task" id="tooltip-lois">Uploading products</div>
+                            </div>
+                        </div>
+                        <div class="desk" data-agent="addy">
+                            <div class="desk-computer"></div>
+                            <div class="agent-avatar addy">📣<span class="agent-status-dot idle"></span></div>
+                            <div class="desk-label">Addy</div>
+                            <div class="desk-task">Marketing</div>
+                            <div class="desk-tooltip">
+                                <div class="tooltip-name">📣 Addy</div>
+                                <div class="tooltip-role">Social Media</div>
+                                <div class="tooltip-task" id="tooltip-addy">Planning content</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coffee-machine"></div>
+                    <div class="plant">🌿</div>
+                </div>
+            </div>
+            <div class="section">
+                <h2>👥 Team & Subagents</h2>
+                <div class="agent-grid" id="agentGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Real stats from Boss's businesses
+        const stats = [
+            { label: 'Skool Members', value: '86', change: '+0 this week' },
+            { label: 'TikTok Followers', value: '26.1K', change: '+0 this week' },
+            { label: 'Email List', value: '500', change: 'Klaviyo list' }
+        ];
+
+        const schedule = [
+            { time: '06:00', agent: 'Monica', task: 'Morning brief + daily tasks', status: 'queued' },
+            { time: '08:30', agent: 'Dwight', task: 'Trend scan for political tees', status: 'complete' },
+            { time: '10:00', agent: 'Picasso', task: 'Design sprint – Shelby Park drop', status: 'active' },
+            { time: '13:30', agent: 'Lois', task: 'Upload new shirts to Shopify/Etsy', status: 'scheduled' },
+            { time: '15:00', agent: 'Addy', task: 'TikTok/Reels batch for new merch', status: 'scheduled' },
+            { time: '21:00', agent: 'J5', task: 'Memory journal + prep next day', status: 'queued' }
+        ];
+
+        let memories = [];
+
+        let docs = [];
+
+        const officeSeats = [
+            { icon: '🦅', label: 'J5 Ops', id: 'j5', role: 'Operations Lead', status: 'active', task: 'Overseeing team' },
+            { icon: '📋', label: 'Monica PM', id: 'monica', role: 'Project Manager', status: 'active', task: 'Orchestrating daily' },
+            { icon: '🕵️', label: 'Dwight Intel', id: 'dwight', role: 'Research Analyst', status: 'idle', task: 'Scanning trends' },
+            { icon: '🎨', label: 'Picasso Art', id: 'picasso', role: 'T-Shirt Designer', status: 'idle', task: 'Waiting for briefs' },
+            { icon: '🛒', label: 'Lois Ecommerce', id: 'lois', role: 'Store Manager', status: 'idle', task: 'Uploading products' },
+            { icon: '📣', label: 'Addy Media', id: 'addy', role: 'Social Media', status: 'idle', task: 'Planning content' }
+        ];
+
+        // Update tooltip tasks dynamically based on schedule
+        function updateOfficeTasks() {
+            const activeTask = schedule.find(s => s.status === 'active');
+            const scheduledTasks = schedule.filter(s => s.status === 'scheduled');
+            
+            if (activeTask) {
+                const agentMap = { 'Monica': 'monica', 'Dwight': 'dwight', 'Picasso': 'picasso', 'Lois': 'lois', 'Addy': 'addy', 'J5': 'j5' };
+                const agentId = agentMap[activeTask.agent];
+                if (agentId) {
+                    const tooltip = document.getElementById(`tooltip-${agentId}`);
+                    if (tooltip) tooltip.textContent = activeTask.task;
+                    
+                    // Update status dot
+                    const desk = document.querySelector(`[data-agent="${agentId}"] .agent-status-dot`);
+                    if (desk) {
+                        desk.className = 'agent-status-dot active';
+                    }
+                }
+            }
+        }
+
+        const agents = [
+            { name: 'Monica', role: 'Project Manager', status: 'active', focus: 'Daily orchestration, calendaring' },
+            { name: 'Dwight', role: 'Research', status: 'active', focus: 'Political trends + money ideas' },
+            { name: 'Picasso', role: 'Design', status: 'idle', focus: 'T-shirt drops' },
+            { name: 'Lois', role: 'eCommerce', status: 'scheduled', focus: 'Shopify/Etsy upload' },
+            { name: 'Addy', role: 'Marketing', status: 'idle', focus: 'TikTok/X/FB distribution' },
+            { name: 'Neo', role: 'Engineering', status: 'paused', focus: 'Available on request' }
+        ];
+
+        let tasks = [];
+
+        async function loadTasks() {
+            try {
+                const response = await fetch('tasks.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    return data.tasks.map(t => ({
+                        id: t.id,
+                        text: t.text,
+                        status: t.status === 'in_progress' ? 'active' : (t.status === 'open' ? 'pending' : t.status)
+                    }));
+                }
+            } catch (e) {
+                console.log('Using local fallback');
+            }
+            return JSON.parse(localStorage.getItem('missionControlTasks')) || [
+                { id: 1, text: 'Pay taxes on lawn care equipment', status: 'pending' },
+                { id: 2, text: 'Get Sweet Springs settlement statement for accountant', status: 'pending' },
+                { id: 3, text: 'Set up Amazon & Temu affiliates', status: 'pending' },
+                { id: 4, text: 'Get first Fiverr job - smart contract dev', status: 'active' }
+            ];
+        }
+
+        function renderStats() {
+            const grid = document.getElementById('statGrid');
+            stats.forEach(stat => {
+                const card = document.createElement('div');
+                card.className = 'stat-card';
+                card.innerHTML = `
+                    <div class="label">${stat.label}</div>
+                    <div class="value">${stat.value}</div>
+                    <div class="change">${stat.change}</div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function renderSchedule() {
+            const wrap = document.getElementById('schedule');
+            schedule.forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'timeline-item';
+                div.innerHTML = `
+                    <div class="time">${item.time}<br><span class="agent">${item.agent}</span></div>
+                    <div class="details">${item.task}<br><span style="color:#7ea7ff;font-size:0.8rem;">${item.status}</span></div>
+                `;
+                wrap.appendChild(div);
+            });
+        }
+
+        async function loadMemories() {
+            try {
+                const response = await fetch('memory-feed.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    memories = data.entries || [];
+                    return;
+                }
+            } catch (e) {
+                console.log('Memory feed unavailable, using static fallback');
+            }
+            memories = [
+                { date: 'Mar 20', title: 'T-shirt workflow', summary: 'Ran Dwight→Picasso loop, generated 4 controversial designs, queued Lois uploads, Addy promo brief.' },
+                { date: 'Mar 19', title: 'VA parts audit', summary: 'Reconciled 80 eBay listings, flagged price format drift, updated QC log.' },
+                { date: 'Mar 18', title: 'Skool ops', summary: 'Scheduled Tuesday drip, added automations, logged support backlog.' }
+            ];
+        }
+
+        function renderMemories() {
+            const wrap = document.getElementById('memoryStream');
+            wrap.innerHTML = '';
+            memories.forEach(mem => {
+                const card = document.createElement('div');
+                card.className = 'memory-card';
+                card.innerHTML = `
+                    <h3>${mem.date} · ${mem.title}</h3>
+                    <p>${mem.summary}</p>
+                `;
+                wrap.appendChild(card);
+            });
+        }
+
+        async function loadDocs() {
+            try {
+                const response = await fetch('docs-feed.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    docs = data.docs || [];
+                    return;
+                }
+            } catch (e) {
+                console.log('Docs feed unavailable, using fallback');
+            }
+            docs = [
+                { name: 'Dwight Trend Report', path: 'notes/dwight-2026-03-20.md', stamp: 'Today' },
+                { name: 'Picasso Output Pack', path: 'designs/', stamp: 'Today' },
+                { name: 'QC Report - Parts', path: 'dwight-qc-report.txt', stamp: 'Mar 6' },
+                { name: 'Morning Brief', path: 'morning-brief.md', stamp: 'Mar 8' }
+            ];
+        }
+
+        function renderDocs() {
+            const wrap = document.getElementById('docList');
+            wrap.innerHTML = '';
+            docs.forEach(doc => {
+                const row = document.createElement('div');
+                row.className = 'doc-item';
+                row.innerHTML = `
+                    <span>${doc.name}</span>
+                    <span class="meta">${doc.stamp || ''} · ${doc.path}</span>
+                `;
+                wrap.appendChild(row);
+            });
+        }
+
+        function renderOffice() {
+            const grid = document.getElementById('officeGrid');
+            officeSeats.forEach(seat => {
+                const cell = document.createElement('div');
+                cell.className = 'office-cell';
+                cell.innerHTML = `
+                    <div class="avatar">${seat.icon}</div>
+                    <div class="label">${seat.label}</div>
+                `;
+                grid.appendChild(cell);
+            });
+        }
+
+        function renderAgents() {
+            const grid = document.getElementById('agentGrid');
+            agents.forEach(agent => {
+                const row = document.createElement('div');
+                row.className = 'agent-card';
+                row.innerHTML = `
+                    <div class="agent-info">
+                        <div class="agent-name">${agent.name}</div>
+                        <div class="agent-role">${agent.role}</div>
+                        <div style="font-size:0.82rem;margin-top:6px;color:#c3cae4;">${agent.focus}</div>
+                    </div>
+                    <div class="agent-status status-${agent.status}">${agent.status}</div>
+                `;
+                grid.appendChild(row);
+            });
+        }
+
+        function renderTasks() {
+            const todoList = document.getElementById('todoList');
+            todoList.innerHTML = '';
+            tasks.forEach(task => {
+                const div = document.createElement('div');
+                div.className = `todo-item ${task.status === 'complete' ? 'completed' : ''}`;
+                div.innerHTML = `
+                    <span class="task-text">${task.text}</span>
+                    <select class="status-select ${task.status}" onchange="updateStatus(${task.id}, this.value)">
+                        <option value="pending" ${task.status === 'pending' ? 'selected' : ''}>Pending</option>
+                        <option value="active" ${task.status === 'active' ? 'selected' : ''}>Active</option>
+                        <option value="complete" ${task.status === 'complete' ? 'selected' : ''}>Complete</option>
+                    </select>
+                    <button class="delete-btn" onclick="deleteTask(${task.id})">&times;</button>
+                `;
+                todoList.appendChild(div);
+            });
+        }
+
+        function updateStatus(id, newStatus) {
+            const task = tasks.find(t => t.id === id);
+            if (task) {
+                task.status = newStatus;
+                saveTasks();
+                renderTasks();
+            }
+        }
+
+        function addTask() {
+            const input = document.getElementById('newTaskInput');
+            const text = input.value.trim();
+            if (text) {
+                const newTask = { id: Date.now(), text, status: 'pending' };
+                tasks.push(newTask);
+                saveTasks();
+                renderTasks();
+                input.value = '';
+            }
+        }
+
+        function deleteTask(id) {
+            tasks = tasks.filter(t => t.id !== id);
+            saveTasks();
+            renderTasks();
+        }
+
+        function handleEnter(event) { if (event.key === 'Enter') addTask(); }
+
+        async function saveTasks() {
+            const storageTasks = tasks.map(t => ({
+                id: t.id,
+                text: t.text,
+                status: t.status === 'active' ? 'in_progress' : (t.status === 'pending' ? 'open' : t.status)
+            }));
+            localStorage.setItem('missionControlTasks', JSON.stringify(tasks));
+            try {
+                await fetch('/api/tasks', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ tasks: storageTasks })
+                });
+            } catch (e) {
+                console.log('Server save unavailable, local only');
+            }
+            showSaveIndicator();
+        }
+
+                // Clock and save indicator functions removed
+
+        loadTasks().then(t => { tasks = t; renderTasks(); });
+        loadMemories().then(renderMemories);
+        loadDocs().then(renderDocs);
+        renderStats();
+        renderSchedule();
+        // renderOffice() removed - now uses HTML
+        updateOfficeTasks();
+        renderAgents();
+    </script>
+</body>
+</html>

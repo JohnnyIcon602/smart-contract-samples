@@ -1,0 +1,32 @@
+{
+  "agents": {
+    "monica": {
+      "skill": "/Users/five/.openclaw/workspace/skills/monica/SKILL.md",
+      "role": "Project Manager",
+      "schedule": "6 AM daily"
+    },
+    "dwight": {
+      "skill": "/Users/five/.openclaw/workspace/skills/dwight/SKILL.md",
+      "role": "Research Agent"
+    },
+    "picasso": {
+      "skill": "/Users/five/.openclaw/workspace/skills/picasso/SKILL.md",
+      "role": "Design Agent"
+    },
+    "lois": {
+      "skill": "/Users/five/.openclaw/workspace/skills/lois/SKILL.md",
+      "role": "eCommerce Uploader"
+    },
+    "addy": {
+      "skill": "/Users/five/.openclaw/workspace/skills/addy/SKILL.md",
+      "role": "Marketing Agent"
+    }
+  },
+  "stats": {
+    "total_runs": 0,
+    "total_designs": 0,
+    "total_uploads": 0,
+    "total_posts": 0
+  },
+  "performance_history": []
+}

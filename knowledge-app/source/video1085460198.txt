@@ -1,0 +1,218 @@
+Speaker 1  00:02
+Shane, hello, everyone. This is Shane with money Language Academy. Tonight, we're going to be talking about investing in crypto. So it's a general investing night, and this is something that, if you've seen the lives you know, me answer some questions on lives, and just know my general ethos when it comes to investing. You know, I'm not heavily invested in crypto, even though it's been pretty much my, you know, taken up most of my life, the last five years, because I'm a software engineer in web three on blockchain. And it, I don't know it's, it's very nuanced, and there's a lot of opportunities, and the technology is amazing, but there's also a lot of pitfalls and a lot of speculation, a lot of scammers. So I thought we would just kind of dig into crypto in general, give a little bit of background, because I think that, I think people invest in crypto not really knowing what it is. I think, I think that a lot of times, you know, it's, it's fear of missing out on a big trend. And you hear about somebody that bought Bitcoin for $1,000 and now it's 110,000 and they made all this money, and you don't want to, you don't want to miss that train. You don't want to be that person 10 years from now, that thought, Oh, if I just would have bought, you know, just a little bit of XRP or Ethereum, or whatever, I'd be rich. So you need all the information to make those kinds of decisions, so I figured we would at least dip our toe into into that knowledge pool and see what we can get going. So there are a whole bunch of of different ways to invest in crypto. There are, you know, extremely high risk, there's there's lower risk, there's the long hold, there's day trading, there's arbitrage, there's, you can buy some coins and stake them, and don't worry, if you don't know what that means. I'll explain it. But, like, there's a ton of stuff that you could actually do to get involved if you just want to be exposed to crypto. So we have to start though with what it actually is. So it's funny, because when I, when I started in crypto, everybody that would ask me, like, you know, what do you what are you doing these days? And I would say blockchain. And they just think, Well, isn't that just a scam? Or, like, what even? What even is that? And my wife said about nfts One time. She said, Well, it's like, she said it's using space money to buy fake art. So, I mean, I think people have a lot of misconceptions about what it actually is, but what, what cryptocurrency is, is an unchangeable token written to the blockchain. So what that means is, so the blockchain is a is a whole network of distributed computers that all they do is verify proofs. That's it. They verify proofs over and over and over again. So if any one of them gets the wrong answer, it's kicked out. So that's how you can guarantee that somebody's not scamming. Somebody just doesn't change. Go into their wallet and say, Oh, I have a million Bitcoins instead of no Bitcoins, because they'll get kicked off the network. Because I'm not going to explain exactly how that interconnectedness works, but that's essentially what it is. You have 1000s and 1000s of nodes that are working together to make sure that you have a single point of truth at any one time. So no one can scam it, no one can take it over, no one can can break in there and take control of it anymore. And that's why, when you have 10 Bitcoin, and you you can verify that in your bitcoin wallet, then you know, I have 10 Bitcoin, no one can just come and take it. No one can change it. You can't change it. You can trade it. You can do things like that with with approval. But all of the blockchain has to approve that. This is what's actually happening, and this is the truth. So what, what it means so it's decentralized, is why people love it. So it's not like meta or Facebook, or, you know, Twitter, or, you know, any big company like Microsoft, is controlling this. This is a bunch of regular people and companies just across the world that have these nodes, and they're all incentivized to run these nodes. They actually make a little bit of money by running nodes to make sure that there's truth across the blockchain. And that's what this is, the transactions which are like, if I say I want to buy something with my crypto I want to trade. I want to sell an NFT, whatever it is, it's all verified by all of those 1000s of nodes, and they get a little piece of every transaction. So essentially, it incentivizes people to create nodes because. The more nodes there are on the blockchain, the more truth there is, the the less vulnerable it is, and the more incentivized they are to provide that truth for everyone, because they're making money every time they provide the truth. So examples, obviously, are Bitcoin, Ethereum. You hear people talk about XRP. They talk, you know, Solana, there are literally 1000s and 1000s of different types of cryptocurrency, which makes it, you know, a little scary to invest even more so with than stocks. Because with stocks, you know, at least there's a company that you can, you can research and look up and say, Okay, I'm going to buy some Walmart stock. You know, everybody knows what Walmart is, but not everybody knows what Bitcoin is. You hear the word, but you don't know what it actually is. So I talked about it a little bit about, you know what, whoops, what blockchain actually is. But just gonna be very, very short. It just means that there's a bunch of nodes working together. They all have to reach consensus to make sure that truth is maintained and the history is basically unchangeable. So even if something bad happens, they can back it up one block and say, Okay, we didn't lose anything, and there's a new block every three like three seconds so and then everybody can access it across the world. That's one of the main benefits to blockchain, is that, like they just had, they had the last tragedy they had in India, it was getting hard for for donations to be made to people that were like, I think it was a famine, and then they had a flood. They had a whole bunch of stuff back to back to back. So a bunch of philanthropists went through and they said, what's the easiest way to get funds to these people so they can get what they need? And they sent them. They sent them crypto in different coins, and because it didn't matter if they were in India, if they're in China, if they have an internet connection, they can basically be hooked to the blockchain and get funds sent to them, because it's completely open to anyone and everyone, which there's never been anything like that to my knowledge, in you know finance, finance has always been closed and held by big corporations and big banks and big companies, and things are just different now when it comes to blockchain. So why would you even want to consider investing in crypto? Well, obviously, because there's a lot of money to be made, there's a lot of speculation, there's a lot of money changing hands, and there's a lot of opportunities to capitalize on other people not knowing what's going on and investing poorly, which is the same thing as the stock market, or just you being more up on technology, or just simply being more of a conservative buy and hold, because you think the future of blockchain is bright, Just like any traditional investing, all those opportunities are still there, but because it's so volatile, there's a potential to make even more money, because it has wild swings up and down, you can invest 24/7, you know, there's never a time like the stock market where it closes at four. You know, you can invest at 2am from anywhere in the world with an internet connection, you can diversify with crypto. So if the stock market crashes, it's not necessarily interconnected with crypto markets. You know, some of them are some of them aren't. Some of them, when the stock market crashes, crypto could skyrocket depending on what happens. There's a lot of lot of ties, but then there's also a lot of, you know, complete separations in the motivation for a crypto to go up and the stock market to go down or up. And you can also invest in a way that might not necessarily be cryptocurrency, but it could be an NFT, which an NFT is a non fungible token, which basically just means that it's an on chain rendering of a image, essentially, so like this, you know, old Disney Robin Hood picture right here, could be made as an NFT on chain, and you could own that NFT, and no one could take it from you Like you would own the complete rights to that. And then there's also what's called Defy. Is decentralized finance is where you can invest in an exchange where maybe, maybe people are exchanging Ethereum coins for Solana coins, and you can invest in the exchange and get a piece of every single transfer back and forth. So when they swap this many eth for this many Solana, then you get a small sliver of that. So it doesn't really matter if one goes up or down too much, as long as people are trading back and forth, you can make money off that and you. You're you're essentially saying, Okay, I'm going to put 10 eth on one side. I'm going to put 10 Solana coins on the other side, and then I'm going to take a piece of every time people trade it, back and forth, that kind of stuff. There's a lot, a lot of possibilities out there. And then simply, you know, Blockchain is not going anywhere. Blockchain is every day there are more assets, more real world assets, they call them RWAs, that are put on chain. I think there's a there's probably a future where, where the deeds to our homes, the titles to our cars, our identities are verified on chain. Our licenses are, you know, social security numbers. I mean, there are government agencies right now. I think it was Wyoming that just put a whole bunch of their state information on chain to make sure that it was never lost. So it is definitely here to stay. In my opinion,
+
+Speaker 2  11:00
+I have a quick question. Okay, did you say social security can be put on the chain? I mean, won't that be disclosed to everybody? Won't be a risk? Just wondering.
+
+Speaker 1  11:13
+No, it doesn't have to be. Things can be encrypted and put on chain, but it just means that, like you would own it, so you would own your own identity. And, yeah, yeah, there's a lot of different nuances there. Just because it's on chain, usually on chain means that, you know, you can, you can see everything that's on there. It's completely transparent. Like, like, if you knew my wallet address, you could go on chain and look and see how exactly how much crypto I have. That's how a lot of chains work, but not all of them like right now, I you know the founder of Ethereum. His name is Vitalik, Buterin, you can go look at his wallet and see that he has hundreds of millions of dollars in Ethereum coins, and everybody can see that. So some chains work like that, and some don't, yeah. Yeah. Okay, so what are the Yeah, exactly. So what are the key risks here? The key risk or volatility, right? There's wild swings, for instance. What was that? You guys remember the hawk to a girl that was all over Tiktok and was like, Haley something or other, like, she got famous for some stupid thing that she said when she was drunk coming out of a club. And she ended up, she got with a company that deployed the hot coin, and they they pumped it, and they got, they convinced a lot of people to buy into it, and then they sold. So that coin went from being extremely valuable to worthless in a matter of hours, and millions and millions of dollars were made and lost within hours. So there's extreme volatility when it comes to that kind of stuff, and you have to be careful. You have to know what you're getting into. And then regulatory concerns under the last administration, things were getting highly regulated. There was a lot of rules and a lot of restrictions around crypto that has since changed and relaxed quite a bit, but at any given time, it can be regulated some more, because no rules and legislation has really been set in stone by Congress to say these are the rules that govern crypto. It's still kind of open ended, and then there are hacks, and they're lost keys and lost funds. If you don't know how to do things, if you don't know how it works, you can if you don't understand how it works, you can easily be scammed or just make a mistake and lose your funds. It happens all the time, and you know, once it happens, you pretty much can't get it back. And rug pulls. Rug pulls is what the hot coin was. It's like they promise one thing, you invest in it, and they pull the rug out from under you, and you have lost all of your investment. So essentially, a rug pull and a scam, same thing. And then the taxes are weird. Nobody really knows how to tax things, and the exchanges are constantly changing their the way that they collect taxes and and report taxes. So it can be complex, and you probably need an accountant to deal with it. And then sometimes, you know, there are bugs. And you know, the the exchanges themselves, where you're going to go buy crypto or trade it for another currency or whatever, they can just go down and you have to wait. I mean, that's the same thing that's true with Robin Hood, or,
+
+Unknown Speaker  14:36
+you know, AmeriTrade, or any of the big trading houses as well.
+
+Speaker 1  14:42
+And so the types of crypto assets are, you have your your store of value coins, your store of value coins are like Bitcoin. Bitcoin doesn't really have any value other than it's worth some a certain amount of money. That's why Bitcoin has value. It does. Have value because you can use it to secure a chain, or you can, you know, some, like some of the other coins, it's basically just this. Bitcoin is worth $100,000 because we believe it is, and that's what it's for, is to store $100,000 of worth. Or, obviously, it goes up and down. I mean, even, like a year or two ago, it was like 60, and now I think the highest it got was like 115 or 120 it was, it was way up there. And then you have other other cryptocurrency, like Ethereum, which is used to secure the chain so that you can so you have smart contracts on there, which are basically computer programs that are written on chain, and you use those tokens to be able to run those programs. So for instance, there are games out there written on the Ethereum blockchain that you can buy some Ethereum, and you can use that Ethereum to play those games. You can use that Ethereum to to gamble on fantasy football. You can use that Ethereum to do all sorts of things, to like to trade for another or, like I said earlier, where you can, you can invest in an exchange and get a piece of every trade. And there's a lot of utility and use on the Ethereum blockchain. It's one of my favorite cryptocurrencies, and the one I'm most invested in is Ethereum, and then you have stable coins. So stable coin is a cryptocurrency that is pegged to a real currency, which means, like you'll hear people talk about USDC. USDC is a cryptocurrency that is pegged to the US dollar. So at any given time, one USDC coin is is about $1 it might go up, you know, one penny down, one penny as it's stabilizing, but it's pretty much always worth $1 so it's a way that, if you don't want any risk, you can and but you want to do things on chain, and you can actually invest in stable coins, and you can use that to to buy I think there's certain like online shopping platforms that let you use different crypto currencies, like if that's what you want to do, and you want to buy things anonymously, a lot of people do that. You can do that with stable coins and then defi tokens. I'm not going to get into that too much, but that's decentralized finance, where you can invest in the exchange itself. And so say you want to put $10,000 worth of crypto into an exchange, they will give you a certain amount of defi tokens that symbolize that you own a $10,000 share of this exchange. So whenever you if the exchange itself builds and grows just like a stock does, then you at some point, you can cash it in. You can go back and sell those tokens back to the exchange and get your USDC back, or your, you know, US dollar, whatever it is. Then there's just things that help the blockchain, you know, work and grow. You can invest in those. Then there are apps out there for gaming. You know, there's the metaverse where, you know, Facebook meta is trying to buy up, essentially, virtual real estate in the metaverse, and then invest in there, and then sell it to people, which that really hasn't taken off, but they're trying it. And then you have meme coins. Meme coins are like the hawk to a thing that I was talking about. They're very high risk and they're very capricious, and at any any given day, they can go up 1,000% or down 1,000% but a lot of people like to take chances and gamble on them, just like lottery tickets. So I think I talked about a lot of this, but how, if you want to go about, you know, getting exposure to these things, you can go to centralized exchanges like Coinbase. Coinbase is probably the most user friendly exchange out there. If you want to go buy some Ethereum or or Bitcoin, or whatever it is, you can go sign up for centralized exchange like big like Coinbase, and you actually have to, you know, provide your social security number and your license and all the things that you would do like for a normal bank, you're verified with their that's what KYC is. It's know, your customer is what that stands for. And so they make it a lot safer and a lot more like a traditional banking institution. And if anybody's wanting to get started in crypto, and you don't really understand how it works, that's probably the best way to get exposure to crypto is by going to one of those centralized exchanges. Kraken is another one, probably the top two right now. And then you have decentralized exchange. Is, which means that you have to know a little bit more about it, and you're going to trade back and forth yourself. There are quite a few of those. Uniswap is probably the biggest one. Then there are, like, there are brokerages that actually have ETFs. I think it's what's it called grayscale. Grayscale is one of the biggest ETFs out there, where it's backed by crypto and Bitcoin. So you can go to a traditional like SoFi or Robin Hood or whatever, and buy a piece of an ETF that's that the asset that's backing it is crypto. So you can still get exposure to it, but not have the risk of going through the exchanges and not needing to learn about how the technology works and all that stuff. And here's one that a lot of people don't know about, and this is staking. So staking is a pretty cool way, like, say, for instance, you buy two Ethereum and while and you're planning on holding that Ethereum for a few years, because you think that in two to five years, that Ethereum is going to be worth a lot more than it is now, well, you don't just have you don't have to sit on it and hope you can actually stake it, which means that it's almost like putting it into a high interest like a high yield savings account, so you stake it on Shane, and they give you a certain amount of Ethereum every week or every 30 days or whatever, because you staked it. And that's that's a good way to just make extra money on the investment itself, just like you would for a savings account. That's one of the things. It's almost like a dividend stock. Essentially, when you stake the Ethereum, and a lot of coins will allow you to stake them, and then, you know, you definitely don't. I would never recommend using leverage to invest in crypto. It's, it's risky enough as it is, don't, don't get a loan to invest in crypto. That's how people are losing millions.
+
+Unknown Speaker  22:10
+So say you buy,
+
+Speaker 1  22:14
+you know, at one Ethereum token, where does that Ethereum token actually live? Well, the record of your purchase is going to live on chain, but it's actually you're going to control it, because it's going to be in your wallet. It's going to be in a wallet somewhere, whether it's yours or whether it's a central exchanges wallet, but you're going to have complete control over that, because you control the keys, which is like the password to the wallet. So exchanges like Coinbase and Kraken, they have their own wallets, and they actually hold like a bank does. They'll hold the coins for you. So all you have to do is have your user and password to get into Coinbase and get into Kraken, just like you would to your local bank, and they hold it, and it's always available. It's always safe. If something happens, they guarantee that it's still going to be there. There have been some some thefts in the past, and Coinbase has, you know, paid people back, almost like the FDIC. And then you have self custody hot wallets, which are the wallets. When people say a crypto wallet, that's generally what they're talking about, which is meta mask is probably the biggest one, and it's I use it as I have an app on my phone that's meta mask, and I have a plug in in my Chrome browser that's meta mask, and I can access my crypto from basically anywhere with those two platforms. But I have to know how to do it. I have to know how to keep it safe. And if I ever lose my key to get into it, I'm screwed all that. All the money that's in there is gone. So it comes with some responsibility. And then you also have hardware wallets, which look like they, they they're USB based. You plug them in, the keys are stored on there, and they're never shared with anyone or anything. So it keeps it, you know, scammers from being able to get it, but again, you still have to know your keys and in order to get them back. And nano ledger is probably the most, the easiest one of those to use, but a lot of people are very paranoid that are in the crypto space. And if they get, you know, hundreds of 1000s of dollars, they don't trust Coinbase to custody that. They don't trust Metamask to custody it. They would much rather have a hardware wallet that's, you know, some of these things are encased, you know, in titanium, and they come with these little metal plates that have your your seed phrase on it, which you can use to get your, you know, your key back. And people will take those and put them in a safety deposit box or bury them in their backyard so they never lose them. But you know, no one can get them off your. Phone or, you know, from a phishing attack or anything like that that traditionally happens online for, like, any kind of data breach. So the security basics are, you know, if you're going to use Coinbase or whatever you want, to use, a strong password, don't use the same password that you use everywhere else. Don't be that person that has, you know, 25 financial accounts, and they all have the same password because you're just asking for trouble. You never share your password with anything or anyone, no matter how much they ask you. And you have to beware of people that are looking to pull your private keys from somewhere, you know, some kind of malicious link or an email that you get, they'll pose as Metamask or pose as Coinbase to try to get it, because once they get your, you know, your seed phrase and or your private key, they have all your money, all your crypto, and there's nothing you can do about it. And if you want to get into this, start with, like, little, small stuff, you know, you can go buy, like, $1 of Bitcoin and start messing with it. You can buy $1 of Ethereum, you can buy $1 of XRP, whatever you want to do, and just see how it works. There are 1000s of videos and YouTube videos about how to use a wallet, how to, you know, trade your crypto, there's just learn first, don't, you know, buy $1,000 and hope that you know how to do it, because that's what the scammers are looking for. People like you. If you don't know what to do with it, they're going to try to trick you into doing the wrong thing with it. And they're very good at what they do. And then you want to keep your devices updated. You know whether it's your wallet app or whatever, keep it current, because they are constantly making them stronger and more difficult to hack. So how would you how would you start, just like any other investment set, a goal set, how much that you want to invest, total of all your investments, and go from there, you know, you can start up an account on Coinbase. You can start up an account, you know, your own wallet, whatever, deposit a small amount, do a test, transfer it back and forth, and then just see what happens. But write out a plan. And here's one. You know, one of the worst things that people do in crypto is say things go bad, and it drops 25% in a day. Everybody gets scared, and they think, oh, it's going to go to zero. And they sell, they trade it, whatever, they get rid of it, and take a loss because they're so afraid that's going to go to zero. But just like all investing, if you invest in the right ones, the safer ones, they're eventually going to come back up. And you don't want that fear to drive your decisions on when you sell, just like you don't want Fear Of Missing Out to drive your decisions on when you buy. It's the same thing you want to buy on a schedule. You want $1 cost average, which means that you invest the same amount every week, every two weeks, every month. Whether it's $10 $15 $20 or $2,000 it doesn't really matter, but spread it out over time, because it ends up reducing your risk over time. And, you know, keep learning this is not a passive investment, like stocks. You can have, you know, financial advisors do it for you, but I would not trust them, because they don't know any more than anybody else about what's going to do well and what's not. So, what are you looking out for when you first get started, you're looking at, anytime you see someone say there's a guaranteed return on a coin or they have a secret way to make money that people don't know about. Scam. Same thing with Tiktok. If somebody's talking about, oh, I have a secret way to save money on taxes. No, there are no secret ways to save money on taxes. There are, you know, more used ways and less used ways. But it's all in the tax code. It's not some big secret, and then any unverified team that's has not had, you know, been audited, and they just, it just seems shady. If you get a bad vibe, move on imposter sites. You'll see that a lot imposter sites will be like, you'll get an email and it'll say it's from I got one today, as a matter of fact. It wasn't necessarily crypto, but it said it was from wix.com and I do have some websites that are deployed to Wix. But it wasn't really Wix. It was some weird name.wix.com, which is different, and they were just trying to mimic Wix just like, you know, people spoof my account on Tiktok. And hopefully you guys haven't experienced that, but they'll send out like, hey, you know, message me on what. It's app. And, you know, I'll tell you about a good crypto to buy that kind of stuff, guaranteed scam. And it's, it's never me. If you ever get a DM for me about going to a different platform, it's not me. They, you know, pressure you to act fast and to send them money. That's basically FOMO. They're they're fueling your FOMO because you don't want to miss out on the next big thing, you know. You want to be that person in your neighborhood that said, Oh, I put $1,000 in this crypto and overnight, now it's worth a million, you know, you you'd be a genius if it did that. But that's not how things really work. And then, anytime anyone asks you to verify your seed phrase or ask for your seed phrase, no good. It's a scam. And basically what it comes down to is you have to do your your own research, figure out what coin is a good one. You know you if you want to be super safe, keep it to Bitcoin, Ethereum and Solana, or just Bitcoin, or just just those two. Those are probably the top three safest that they don't have as much volatility. They're at the top of the market. They've been around for years and years and years. They have a use their household names. You can you can play it safe, or you can delve into the world of meme coins and test your luck. But, but you have to do your own research, so figure out what a token is good for, not just because it has a, you know, funny little picture on it, but is it actually used for something like Ethereum is used as, you know, currency on the Ethereum blockchain, to where you can secure it, and you can buy things, and you can trade it back and forth. It does a whole it has a whole lot of uses, but, you know, a Pepe coin or a hock to a coin, you can't do anything with it. It just sits there. And you need to know when the supply schedule, what the supply schedule is. So some of these coins, they release a certain amount every single month or every single year, or sometimes they reduce the plot the supply every single week, every single day, every single month. So it's inflationary or deflationary. You can find that stuff out. It's all readily available on any, any of the exchanges. If you go to Coinbase, which, let's look at Coinbase real fast. I think, yeah, you go to Coinbase looks a little bit like this. You can go in here and look up information about any coin that you're interested in, right? So if we check out Ethereum here, you can see, you know what it did all day, up and down. You can actually get additional information about it. See what it's like for the whole month. You know, tons of stuff. Okay, there's all of these big coins. There's tons of information about them. And if that you can't find information about a coin, probably better to avoid it. But all of this stuff is is out there and available for the research,
+
+Unknown Speaker  33:13
+okay, um,
+
+Speaker 1  33:16
+and then look for security audits. If it's like an exchange or something, they should have professionals that audit the code to make sure it's not a scam and then it's safe. So I hopefully that wasn't too confusing. I know it was a lot of nerd stuff and a lot of heavy tech finance, but there is things that you need to know, and if you if it's if you're not willing to put in the time to learn it. It's probably not a good investment to be in. Just because somebody on Instagram says that XRP is going to go through the roof doesn't mean you should buy XRP. Okay, half the reason why they're those people are going on Instagram and Tiktok and saying that it's going to is because they own a bunch of it. And the more times they say it, and the more people that hear it, the more people that buy additional XRP, the more theirs is worth, right? So if you have an influencer out there that's saying things like that, it's probably to pump their own coin.
+
+Unknown Speaker  34:16
+So be careful about that.
+
+Unknown Speaker  34:19
+You guys see any questions about it, or did I confuse everyone
+
+Unknown Speaker  34:24
+with all my nerd talk?
+
+Unknown Speaker  34:33
+No, you did not. I'm actually, I'll go ahead.
+
+Unknown Speaker  34:40
+Continue on.
+
+Unknown Speaker  34:45
+Are you sure? Of course,
+
+Speaker 2  34:49
+yeah, you can, you can go because I have a more deeper question to ask.
+
+Unknown Speaker  34:57
+Okay, yeah, if you have a crypto question, that would be.
+
+Unknown Speaker  35:05
+The mess. Sorry, go ahead.
+
+Unknown Speaker  35:11
+Okay, go. You go. Jennifer,
+
+Speaker 3  35:14
+I think your advice of starting small is really good. I did a little cash app transaction with Bitcoin a year ago for like $1 $5 or something, and it's $34 now. So it works to, like, test waters and just do a little bit at a time. So just wanted to reiterate that, yeah,
+
+Speaker 1  35:41
+yeah. I mean, that's, that's with anything, even if you were going to do some stocks like, so, there used to be a barrier to entry with stocks like, if you wanted to buy, like, a Google stock, and it was 1200 bucks, you had to have $1,200 you know, to buy the entire stock. Now, you know, you can, you can buy 50 cents of one Google stock. Things are are different. Technology has made those things possible, and you can do the same thing. You used to be only able to buy one Bitcoin, one full coin. Now you can buy a little tiny sliver of one.
+
+Unknown Speaker  36:12
+It's fractionalized.
+
+Speaker 2  36:20
+Hey, Shane, I mean to be, I mean, into crypto a little bit is something. For the longest time, I wasn't like, I never really like, buy into it. I thought it was a scam. Like, you know, I wish I came in sooner. You know, it was way back then when Bitcoin was still, like, in a 40,000 So, recently, I got into this. Okay, so with me trying to juggle business, I don't even have the fund to save or to invest in labor.
+
+Unknown Speaker  36:54
+I had a summer,
+
+Speaker 2  36:58
+and I was actually trying to transfer it out, you know, to cash in on the money, and then I accidentally, like, at a stake, like, usually I wouldn't make such a mistake. I've been doing crypto now for about two years. I don't know what happened. I made my meta mask, and I click stick and stand like, no, what did I do? I had copied my address from cracking to Metamask to like, pull the fund out, to meta mask and then to sorry, to cracking, to have it taken out. For some reason the address was not well copied, or he didn't copy. This has never happened to me, and it got staked, and I'm like, oh, stake. I don't want to stick my money. I want it out. I want to do something. And then I wasn't very thought of words, you know, some things. So while I was on the phone with my parents, I'm like, Hey, you want to show me how I mean, I got into this problem because I'm staking so we went and he's like, here, Goddess, here that collected unstick. However, after unstaking, the phone disappeared and then went to eat the scan to trace, or rather, trying to look for the phone. Hey, where did this go? I mean, what did it just disappear through? Realize it went into another plant. And I'm not, I don't know the address, and I'm still contemplating, how did that happen? Like I didn't do anything. I actually wanted to withdraw from metal mass to cracking, and I missed it, which has not happened to me before, and then I accidentally staked and then now I stay for my phone disappearing. So I'm not sure, as someone who's like, you know a software engineer, do you have any explanation for this, and this is happening to me at the wrong time? My little baby, just like your other business, when you first started business,
+
+Speaker 4  39:29
+really touched on me, to my neck,
+
+Speaker 2  39:34
+like it drained me. When I mean drain, it really drained me.
+
+Unknown Speaker  39:42
+How long ago did you
+
+Speaker 2  39:44
+point to where every dollar counts? This was this was just yesterday.
+
+Speaker 1  39:49
+This happened yesterday. You might be okay, because here's what happens. So when you stay crypto, essentially what you're doing is you're transferring that crypto to us. It's called a smart contract. So it's a it's a program, basically on chain that that's all it does. It says, you know, it holds your tokens for a while and gives you a certain amount over time. And then when you unstake, usually that it takes a while. It's not like a an instant unstake, and you get it all back. For instance, I staked Adam for a long time. Adam was a token that was a really useful token just never really took off, and I still have hundreds of them staked, but it takes 21 days to get them back.
+
+Unknown Speaker  40:37
+Oh, no,
+
+Unknown Speaker  40:39
+yeah. But it just depends on what token was
+
+Unknown Speaker  40:42
+it. It was Ethereum, of course,
+
+Speaker 1  40:44
+it was Ethereum. And did you staked through Metamask or through Kraken?
+
+Unknown Speaker  40:50
+Oh, meta man.
+
+Speaker 1  40:54
+I don't know how Metamask staking works for Ethereum. I have so the
+
+Speaker 2  40:59
+thing is, when you stake, or for whatever reason, doesn't go into another account altogether. Because when I on stake, it did say, Oh yeah, we something like you have on stake, it will take a while if you see your phone, I saw some kind of write up, come up, but now I'm seeing it completely like a whole different address, just like when you have something in the defi world and you're trying to bring it to to the centralized world, you will have like an address and all of those. So it was showing, like an address like that, but the address was completely different from my address that was on question. So I was wondering, so is that what is taking because I stay away from thinking for some reason, because I know, like my fonts, I'm at that point in life where I can't really stick stuff because kind of, like bullshitting, or, you know, in life right now. So I just don't, you know, just making sure that I can do whatever I'm doing without, you know, putting my phone. If I have a need, I have to pull the phone. I don't want it, you know, sitting somewhere being sick, I don't have extra like that so well.
+
+Speaker 1  42:24
+I mean, if you, if you staked it somewhere, to to a legitimate staking platform where it was not a scam, and you unstake it will automatically end up back in your wallet like you don't have to jump through hoops to get that to happen, because it just, that's just how it works, unless you know it was a scam. Now, I have not seen I'm looking right now at like, so I can let me share my screen. I can show you, okay, so I'm looking, this is a test, whoops, it's a test network. So this is not real funds. This is just like, you know, for for testing, staking, if you want to, if I wanted to create a staking contract or whatever, but, like, I don't even see an option to stake on meta mask. I haven't, I haven't ever seen that, so I don't know
+
+Speaker 4  43:17
+much, much, yeah,
+
+Unknown Speaker  43:21
+there's no
+
+Unknown Speaker  43:28
+Yeah, so I
+
+Unknown Speaker  43:32
+don't been scamming. It's
+
+Speaker 2  43:37
+possible. Yeah, I have been because lately, metal masks have been kind of like evolving into, I probably have connected some, you know how, like when they say, connect your wallet to something. I probably connected to something at some point and didn't disconnect or something,
+
+Unknown Speaker  44:03
+because there was, like, yeah, you know,
+
+Speaker 2  44:07
+going for staking, but some reasons like, oh, yeah, you staked, like, steak, I need my money.
+
+Unknown Speaker  44:15
+Yeah, I'm, I'm, I'm
+
+Speaker 2  44:18
+scared that I've lost this money and that will be very painful.
+
+Unknown Speaker  44:23
+Yeah, I
+
+Speaker 1  44:26
+don't know. I mean, I don't see where you can actually do that, so I'd be concerned that maybe you accidentally connected your wallet to a malicious site and they drained it possibly. But just wait, give it some time if it doesn't show up in your wallet in like, the next week or so. Then, you know, go back to ether scan and see if you can track it down, where it
+
+Speaker 2  44:48
+went currently. No way went. I have the address. But, like, what you said, like, you know, when it's gone, it's gone. I mean,
+
+Speaker 1  44:58
+yeah, but that might be the staking contract. Address. So
+
+Unknown Speaker  45:01
+you think so okay, it could be okay, okay,
+
+Speaker 2  45:07
+and it's, this is just happening at the wrong timing, because I needed the money for something. I'm like, No, this is me.
+
+Unknown Speaker  45:14
+Yeah, all right. Fingers crossed. Hopefully come back.
+
+Speaker 1  45:23
+Yeah, they actually changed. Metamask looks a lot different right now
+
+Speaker 2  45:27
+it does. It does, even now they are in the past. You cannot buy crypto like you cannot use your credit card on Metamask. You have to transfer, you know, asset into it. But now they have it such that you can actually, like, use credit card and stuff I never do, because I like to, like, transfer my funds or my asset into it, not I don't want nobody tracking me downwards, although I don't have anything much to my heart. By the time I become richer, I'll go into Manero and the rest. You know,
+
+Speaker 1  46:07
+that's why you're better off to, you know, to use like Ethereum or use Coinbase, one of these, because it's, it's just a lot safer. Even if you're going to stake, it doesn't really matter what you're doing. It's way, way,
+
+Speaker 2  46:22
+yeah, yeah. I've been doing this for two years, plus I've never run into problem like this. But I feel like at some point, I think I connected my wallet at one point to something, I guess maybe, well, let's see who see?
+
+Speaker 1  46:38
+Oh, I wasn't even was i Sorry about that? Guys? I thought I was sharing my screen to show you the meta mask.
+
+Unknown Speaker  46:46
+Oh, no, you were not my fault.
+
+Speaker 1  46:48
+Let me see I can probably do that real fast so you can see what I was talking about.
+
+Unknown Speaker  47:01
+So I use the,
+
+Unknown Speaker  47:05
+there's a plug in right here. You can, you can use that.
+
+Unknown Speaker  47:10
+Or you can actually, you know,
+
+Unknown Speaker  47:11
+go to meta mask.
+
+Speaker 4  47:14
+You're still not sharing. It's still not on. You guys can't see it.
+
+Unknown Speaker  47:19
+No, I can see it.
+
+Unknown Speaker  47:29
+Yeah, right here, this orange and
+
+Speaker 1  47:38
+this is what she's talking about with ether scan, you can see everything, everything that ever happened on chain. You can see a record of it. So if somebody did steal your money, you can see exactly what address they stole it with where it went. That doesn't mean you can really do anything about it, but you can see where it went. Everything's on there. But yeah, this was just all test stuff anyway. This is not like what I'm showing you right here is, is a test network that we use while we're coding.
+
+Unknown Speaker  48:09
+But, yeah, that's, I hope, I hope you get it back.
+
+Speaker 1  48:17
+That's the, that's the scary part of crypto, right? That's exactly what I'm talking about.
+
+Unknown Speaker  48:28
+Okay, anybody else have any questions?
+
+Unknown Speaker  48:36
+Okay, it's done.

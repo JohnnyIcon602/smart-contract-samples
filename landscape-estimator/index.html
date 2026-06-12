@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landscape Design Estimator</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        :root {
+            --primary: #22c55e;
+            --primary-dark: #16a34a;
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --border: #e2e8f0;
+            --danger: #ef4444;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: var(--card);
+            padding: 20px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+            color: var(--primary-dark);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .card {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        
+        .card h2 {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: var(--text);
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 10px;
+        }
+        
+        .form-group {
+            margin-bottom: 16px;
+        }
+        
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 6px;
+            font-size: 0.9rem;
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+        
+        input:focus, select:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+        
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+        
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.9rem;
+        }
+        
+        .checkbox-item:hover {
+            border-color: var(--primary);
+        }
+        
+        .checkbox-item.selected {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+        
+        .checkbox-item input {
+            display: none;
+        }
+        
+        .plant-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        
+        .plant-item {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .plant-item:hover {
+            border-color: var(--primary);
+        }
+        
+        .plant-item.selected {
+            background: #dcfce7;
+            border-color: var(--primary);
+        }
+        
+        .plant-item .icon {
+            font-size: 1.5rem;
+        }
+        
+        .plant-item .name {
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        
+        .plant-item .price {
+            font-size: 0.75rem;
+            color: var(--text-light);
+        }
+        
+        .btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: background 0.2s;
+        }
+        
+        .btn:hover {
+            background: var(--primary-dark);
+        }
+        
+        .btn-outline {
+            background: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+        }
+        
+        .btn-outline:hover {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .estimate {
+            display: none;
+        }
+        
+        .estimate.visible {
+            display: block;
+        }
+        
+        .estimate-header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 24px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .estimate-header h2 {
+            font-size: 1.3rem;
+            border: none;
+            margin-bottom: 10px;
+        }
+        
+        .total-cost {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        
+        .line-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .line-item:last-child {
+            border-bottom: none;
+        }
+        
+        .line-item .label {
+            color: var(--text-light);
+        }
+        
+        .line-item .value {
+            font-weight: 600;
+        }
+        
+        .line-item.total {
+            font-size: 1.1rem;
+            padding-top: 16px;
+            border-top: 2px solid var(--border);
+        }
+        
+        .materials-list {
+            background: #f8fafc;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 10px;
+        }
+        
+        .material-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            font-size: 0.9rem;
+        }
+        
+        .actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .actions .btn {
+            flex: 1;
+        }
+        
+        .project-summary {
+            background: #f0fdf4;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .project-summary .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+        
+        .project-summary .label {
+            color: var(--text-light);
+        }
+        
+        .badge {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌴 Landscape Design Estimator</h1>
+            <p style="color: var(--text-light); margin-top: 8px;">Florida Commercial & Residential Landscaping</p>
+        </header>
+        
+        <div class="grid">
+            <!-- Input Section -->
+            <div class="card">
+                <h2>📐 Project Details</h2>
+                
+                <div class="form-group">
+                    <label>Project Type</label>
+                    <select id="projectType">
+                        <option value="lawn">Lawn Installation</option>
+                        <option value="garden">Garden/Flower Beds</option>
+                        <option value="patio">Patio/Paver Area</option>
+                        <option value="full">Full Yard Redesign</option>
+                    </select>
+                </div>
+                
+                <div class="row">
+                    <div class="form-group">
+                        <label>Length (ft)</label>
+                        <input type="number" id="length" placeholder="e.g., 50" min="1">
+                    </div>
+                    <div class="form-group">
+                        <label>Width (ft)</label>
+                        <input type="number" id="width" placeholder="e.g., 30" min="1">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Property Type</label>
+                    <select id="propertyType">
+                        <option value="residential">Residential</option>
+                        <option value="commercial">Commercial</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Services Needed</label>
+                    <div class="checkbox-group" id="services">
+                        <label class="checkbox-item" data-value="grading">
+                            <input type="checkbox" value="grading"> ⛲ Grading
+                        </label>
+                        <label class="checkbox-item" data-value="irrigation">
+                            <input type="checkbox" value="irrigation"> 💧 Irrigation
+                        </label>
+                        <label class="checkbox-item" data-value="lighting">
+                            <input type="checkbox" value="lighting"> 💡 Lighting
+                        </label>
+                        <label class="checkbox-item" data-value="retaining">
+                            <input type="checkbox" value="retaining"> 🧱 Retaining Wall
+                        </label>
+                        <label class="checkbox-item" data-value="fence">
+                            <input type="checkbox" value="fence"> 🚧 Fencing
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Select Plants (click to add)</label>
+                    <div class="plant-grid" id="plants">
+                        <div class="plant-item" data-name="St. Augustine Grass" data-price="0.35" data-unit="sqft">
+                            <div class="icon">🌿</div>
+                            <div class="name">St. Augustine</div>
+                            <div class="price">$0.35/sqft</div>
+                        </div>
+                        <div class="plant-item" data-name="Zoysia Grass" data-price="0.45" data-unit="sqft">
+                            <div class="icon">🌱</div>
+                            <div class="name">Zoysia</div>
+                            <div class="price">$0.45/sqft</div>
+                        </div>
+                        <div class="plant-item" data-name="Bermuda Sod" data-price="0.30" data-unit="sqft">
+                            <div class="icon">🟢</div>
+                            <div class="name">Bermuda</div>
+                            <div class="price">$0.30/sqft</div>
+                        </div>
+                        <div class="plant-item" data-name="Palm Tree" data-price="250" data-unit="each">
+                            🌴
+                            <div class="name">Palm Tree</div>
+                            <div class="price">$250/each</div>
+                        </div>
+                        <div class="plant-item" data-name="Oleander Bush" data-price="35" data-unit="each">
+                            🌸
+                            <div class="name">Oleander</div>
+                            <div class="price">$35/each</div>
+                        </div>
+                        <div class="plant-item" data-name="Hibiscus" data-price="25" data-unit="each">
+                            🌺
+                            <div class="name">Hibiscus</div>
+                            <div class="price">$25/each</div>
+                        </div>
+                        <div class="plant-item" data-name="Bougainvillea" data-price="30" data-unit="each">
+                            🌼
+                            <div class="name">Bougainvillea</div>
+                            <div class="price">$30/each</div>
+                        </div>
+                        <div class="plant-item" data-name="Indian Hawthorn" data-price="28" data-unit="each">
+                            🌳
+                            <div class="name">Indian Hawthorn</div>
+                            <div class="price">$28/each</div>
+                        </div>
+                        <div class="plant-item" data-name="Firebush" data-price="22" data-unit="each">
+                            🔥
+                            <div class="name">Firebush</div>
+                            <div class="price">$22/each</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="btn" onclick="calculateEstimate()">Generate Estimate</button>
+            </div>
+            
+            <!-- Estimate Output -->
+            <div class="estimate" id="estimate">
+                <div class="estimate-header">
+                    <span class="badge" id="projectBadge">Full Yard</span>
+                    <h2 id="estimateTitle">Landscape Design Estimate</h2>
+                    <div class="total-cost" id="totalCost">$0.00</div>
+                </div>
+                
+                <div class="card">
+                    <div class="project-summary" id="projectSummary">
+                        <!-- Populated by JS -->
+                    </div>
+                    
+                    <h2>📋 Cost Breakdown</h2>
+                    
+                    <div class="line-item">
+                        <span class="label">Materials</span>
+                        <span class="value" id="materialsCost">$0.00</span>
+                    </div>
+                    
+                    <div class="line-item">
+                        <span class="label">Plants & Sod</span>
+                        <span class="value" id="plantsCost">$0.00</span>
+                    </div>
+                    
+                    <div class="line-item">
+                        <span class="label">Additional Services</span>
+                        <span class="value" id="servicesCost">$0.00</span>
+                    </div>
+                    
+                    <div class="line-item">
+                        <span class="label">Labor</span>
+                        <span class="value" id="laborCost">$0.00</span>
+                    </div>
+                    
+                    <div class="line-item total">
+                        <span>TOTAL</span>
+                        <span id="grandTotal">$0.00</span>
+                    </div>
+                    
+                    <div class="materials-list" id="materialsList">
+                        <!-- Detailed materials -->
+                    </div>
+                    
+                    <div class="actions">
+                        <button class="btn btn-outline" onclick="printEstimate()">🖨️ Print</button>
+                        <button class="btn btn-outline" onclick="saveEstimate()">💾 Save PDF</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let selectedPlants = [];
+        
+        // Handle checkbox styling
+        document.querySelectorAll('.checkbox-item').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('selected');
+                const checkbox = item.querySelector('input');
+                checkbox.checked = !checkbox.checked;
+            });
+        });
+        
+        // Handle plant selection
+        document.querySelectorAll('.plant-item').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('selected');
+                
+                const name = item.dataset.name;
+                const price = parseFloat(item.dataset.price);
+                const unit = item.dataset.unit;
+                
+                if (item.classList.contains('selected')) {
+                    selectedPlants.push({ name, price, unit });
+                } else {
+                    selectedPlants = selectedPlants.filter(p => p.name !== name);
+                }
+            });
+        });
+        
+        function calculateEstimate() {
+            const length = parseFloat(document.getElementById('length').value) || 0;
+            const width = parseFloat(document.getElementById('width').value) || 0;
+            const projectType = document.getElementById('projectType').value;
+            const propertyType = document.getElementById('propertyType').value;
+            
+            if (!length || !width) {
+                alert('Please enter dimensions');
+                return;
+            }
+            
+            const sqft = length * width;
+            
+            // Pricing (Florida market rates)
+            const materialRates = {
+                lawn: { name: 'Base preparation + grading', rate: 0.25 },
+                garden: { name: 'Garden bed preparation', rate: 0.35 },
+                patio: { name: 'Paver base + sand', rate: 1.50 },
+                full: { name: 'Full yard prep', rate: 0.45 }
+            };
+            
+            // Additional services pricing
+            const serviceRates = {
+                grading: { name: 'Grading & Leveling', price: 500, pricePerSqft: 0.15 },
+                irrigation: { name: 'Irrigation System', price: 800, pricePerSqft: 0.25 },
+                lighting: { name: 'Landscape Lighting', price: 600, pricePerSqft: 0.20 },
+                retaining: { name: 'Retaining Wall', price: 1200, pricePerSqft: 0 },
+                fence: { name: 'Fencing', price: 1500, pricePerSqft: 0 }
+            };
+            
+            // Calculate materials
+            let materialCost = sqft * materialRates[projectType].rate;
+            
+            // Add mulch for garden/full
+            if (projectType === 'garden' || projectType === 'full') {
+                const mulchCost = sqft * 0.08 * 3; // 3" depth, $0.08/cu ft
+                materialCost += mulchCost;
+            }
+            
+            // Add pavers for patio
+            if (projectType === 'patio') {
+                materialCost += sqft * 4.50; // pavers cost
+            }
+            
+            // Calculate plants
+            let plantsCost = 0;
+            let plantDetails = [];
+            
+            selectedPlants.forEach(plant => {
+                if (plant.unit === 'sqft') {
+                    // Sod - calculate based on sqft, add 10% waste
+                    const qty = Math.ceil(sqft * 1.1);
+                    const cost = qty * plant.price;
+                    plantsCost += cost;
+                    plantDetails.push(`${plant.name}: ${qty} sqft × $${plant.price} = $${cost.toFixed(2)}`);
+                } else {
+                    // Perennials/trees - estimate 1 per 100 sqft
+                    const qty = Math.max(1, Math.ceil(sqft / 100));
+                    const cost = qty * plant.price;
+                    plantsCost += cost;
+                    plantDetails.push(`${plant.name}: ${qty} × $${plant.price} = $${cost.toFixed(2)}`);
+                }
+            });
+            
+            // If no plants selected, add basic sod for lawn/full
+            if (selectedPlants.length === 0 && (projectType === 'lawn' || projectType === 'full')) {
+                const sodCost = sqft * 1.1 * 0.35;
+                plantsCost += sodCost;
+                plantDetails.push(`St. Augustine Sod: ${Math.ceil(sqft * 1.1)} sqft × $0.35 = $${sodCost.toFixed(2)}`);
+            }
+            
+            // Calculate services
+            let servicesCost = 0;
+            let serviceDetails = [];
+            
+            document.querySelectorAll('#services input:checked').forEach(checkbox => {
+                const service = serviceRates[checkbox.value];
+                const cost = service.price + (sqft * service.pricePerSqft);
+                servicesCost += cost;
+                serviceDetails.push(`${service.name}: $${cost.toFixed(2)}`);
+            });
+            
+            // Calculate labor (40% of materials + plants + services)
+            const subtotal = materialCost + plantsCost + servicesCost;
+            const laborRate = propertyType === 'commercial' ? 0.35 : 0.40;
+            const laborCost = subtotal * laborRate;
+            
+            // Overhead + profit margin (15%)
+            const overhead = (materialCost + plantsCost + servicesCost + laborCost) * 0.15;
+            
+            // Grand total
+            const grandTotal = materialCost + plantsCost + servicesCost + laborCost + overhead;
+            
+            // Update UI
+            document.getElementById('estimate').classList.add('visible');
+            
+            // Project badge and title
+            const projectNames = {
+                lawn: 'Lawn Installation',
+                garden: 'Garden/Flower Beds',
+                patio: 'Patio/Paver Area',
+                full: 'Full Yard Redesign'
+            };
+            document.getElementById('projectBadge').textContent = projectNames[projectType];
+            document.getElementById('estimateTitle').textContent = `${projectNames[projectType]} - ${propertyType.charAt(0).toUpperCase() + propertyType.slice(1)}`;
+            
+            document.getElementById('totalCost').textContent = `$${grandTotal.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+            
+            // Project summary
+            document.getElementById('projectSummary').innerHTML = `
+                <div class="row">
+                    <span class="label">Area</span>
+                    <span>${sqft} sqft (${length}' × ${width}')</span>
+                </div>
+                <div class="row">
+                    <span class="label">Property Type</span>
+                    <span>${propertyType.charAt(0).toUpperCase() + propertyType.slice(1)}</span>
+                </div>
+                <div class="row">
+                    <span class="label">Services</span>
+                    <span>${serviceDetails.length > 0 ? serviceDetails.length : 'None selected'}</span>
+                </div>
+            `;
+            
+            document.getElementById('materialsCost').textContent = `$${materialCost.toFixed(2)}`;
+            document.getElementById('plantsCost').textContent = `$${plantsCost.toFixed(2)}`;
+            document.getElementById('servicesCost').textContent = `$${servicesCost.toFixed(2)}`;
+            document.getElementById('laborCost').textContent = `$${laborCost.toFixed(2)}`;
+            document.getElementById('grandTotal').textContent = `$${grandTotal.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+            
+            // Materials list
+            let materialsHTML = '<h3 style="margin: 16px 0 8px;">📦 Materials Detail</h3>';
+            
+            if (materialCost > 0) {
+                materialsHTML += `<div class="material-row"><span>${materialRates[projectType].name}</span><span>$${materialCost.toFixed(2)}</span></div>`;
+            }
+            
+            if (projectType === 'garden' || projectType === 'full') {
+                materialsHTML += `<div class="material-row"><span>Mulch (3" depth)</span><span>$${(sqft * 0.08 * 3).toFixed(2)}</span></div>`;
+            }
+            
+            if (projectType === 'patio') {
+                materialsHTML += `<div class="material-row"><span>Pavers + Base</span><span>$${(sqft * 4.50).toFixed(2)}</span></div>`;
+            }
+            
+            if (plantDetails.length > 0) {
+                materialsHTML += '<h3 style="margin: 16px 0 8px;">🌿 Plants</h3>';
+                plantDetails.forEach(p => {
+                    const [name, rest] = p.split(': ');
+                    materialsHTML += `<div class="material-row"><span>${name}</span><span>${rest}</span></div>`;
+                });
+            }
+            
+            if (serviceDetails.length > 0) {
+                materialsHTML += '<h3 style="margin: 16px 0 8px;">🔧 Additional Services</h3>';
+                serviceDetails.forEach(s => {
+                    const [name, rest] = s.split(': ');
+                    materialsHTML += `<div class="material-row"><span>${name}</span><span>${rest}</span></div>`;
+                });
+            }
+            
+            materialsHTML += `<div class="material-row" style="font-weight: bold; margin-top: 8px;"><span>Labor (${Math.round(laborRate * 100)}%)</span><span>$${laborCost.toFixed(2)}</span></div>`;
+            materialsHTML += `<div class="material-row" style="font-weight: bold;"><span>Overhead (15%)</span><span>$${overhead.toFixed(2)}</span></div>`;
+            
+            document.getElementById('materialsList').innerHTML = materialsHTML;
+            
+            // Scroll to estimate
+            document.getElementById('estimate').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function printEstimate() {
+            window.print();
+        }
+        
+        function saveEstimate() {
+            alert('To save as PDF: Use your browser\'s Print function and select "Save as PDF"');
+        }
+    </script>
+</body>
+</html>

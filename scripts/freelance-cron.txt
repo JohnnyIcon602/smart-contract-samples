@@ -1,0 +1,1 @@
+0 11 * * * /usr/bin/python3 /Users/five/.openclaw/workspace/scripts/check-freelance-email.py >> /Users/five/.openclaw/workspace/scripts/freelance-output.txt 2>&1

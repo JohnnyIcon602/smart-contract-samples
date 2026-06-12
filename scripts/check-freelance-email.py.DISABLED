@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+import imaplib
+import email
+import os
+import sys
+from datetime import datetime, timedelta
+
+email_addr = "johnnyfiveisalive602@gmail.com"
+app_password = "uivqdfzvzbpflsou"
+
+mail = imaplib.IMAP4_SSL("imap.gmail.com")
+try:
+    mail.login(email_addr, app_password)
+except Exception as e:
+    print(f"Login failed: {e}")
+    sys.exit(1)
+
+mail.select("INBOX")
+since_date = (datetime.now() - timedelta(days=1)).strftime("%d-%b-%Y")
+
+# Check both Fiverr and Upwork
+sources = {
+    "FIVERR": "fiverr.com",
+    "UPWORK": "upwork.com"
+}
+
+all_notifications = []
+
+for platform, domain in sources.items():
+    search_criteria = f'(FROM "{domain}" SINCE {since_date})'
+    status, message_ids = mail.search(None, search_criteria)
+    
+    if status == "OK" and message_ids[0]:
+        for msg_id in message_ids[0].split():
+            status, msg_data = mail.fetch(msg_id, "(RFC822)")
+            if status == "OK":
+                msg = email.message_from_bytes(msg_data[0][1])
+                subject = msg["Subject"]
+                if subject:
+                    subject = subject.replace("=?", "").replace("?=", "")
+                    subject = subject.encode().decode('utf-8', errors='ignore')
+                all_notifications.append((platform, subject))
+
+mail.logout()
+
+if all_notifications:
+    output = "📧 **FREELANCE NOTIFICATIONS:**\n\n"
+    current_platform = ""
+    for platform, subject in all_notifications:
+        if platform != current_platform:
+            output += f"\n### {platform}\n"
+            current_platform = platform
+        output += f"• {subject}\n"
+    print(output)
+    with open("/Users/five/.openclaw/workspace/scripts/freelance-alert.txt", "w") as f:
+        f.write(output)
+else:
+    print("No new Fiverr or Upwork emails.")
+    if os.path.exists("/Users/five/.openclaw/workspace/scripts/freelance-alert.txt"):
+        os.remove("/Users/five/.openclaw/workspace/scripts/freelance-alert.txt")

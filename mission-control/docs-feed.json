@@ -1,0 +1,29 @@
+{
+  "docs": [
+    {
+      "name": "Picasso Output Pack",
+      "path": "designs/hold-the-line-01.png",
+      "stamp": "Today"
+    },
+    {
+      "name": "Dwight Trend Report",
+      "path": "notes/dwight-2026-03-20.md",
+      "stamp": "Today"
+    },
+    {
+      "name": "Picasso Output Pack",
+      "path": "designs/",
+      "stamp": "Today"
+    },
+    {
+      "name": "QC Report - Parts",
+      "path": "dwight-qc-report.txt",
+      "stamp": "Mar 6"
+    },
+    {
+      "name": "Morning Brief",
+      "path": "morning-brief.md",
+      "stamp": "Mar 8"
+    }
+  ]
+}

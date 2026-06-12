@@ -221,8 +221,19 @@ const App: React.FC = () => {
     }
   };
 
-  const reset = () => {
-    setForm(defaultFormState);
+  const reset = (options?: { preserveVehicle?: boolean }) => {
+    setForm((prev) => {
+      if (options?.preserveVehicle) {
+        return {
+          ...defaultFormState,
+          year: prev.year,
+          make: prev.make,
+          model: prev.model,
+          mileage: prev.mileage
+        };
+      }
+      return defaultFormState;
+    });
     setResult(null);
     setDiagnosticError(null);
     setStepIndex(0);
@@ -565,7 +576,7 @@ const App: React.FC = () => {
             <>
               <button
                 type="button"
-                onClick={reset}
+                onClick={() => reset({ preserveVehicle: true })}
                 style={{
                   flex: 1,
                   border: '1px solid #d4d4d8',

@@ -1,0 +1,9 @@
+{
+  "lastChecks": {
+    "email": null,
+    "calendar": null,
+    "weather": 1748008320
+  },
+  "lastCheck": "2026-03-23T08:12:00-05:00",
+  "notes": "Monday 8:12 AM - Morning check. Weather: clear/cool. Email & calendar need OAuth setup for automated checks."
+}
