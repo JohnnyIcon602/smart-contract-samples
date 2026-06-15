@@ -109,12 +109,19 @@ async function loadCars() {
     // Load ALL cars from the database (not just current user's) for data sharing
     console.log('Loading cars... user:', user?.email);
     
+    // First, let's try to get count to debug
+    const { count, error: countError } = await supabase
+      .from('cars')
+      .select('*', { count: 'exact', head: true });
+    
+    console.log('Total cars in DB:', count, 'countError:', countError);
+    
     const { data, error } = await supabase
   .from('cars')
   .select('*')
   .order('created_at', { ascending: false });
 
-    console.log('Load result - data:', data, 'error:', error);
+    console.log('Load result - data count:', data?.length, 'error:', error);
 
     if (error) {
   console.error('Error loading cars:', error);
@@ -123,7 +130,9 @@ async function loadCars() {
     }
 
     if (!data || data.length === 0) {
-      alert('No cars found in database!');
+      console.log('No cars returned - possible RLS filtering');
+      // Try with a raw query to bypass RLS for debugging
+      // This helps identify if RLS is the issue
     }
     
     // Map database fields to app fields
@@ -134,7 +143,7 @@ async function loadCars() {
       includeInReports: car.include_in_reports !== false // default to true
     }));
     
-    console.log('Cars loaded:', cars.length, cars);
+    console.log('Cars loaded:', cars.length);
     renderCars();
     updateStats();
 }
@@ -177,22 +186,37 @@ async function deleteCarFromDb(id) {
 
     console.log('Deleting car with id:', id, 'type:', typeof id);
     
-    // Convert id to string to ensure matching works
-    const idToDelete = String(id);
+    // Try as string first, then as number
+    let error = null;
     
-    const { error } = await supabase
+    // First try with string ID
+    const { error: err1 } = await supabase
   .from('cars')
   .delete()
-  .eq('id', idToDelete);
-
-    if (error) {
-  console.error('Error deleting car:', error);
-  alert('Error deleting car: ' + error.message);
-  return;
+  .eq('id', String(id));
+    
+    if (err1) {
+      // Try with numeric ID
+      const { error: err2 } = await supabase
+        .from('cars')
+        .delete()
+        .eq('id', parseInt(id, 10));
+      
+      if (err2) {
+        error = err2;
+      }
     }
 
+    if (error) {
+      console.error('Error deleting car:', error);
+      alert('Error deleting car: ' + error.message);
+      return;
+    }
+
+    console.log('Car deleted successfully');
+    
     // Filter by converting both to strings to ensure match
-    cars = cars.filter(c => String(c.id) !== idToDelete);
+    cars = cars.filter(c => String(c.id) !== String(id));
     renderCars();
     updateStats();
 }
@@ -446,6 +470,16 @@ function deleteExpense(carId, expenseIndex) {
 
 // Search
 document.getElementById('searchInput').addEventListener('input', renderCars);
+
+// Expose functions globally for onclick handlers
+window.toggleAuthMode = toggleAuthMode;
+window.openModal = openModal;
+window.closeModal = closeModal;
+window.openExpenseModal = openExpenseModal;
+window.closeExpenseModal = closeExpenseModal;
+window.editCar = editCar;
+window.deleteCar = deleteCar;
+window.deleteExpense = deleteExpense;
 
 // Initialize
 document.getElementById('loadingScreen').style.display = 'block';
